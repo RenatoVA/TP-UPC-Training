@@ -30,6 +30,9 @@ Fuentes iniciales bajo análisis:
 
 - `PYTHONPATH=. python3 scripts/fetch_spij_snapshot.py H1141065`
 - `PYTHONPATH=. python3 scripts/daily_elperuano_scan.py 20250914`
+- `PYTHONPATH=. uv run python scripts/bootstrap_law_30364.py`
+- `PYTHONPATH=. uv run python scripts/classify_pdf_with_llm.py data/elperuano/20250914/candidates/2438329-1/document.pdf`
+- `PYTHONPATH=. uv run python scripts/run_daily_worker_loop.py`
 
 ## Estado
 

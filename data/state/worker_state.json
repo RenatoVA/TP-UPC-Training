@@ -1,0 +1,9 @@
+{
+  "bootstrap_done": true,
+  "last_daily_check": null,
+  "law_snapshot_norm_id": "H1141065",
+  "current_articles_path": "data/processed/ley_30364/current/articles.json",
+  "current_markdown_path": "data/processed/ley_30364/current/consolidated.md",
+  "change_log_path": "data/processed/ley_30364/change_log.jsonl",
+  "related_updates_path": "data/processed/ley_30364/related_updates.json"
+}
