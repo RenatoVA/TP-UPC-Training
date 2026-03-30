@@ -1,0 +1,46 @@
+{
+  "date": "20250914",
+  "scanned_at_utc": "2026-03-30T18:56:57.293765+00:00",
+  "device_types": [
+    "LEY",
+    "DECRETO SUPREMO",
+    "DECRETO LEGISLATIVO",
+    "RESOLUCION MINISTERIAL"
+  ],
+  "results": [
+    {
+      "tipoDispositivo": "LEY",
+      "totalHits": 0,
+      "hasNext": false,
+      "sampleOps": []
+    },
+    {
+      "tipoDispositivo": "DECRETO SUPREMO",
+      "totalHits": 3,
+      "hasNext": false,
+      "sampleOps": [
+        "2438338-2",
+        "2438338-1",
+        "2438338-3"
+      ]
+    },
+    {
+      "tipoDispositivo": "DECRETO LEGISLATIVO",
+      "totalHits": 0,
+      "hasNext": false,
+      "sampleOps": []
+    },
+    {
+      "tipoDispositivo": "RESOLUCION MINISTERIAL",
+      "totalHits": 19,
+      "hasNext": false,
+      "sampleOps": [
+        "2438258-1",
+        "2437655-1",
+        "2438333-1",
+        "2437932-1",
+        "2436893-1"
+      ]
+    }
+  ]
+}

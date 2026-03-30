@@ -1,0 +1,51 @@
+{
+  "date": "20250914",
+  "query": "30364",
+  "totalHits": 4,
+  "processed": [
+    {
+      "op": "2438338-5",
+      "tipoDispositivo": "RESOLUCION SUPREMA",
+      "sumilla": "Designan representante del Ministerio de Educación ante el Consejo Directivo del Centro de Formación en Turismo - CENFOTUR",
+      "fechaPublicacion": "20250914",
+      "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/798_IQxcqPr8OQLdMzzKAB/*/2438338-5.PDF/PDF",
+      "pdfDownloaded": true,
+      "textExtracted": false,
+      "mentionsLaw30364": false,
+      "error": "[Errno 2] No such file or directory: 'pdftotext'"
+    },
+    {
+      "op": "2438313-1",
+      "tipoDispositivo": "ANEXO",
+      "sumilla": "Actualizan el “Anexo 03: Protocolos para la atención de la violencia contra niñas, niños y adolescentes”, contenido en el apartado XI de los Lineamientos para la Gestión de la Convivencia Escolar, la Prevención y la Atención de la Violencia Contra Niñas, Niños y Adolescentes",
+      "fechaPublicacion": "20250914",
+      "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/8lwDTvF_4yn88s-sd89Xr_/*/2438313-1.pdf/PDF",
+      "pdfDownloaded": true,
+      "textExtracted": false,
+      "mentionsLaw30364": false,
+      "error": "[Errno 2] No such file or directory: 'pdftotext'"
+    },
+    {
+      "op": "2438329-1",
+      "tipoDispositivo": "RESOLUCION MINISTERIAL",
+      "sumilla": "Establecen la denominación del servicio “Atención integral frente a hechos de violencia: Centro Emergencia Mujer - CEM” como “Atención integral frente a hechos de violencia: Centro Emergencia Mujer y Familia”, a cargo del Programa Nacional Warmi Ñan",
+      "fechaPublicacion": "20250914",
+      "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/0_TufBFdaP-BezsY9Ge6AE/*/2438329-1.PDF/PDF",
+      "pdfDownloaded": true,
+      "textExtracted": false,
+      "mentionsLaw30364": false,
+      "error": "[Errno 2] No such file or directory: 'pdftotext'"
+    },
+    {
+      "op": "2438325-1",
+      "tipoDispositivo": "RESOLUCION MINISTERIAL",
+      "sumilla": "Establecen veda reproductiva del recurso caracol (Thaisella chocolata) y suspenden actividades extractivas del recurso pulpo (Octopus mimus) en el ámbito de la Isla Don Martín, Punta Salinas e islas e islotes del Grupo Huaura, departamento de Lima",
+      "fechaPublicacion": "20250914",
+      "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C6rKcxcU4Nc854MqnO_9eI/*/2438325-1.PDF/PDF",
+      "pdfDownloaded": true,
+      "textExtracted": false,
+      "mentionsLaw30364": false,
+      "error": "[Errno 2] No such file or directory: 'pdftotext'"
+    }
+  ]
+}
