@@ -22,8 +22,14 @@ Fuentes iniciales bajo análisis:
 ## Estructura
 
 - `docs/` → notas de investigación
-- `scripts/` → scripts de exploración y prueba
-- `data/` → muestras o salidas crudas cuando haga sentido
+- `legal_data/` → clientes y utilidades reutilizables
+- `scripts/` → scripts de exploración y pipeline
+- `data/` → muestras, snapshots y salidas crudas
+
+## Scripts principales
+
+- `PYTHONPATH=. python3 scripts/fetch_spij_snapshot.py H1141065`
+- `PYTHONPATH=. python3 scripts/daily_elperuano_scan.py 20250914`
 
 ## Estado
 
