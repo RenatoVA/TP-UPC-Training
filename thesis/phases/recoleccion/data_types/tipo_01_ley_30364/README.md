@@ -1,0 +1,48 @@
+# Tipo de dato 01: Ley 30364
+
+Este subárbol contiene todo el trabajo de la fase de **recolección** relacionado con la **Ley N.° 30364** y su actualización incremental.
+
+## Alcance
+
+Incluye:
+
+- snapshot base desde SPIJ
+- vigilancia incremental desde El Peruano
+- extracción de PDFs y texto
+- conversión PDF → imagen para clasificación con LLM
+- bootstrap de una versión estructurada local de la ley
+- estado del worker y artefactos canónicos de salida
+
+## Estructura
+
+- `docs/` → investigación, decisiones y progreso
+- `src/legal_data/` → código reusable del dominio Ley 30364
+- `scripts/` → scripts ejecutables para bootstrap, exploración y worker
+- `data/raw/` → fuentes crudas descargadas
+- `data/processed/` → artefactos estructurados y consolidados
+- `data/state/` → estado persistente del worker
+
+## Artefactos principales
+
+- `data/raw/spij/H1141065/` → snapshot bruto de SPIJ
+- `data/raw/elperuano/` → candidatos y escaneos diarios desde El Peruano
+- `data/processed/ley_30364/current/articles.json` → versión máquina canónica
+- `data/processed/ley_30364/current/consolidated.md` → versión humana derivada
+- `data/state/worker_state.json` → estado del worker
+
+## Scripts clave
+
+Desde la raíz del repo, usando como `PYTHONPATH` la carpeta `src/` de este tipo de dato:
+
+- bootstrap inicial:
+  - `PYTHONPATH=thesis/phases/recoleccion/data_types/tipo_01_ley_30364/src uv run python thesis/phases/recoleccion/data_types/tipo_01_ley_30364/scripts/bootstrap_law_30364.py`
+- escaneo exploratorio de El Peruano:
+  - `PYTHONPATH=thesis/phases/recoleccion/data_types/tipo_01_ley_30364/src python3 thesis/phases/recoleccion/data_types/tipo_01_ley_30364/scripts/daily_elperuano_scan.py 20250914`
+- clasificación vision de un PDF:
+  - `PYTHONPATH=thesis/phases/recoleccion/data_types/tipo_01_ley_30364/src uv run python thesis/phases/recoleccion/data_types/tipo_01_ley_30364/scripts/classify_pdf_with_llm.py <pdf_path>`
+- loop diario del worker:
+  - `PYTHONPATH=thesis/phases/recoleccion/data_types/tipo_01_ley_30364/src uv run python thesis/phases/recoleccion/data_types/tipo_01_ley_30364/scripts/run_daily_worker_loop.py`
+
+## Nota
+
+Este bloque corresponde únicamente a la fase de recolección. La generación de dataset y el entrenamiento deben vivir fuera de aquí para no contaminar responsabilidades.
