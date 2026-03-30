@@ -1,0 +1,59 @@
+{
+  "query": {
+    "fechaIni": "20250914",
+    "fechaFin": "20250914",
+    "tipoPublicacion": "NL",
+    "tipoDispositivo": "RESOLUCION MINISTERIAL",
+    "start": 0,
+    "ci": "ONLY"
+  },
+  "totalHits": 19,
+  "hasNext": false,
+  "sample": [
+    {
+      "clasificacion1": "RESOLUCION MINISTERIAL",
+      "clasificacion2": "",
+      "fechaPublicacion": "20250914",
+      "nombreDispositivo": "",
+      "op": "2438258-1",
+      "paginas": "3",
+      "rubro": "558",
+      "sector": "2068",
+      "sumilla": "Autorizan viaje de personal naval a Bolivia, en comisión de servicios",
+      "tipoDispositivo": "RESOLUCION MINISTERIAL",
+      "tipoPublicacion": "NL",
+      "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/ECe3lBMlqMdBc8ED3bcbDT/*/2438258-1.PDF/PDF",
+      "urlPortada": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/thumbnail/ECe3lBMlqMdBc8ED3bcbDT/*/2438258-1_thumb.jpg/JPG"
+    },
+    {
+      "clasificacion1": "RESOLUCION MINISTERIAL",
+      "clasificacion2": "",
+      "fechaPublicacion": "20250914",
+      "nombreDispositivo": "",
+      "op": "2437655-1",
+      "paginas": "2",
+      "rubro": "558",
+      "sector": "2068",
+      "sumilla": "Autorizan viaje de oficial de la Marina de Guerra del Perú a la República Portuguesa, en comisión de servicios",
+      "tipoDispositivo": "RESOLUCION MINISTERIAL",
+      "tipoPublicacion": "NL",
+      "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/1XdbZ5qg48rAL4zPsocGGs/*/2437655-1.PDF/PDF",
+      "urlPortada": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/thumbnail/1XdbZ5qg48rAL4zPsocGGs/*/2437655-1_thumb.jpg/JPG"
+    },
+    {
+      "clasificacion1": "RESOLUCION MINISTERIAL",
+      "clasificacion2": "",
+      "fechaPublicacion": "20250914",
+      "nombreDispositivo": "",
+      "op": "2438333-1",
+      "paginas": "1",
+      "rubro": "558",
+      "sector": "2068",
+      "sumilla": "Autorizan viaje de Oficial General de la Fuerza Aérea del Perú a Canadá, en comisión de servicios",
+      "tipoDispositivo": "RESOLUCION MINISTERIAL",
+      "tipoPublicacion": "NL",
+      "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/C88vWI7A41X9LRfU2sSHZe/*/2438333-1.PDF/PDF",
+      "urlPortada": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/thumbnail/C88vWI7A41X9LRfU2sSHZe/*/2438333-1_thumb.jpg/JPG"
+    }
+  ]
+}
