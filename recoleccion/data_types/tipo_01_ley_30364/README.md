@@ -35,13 +35,13 @@ Incluye:
 Desde la raíz del repo, usando como `PYTHONPATH` la carpeta `src/` de este tipo de dato:
 
 - bootstrap inicial:
-  - `PYTHONPATH=thesis/phases/recoleccion/data_types/tipo_01_ley_30364/src uv run python thesis/phases/recoleccion/data_types/tipo_01_ley_30364/scripts/bootstrap_law_30364.py`
+  - `PYTHONPATH=recoleccion/data_types/tipo_01_ley_30364/src uv run python recoleccion/data_types/tipo_01_ley_30364/scripts/bootstrap_law_30364.py`
 - escaneo exploratorio de El Peruano:
-  - `PYTHONPATH=thesis/phases/recoleccion/data_types/tipo_01_ley_30364/src python3 thesis/phases/recoleccion/data_types/tipo_01_ley_30364/scripts/daily_elperuano_scan.py 20250914`
+  - `PYTHONPATH=recoleccion/data_types/tipo_01_ley_30364/src python3 recoleccion/data_types/tipo_01_ley_30364/scripts/daily_elperuano_scan.py 20250914`
 - clasificación vision de un PDF:
-  - `PYTHONPATH=thesis/phases/recoleccion/data_types/tipo_01_ley_30364/src uv run python thesis/phases/recoleccion/data_types/tipo_01_ley_30364/scripts/classify_pdf_with_llm.py <pdf_path>`
+  - `PYTHONPATH=recoleccion/data_types/tipo_01_ley_30364/src uv run python recoleccion/data_types/tipo_01_ley_30364/scripts/classify_pdf_with_llm.py <pdf_path>`
 - loop diario del worker:
-  - `PYTHONPATH=thesis/phases/recoleccion/data_types/tipo_01_ley_30364/src uv run python thesis/phases/recoleccion/data_types/tipo_01_ley_30364/scripts/run_daily_worker_loop.py`
+  - `PYTHONPATH=recoleccion/data_types/tipo_01_ley_30364/src uv run python recoleccion/data_types/tipo_01_ley_30364/scripts/run_daily_worker_loop.py`
 
 ## Nota
 

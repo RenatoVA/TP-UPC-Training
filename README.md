@@ -1,18 +1,18 @@
 # peru-legal-rag-data
 
-Repositorio de trabajo para la tesis, organizado por fases.
+Repositorio de trabajo para la tesis, organizado por fases en la raíz del proyecto.
 
 ## Estructura principal
 
-- `thesis/phases/recoleccion/` → adquisición y mantenimiento de fuentes
-- `thesis/phases/generacion_dataset/` → fase futura
-- `thesis/phases/entrenamiento/` → fase futura
+- `recoleccion/` → adquisición y mantenimiento de fuentes
+- `generacion_dataset/` → fase futura
+- `entrenamiento/` → fase futura
 
 ## Enfoque actual
 
 El trabajo implementado hasta ahora vive en:
 
-- `thesis/phases/recoleccion/data_types/tipo_01_ley_30364/`
+- `recoleccion/data_types/tipo_01_ley_30364/`
 
 Ahí está todo lo relacionado con:
 
@@ -26,5 +26,5 @@ Ahí está todo lo relacionado con:
 
 Lee primero:
 
-- `thesis/phases/recoleccion/README.md`
-- `thesis/phases/recoleccion/data_types/tipo_01_ley_30364/README.md`
+- `recoleccion/README.md`
+- `recoleccion/data_types/tipo_01_ley_30364/README.md`
