@@ -1,0 +1,8 @@
+[project]
+name = "peru-legal-rag-data"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pypdf>=6.9.2",
+    "requests>=2.33.1",
+]

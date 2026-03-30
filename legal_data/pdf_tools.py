@@ -1,17 +1,17 @@
 from __future__ import annotations
 
+import io
 import re
+import shutil
 import subprocess
 import tempfile
 from pathlib import Path
 
+from pypdf import PdfReader
+
 
 def extract_text_with_pdftotext(pdf_bytes: bytes) -> str:
-    """Extrae texto con `pdftotext` si está disponible en el sistema.
-
-    Elegí esta vía porque no requiere instalar paquetes Python adicionales y suele
-    funcionar decentemente para PDFs nativos de diarios oficiales.
-    """
+    """Extrae texto con `pdftotext` si está disponible en el sistema."""
     with tempfile.TemporaryDirectory() as tmpdir:
         pdf_path = Path(tmpdir) / "input.pdf"
         txt_path = Path(tmpdir) / "output.txt"
@@ -26,6 +26,22 @@ def extract_text_with_pdftotext(pdf_bytes: bytes) -> str:
                 f"pdftotext falló con código {result.returncode}: {result.stderr.strip()}"
             )
         return txt_path.read_text(encoding="utf-8", errors="replace")
+
+
+def extract_text_with_pypdf(pdf_bytes: bytes) -> str:
+    """Fallback Python puro cuando no existe pdftotext en el host."""
+    reader = PdfReader(io.BytesIO(pdf_bytes))
+    pages = []
+    for page in reader.pages:
+        pages.append(page.extract_text() or "")
+    return "\n\n".join(pages)
+
+
+def extract_text_from_pdf(pdf_bytes: bytes) -> tuple[str, str]:
+    """Intenta primero con pdftotext y luego cae a pypdf."""
+    if shutil.which("pdftotext"):
+        return extract_text_with_pdftotext(pdf_bytes), "pdftotext"
+    return extract_text_with_pypdf(pdf_bytes), "pypdf"
 
 
 def normalize_whitespace(text: str) -> str:

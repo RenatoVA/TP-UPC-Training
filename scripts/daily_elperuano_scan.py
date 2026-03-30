@@ -7,7 +7,7 @@ from datetime import datetime, UTC
 from pathlib import Path
 
 from legal_data.elperuano_client import ElPeruanoClient
-from legal_data.pdf_tools import extract_text_with_pdftotext, mentions_law_30364
+from legal_data.pdf_tools import extract_text_from_pdf, mentions_law_30364
 from legal_data.storage import write_bytes, write_json, write_text
 
 DEFAULT_TYPES = [
@@ -82,6 +82,7 @@ def process_candidates(date_yyyymmdd: str, out_dir: Path) -> dict:
             "urlPDF": pdf_url,
             "pdfDownloaded": False,
             "textExtracted": False,
+            "extractor": None,
             "mentionsLaw30364": False,
             "error": None,
         }
@@ -92,9 +93,10 @@ def process_candidates(date_yyyymmdd: str, out_dir: Path) -> dict:
                 write_bytes(item_dir / "document.pdf", pdf_bytes)
                 entry["pdfDownloaded"] = True
 
-                text = extract_text_with_pdftotext(pdf_bytes)
+                text, extractor = extract_text_from_pdf(pdf_bytes)
                 write_text(item_dir / "document.txt", text)
                 entry["textExtracted"] = True
+                entry["extractor"] = extractor
                 entry["mentionsLaw30364"] = mentions_law_30364(text)
 
             write_json(item_dir / "metadata.json", hit)
