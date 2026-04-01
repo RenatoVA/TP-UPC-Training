@@ -1,0 +1,19 @@
+{
+  "date": "20260401",
+  "query": "30364",
+  "totalHits": 1,
+  "processed": [
+    {
+      "op": "2501792-1",
+      "tipoDispositivo": "RESOLUCION ADMINISTRATIVA",
+      "sumilla": "Disponen medidas administrativas en las Cortes Superiores de Justicia de La Libertad, Lima, Lima Este, Puno, Sullana; y dictan otras disposiciones",
+      "fechaPublicacion": "20260401",
+      "urlPDF": "https://busquedas.elperuano.pe/api/media/http://172.20.0.101/file/4mRdYv8Va-XAe1H9L9bvO2/*/2501792-1.PDF/PDF",
+      "pdfDownloaded": true,
+      "textExtracted": true,
+      "extractor": "pdftotext",
+      "mentionsLaw30364": true,
+      "error": null
+    }
+  ]
+}
