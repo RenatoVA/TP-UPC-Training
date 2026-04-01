@@ -19,22 +19,23 @@ Dentro de esta fase, cada tipo de dato vive en su propio subárbol.
 
 ## Reproducción desde la raíz del repo
 
-Desde `/` del repositorio, usa:
+Desde `/` del repositorio:
 
 ```bash
-./run_recoleccion.sh collect
+uv sync
+python3 run_recoleccion.py collect
 ```
 
 O con fecha explícita:
 
 ```bash
-./run_recoleccion.sh collect 20250914
+python3 run_recoleccion.py collect 20250914
 ```
 
 Para modo worker:
 
 ```bash
-./run_recoleccion.sh worker
+python3 run_recoleccion.py worker
 ```
 
 ## Principio de diseño

@@ -35,19 +35,20 @@ Incluye:
 El entrypoint recomendado es:
 
 ```bash
-./run_recoleccion.sh collect
+uv sync
+python3 run_recoleccion.py collect
 ```
 
 Con fecha explícita:
 
 ```bash
-./run_recoleccion.sh collect 20250914
+python3 run_recoleccion.py collect 20250914
 ```
 
 Para iniciar el worker:
 
 ```bash
-./run_recoleccion.sh worker
+python3 run_recoleccion.py worker
 ```
 
 ## Ejecución manual avanzada

@@ -20,20 +20,26 @@ Y dentro de ella, el tipo de dato disponible es:
 
 ## Ejecución reproducible desde la raíz
 
-Se agregó un script de entrada en la raíz del repo:
+Se agregó un entrypoint Python en la raíz del repo:
 
-- `./run_recoleccion.sh`
+- `run_recoleccion.py`
+
+Antes de ejecutar, sincroniza el entorno:
+
+```bash
+uv sync
+```
 
 ### Modo 1: solo recolectar data
 
 ```bash
-./run_recoleccion.sh collect
+python3 run_recoleccion.py collect
 ```
 
 O con fecha explícita:
 
 ```bash
-./run_recoleccion.sh collect 20250914
+python3 run_recoleccion.py collect 20250914
 ```
 
 Este modo:
@@ -44,7 +50,7 @@ Este modo:
 ### Modo 2: worker
 
 ```bash
-./run_recoleccion.sh worker
+python3 run_recoleccion.py worker
 ```
 
 Este modo inicia el worker en bucle para la fase de recolección del tipo de dato 01.
