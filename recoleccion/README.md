@@ -11,11 +11,31 @@ Construir pipelines confiables para obtener datos jurídicos peruanos desde fuen
 
 ## Organización interna
 
-Dentro de esta fase, cada tipo de dato debe vivir en su propio subárbol.
+Dentro de esta fase, cada tipo de dato vive en su propio subárbol.
 
-## Tipos de dato
+## Tipos de dato implementados
 
 - `data_types/tipo_01_ley_30364/` → flujo específico para Ley 30364 y sus cambios asociados
+
+## Reproducción desde la raíz del repo
+
+Desde `/` del repositorio, usa:
+
+```bash
+./run_recoleccion.sh collect
+```
+
+O con fecha explícita:
+
+```bash
+./run_recoleccion.sh collect 20250914
+```
+
+Para modo worker:
+
+```bash
+./run_recoleccion.sh worker
+```
 
 ## Principio de diseño
 

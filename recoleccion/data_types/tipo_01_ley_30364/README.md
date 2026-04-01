@@ -30,9 +30,29 @@ Incluye:
 - `data/processed/ley_30364/current/consolidated.md` → versión humana derivada
 - `data/state/worker_state.json` → estado del worker
 
-## Scripts clave
+## Reproducción desde la raíz del repo
 
-Desde la raíz del repo, usando como `PYTHONPATH` la carpeta `src/` de este tipo de dato:
+El entrypoint recomendado es:
+
+```bash
+./run_recoleccion.sh collect
+```
+
+Con fecha explícita:
+
+```bash
+./run_recoleccion.sh collect 20250914
+```
+
+Para iniciar el worker:
+
+```bash
+./run_recoleccion.sh worker
+```
+
+## Ejecución manual avanzada
+
+Si quieres ejecutar scripts sueltos, usa como `PYTHONPATH` la carpeta `src/` de este tipo de dato:
 
 - bootstrap inicial:
   - `PYTHONPATH=recoleccion/data_types/tipo_01_ley_30364/src uv run python recoleccion/data_types/tipo_01_ley_30364/scripts/bootstrap_law_30364.py`
