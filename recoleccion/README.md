@@ -4,10 +4,18 @@ Esta fase agrupa todo el trabajo relacionado con la **adquisición, extracción,
 
 ## Objetivo
 
-Construir pipelines confiables para obtener datos jurídicos peruanos desde fuentes oficiales, preservando trazabilidad y preparando insumos limpios para las fases posteriores de:
+Construir pipelines confiables para obtener datos jurídicos peruanos y documentos procedimentales útiles para el dominio de violencia familiar, preservando trazabilidad y preparando insumos limpios para las fases posteriores de:
 
 - generación de dataset
 - entrenamiento
+
+## Referencia metodológica principal
+
+Antes de revisar los tipos de dato, conviene leer:
+
+- `METODOLOGIA_DATOS.md`
+
+Ese archivo define la clasificación funcional de fuentes usada en la fase de recolección.
 
 ## Organización interna
 
@@ -15,7 +23,9 @@ Dentro de esta fase, cada tipo de dato vive en su propio subárbol.
 
 ## Tipos de dato implementados
 
-- `data_types/tipo_01_ley_30364/` → flujo específico para Ley 30364 y sus cambios asociados
+- `data_types/tipo_01_ley_30364/` → normativa principal del dominio
+- `data_types/tipo_02_codigo_penal/` → normativa penal sustantiva complementaria
+- `data_types/tipo_03_codigo_procesal_penal/` → normativa procesal penal complementaria
 
 ## Reproducción desde la raíz del repo
 
@@ -46,4 +56,5 @@ La fase de recolección **no** debería mezclar objetivos de entrenamiento ni de
 - cómo se descarga,
 - cómo se limpia,
 - cómo se mantiene actualizada,
+- cómo se clasifica según su función jurídica,
 - cómo se conserva en formatos humano/máquina.

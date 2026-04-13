@@ -2,6 +2,18 @@
 
 Este subárbol contiene el trabajo de recolección orientado a identificar artículos del **Código Procesal Penal peruano** potencialmente relevantes para violencia familiar y violencia de género.
 
+## Clasificación metodológica
+
+Según `recoleccion/METODOLOGIA_DATOS.md`, este tipo de dato corresponde a:
+
+- **normativa procesal penal complementaria**
+
+## Función en el sistema
+
+- explicar denuncia, investigación y actuación institucional,
+- complementar la dimensión sustantiva con procedimiento,
+- responder dudas sobre trámite penal aplicable.
+
 ## Objetivo inmediato
 
 Sin usar LLM todavía:
@@ -14,6 +26,12 @@ Sin usar LLM todavía:
 ## Fuente operativa actual
 
 - `https://lpderecho.pe/nuevo-codigo-procesal-penal-peruano-actualizado/`
+
+## Criterio de inclusión
+
+- artículos relacionados con víctima, agraviado, denuncia, medidas de protección, prueba anticipada, investigación preliminar o preparatoria, actuación fiscal y policial,
+- selección mediante heurísticas deterministas,
+- revisión humana posterior.
 
 ## Flujo de esta etapa
 
