@@ -1,0 +1,222 @@
+[
+  {
+    "entry_id": "jp_0189_e0001",
+    "page_id": "jp_0189",
+    "page_source_url": "https://lpderecho.pe/articulo-321-del-codigo-procesal-penal/",
+    "entry_category": "Legislación",
+    "entry_type": "legislacion",
+    "entry_prefix_flags": [
+      "NUEVO"
+    ],
+    "entry_text": "NUEVO: Manual de normas y procedimientos para la intervención e investigación de accidentes de tránsito [RCG 044-2021] . Link: bit.ly/3rfXbB9 NUEVO: Plan Operativo Nacional de Respuesta Forense Ante Situaciones de Desastre [RFN 1706-2021-MP-FN] . Link: bit.ly/46P0WOa NUEVO: Protocolo de protección e investigación de la escena del crimen [DS 010-2018-JUS] . Link: bit.ly/3f2r161 NUEVO: Guía Práctica para la recuperación y análisis de restos humanos en contextos de violaciones a los Derechos Humanos e Infracciones contra el Derecho Internacional Humanitario [RFN 5244-2016-MP-FN] . Link: bit.ly/3JRtAok Manual para el desarrollo del plan de investigación [RFN 1700-2013-MP-FN] . Link: bit.ly/3DaqadQ NUEVO: Normas para la Perennización Fotográfica y Filmación de la Labor Forense y su Cadena de Custodia en el Instituto de Medicina Legal y Ciencias Forenses [RGG 0716-2011-MP-FN-GG] . Link: bit.ly/3rqW7ut NUEVO: Nueve Guías Prácticas de Procedimientos Criminalísticos para la Escena del Crimen [RFN 0609-2010-MP-FN] . Link: bit.ly/3NS7nY7 NUEVO: Directiva que Regula el Trabajo de Investigación del Ministerio Público frente al hallazgo de sitios con restos humanos y su relación con graves violaciones a los Derechos Humanos [RFN 1694-2009-MP-FN ]. Link: bit.ly/3Q31rya NUEVO: TUO del Reglamento Nacional de Tránsito-Código de Tránsito [DS 016-2009-MTC] . Link: bit.ly/3PTJjXw",
+    "entry_title_candidate": "NUEVO: Manual de normas y procedimientos para la intervención e investigación de accidentes de tránsito",
+    "resolution_reference_raw": null,
+    "lp_entry_url": "https://lpderecho.pe/manual-normas-procedimientos-intervencion-investigacion-accidentes-transito/",
+    "short_link_url": "https://lpderecho.pe/texto-unico-ordenado-reglamento-nacional-transito-%E2%80%A2-codigo-transito-actualizado/",
+    "page_anchor_code": null,
+    "page_anchor_article_id": "321",
+    "page_anchor_article_heading": "Artículo 321. Finalidad*",
+    "page_concordances": [
+      {
+        "code": "C",
+        "articles": [
+          "159",
+          "166"
+        ]
+      },
+      {
+        "code": "NCPP",
+        "articles": [
+          "65",
+          "71",
+          "84"
+        ]
+      }
+    ],
+    "related_norms": [
+      {
+        "code": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "321",
+        "relation_type": "page_anchor",
+        "confidence": "high"
+      },
+      {
+        "code": "C",
+        "article_id": "159",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "C",
+        "article_id": "166",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "65",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "71",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "84",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      }
+    ],
+    "domain_relevance_candidate": null,
+    "resolution_type": null,
+    "resolution_number": null,
+    "resolution_year": null,
+    "resolution_jurisdiction": null
+  },
+  {
+    "entry_id": "jp_0233_e0001",
+    "page_id": "jp_0233",
+    "page_source_url": "https://lpderecho.pe/articulo-375-del-codigo-procesal-penal-orden-y-modalidad-del-debate-probatorio/",
+    "entry_category": "Corte Superior",
+    "entry_type": "jurisprudencia",
+    "entry_prefix_flags": [],
+    "entry_text": "Fiscal es el primero que realiza el interrogatorio al acusado y luego su defensa [Pleno Jurisdiccional Distrital Penal y Procesal Penal de Tumbes, 2017] . Link: bit.ly/3Sqkd1B Se debe realizar un juzgamiento anticipado en casos de violencia familiar si solo se ofreció documentales y demandado es rebelde [Pleno Jurisdiccional Distrital Penal y Civil de Apurímac, 2015] . Link: bit.ly/3U3iuz3",
+    "entry_title_candidate": "Fiscal es el primero que realiza el interrogatorio al acusado y luego su defensa",
+    "resolution_reference_raw": "Pleno Jurisdiccional Distrital Penal y Procesal Penal de Tumbes, 2017",
+    "lp_entry_url": "https://lpderecho.pe/quien-inicia-interrogatorio-acusado-fiscal-abogado-defensor/#:~:text=Se%C3%B1alan%20que%20quien%20inicia%20el,ampliar%20o%20complementar%20su%20interrogatorio.",
+    "short_link_url": "https://lpderecho.pe/debe-realizar-juzgamiento-anticipado-casos-violencia-familiar-ofrecio-documentales-demandado-rebelde-pleno-jurisdiccional-distrital-penal-civil-apurimac-2015/",
+    "page_anchor_code": null,
+    "page_anchor_article_id": "375",
+    "page_anchor_article_heading": "Artículo 375. Orden y modalidad del debate probatorio",
+    "page_concordances": [
+      {
+        "code": "NCPP",
+        "articles": [
+          "376",
+          "378",
+          "380",
+          "383",
+          "384"
+        ]
+      }
+    ],
+    "related_norms": [
+      {
+        "code": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "375",
+        "relation_type": "page_anchor",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "376",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "378",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "380",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "383",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "384",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      }
+    ],
+    "domain_relevance_candidate": null,
+    "resolution_type": "Pleno",
+    "resolution_number": "2017",
+    "resolution_year": 2017,
+    "resolution_jurisdiction": "2017"
+  },
+  {
+    "entry_id": "jp_0233_e0002",
+    "page_id": "jp_0233",
+    "page_source_url": "https://lpderecho.pe/articulo-375-del-codigo-procesal-penal-orden-y-modalidad-del-debate-probatorio/",
+    "entry_category": "Corte Superior",
+    "entry_type": "jurisprudencia",
+    "entry_prefix_flags": [],
+    "entry_text": "Derecho comparado NUEVO: Preguntas aclaratorias del juez en el interrogatorio, límites y pérdida de la imparcialidad (España) [STS 2084/2023] . Link: bit.ly/44I5zYQ",
+    "entry_title_candidate": "Derecho comparado NUEVO: Preguntas aclaratorias del juez en el interrogatorio, límites y pérdida de la imparcialidad (España)",
+    "resolution_reference_raw": null,
+    "lp_entry_url": "https://lpderecho.pe/preguntas-aclaratorias-juez-interrogatorio-limites-perdida-imparcialidad-espana-sts-2084-2023/",
+    "short_link_url": "https://lpderecho.pe/preguntas-aclaratorias-juez-interrogatorio-limites-perdida-imparcialidad-espana-sts-2084-2023/",
+    "page_anchor_code": null,
+    "page_anchor_article_id": "375",
+    "page_anchor_article_heading": "Artículo 375. Orden y modalidad del debate probatorio",
+    "page_concordances": [
+      {
+        "code": "NCPP",
+        "articles": [
+          "376",
+          "378",
+          "380",
+          "383",
+          "384"
+        ]
+      }
+    ],
+    "related_norms": [
+      {
+        "code": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "375",
+        "relation_type": "page_anchor",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "376",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "378",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "380",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "383",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "384",
+        "relation_type": "page_concordance",
+        "confidence": "high"
+      }
+    ],
+    "domain_relevance_candidate": null,
+    "resolution_type": null,
+    "resolution_number": null,
+    "resolution_year": null,
+    "resolution_jurisdiction": null
+  }
+]
