@@ -12,7 +12,8 @@ Según `recoleccion/METODOLOGIA_DATOS.md`, este tipo de dato corresponde a:
 
 - aportar contexto interpretativo,
 - reforzar criterios de aplicación práctica,
-- asociar resoluciones relevantes a artículos normativos previamente seleccionados.
+- asociar resoluciones relevantes a artículos normativos previamente seleccionados,
+- servir como proxy de casos jurídicos reales para la futura construcción de dataset sintético orientado a retrieval.
 
 ## Alcance de esta primera implementación
 
@@ -22,4 +23,5 @@ Se implementa un pipeline mínimo para:
 1. recolectar URLs jurisprudenciales detectadas en tipos 02 y 03,
 2. deduplicarlas,
 3. descargar su HTML,
-4. guardar metadata estructurada para revisión posterior.
+4. guardar metadata estructurada para revisión posterior,
+5. preparar la evolución hacia un schema de dos capas (`index-entry` y `case-detail`) descrito en `docs/schema-plan.md`.
