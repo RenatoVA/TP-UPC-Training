@@ -1,0 +1,85 @@
+{
+  "unit_id": "case_ctx_000001",
+  "source_type": "jurisprudencia",
+  "source_trace": {
+    "index_page_id": "jp_0086",
+    "index_page_url": "https://lpderecho.pe/articulo-111-codigo-procesal-penal-citacion-personas-responsabilidad-civil-tercero-civil/",
+    "entry_category": "Corte Suprema",
+    "entry_title_raw": "Ante dos solicitudes presentadas en la misma fecha, primero debe resolverse la de constitución como actor civil y, luego, en la misma o en otra resolución consecutiva, la incorporación como tercero civil...",
+    "entry_url": "https://lpderecho.pe/ante-dos-solicitudes-presentadas-en-la-misma-fecha-primero-debe-resolverse-la-de-constitucion-como-actor-civil-y-luego-en-la-misma-o-en-otra-resolucion-consecutiva-la-incorporacion-como-tercero-ci/",
+    "pdf_url": null,
+    "resolution_reference_raw": "Casación 40-2023, Loreto"
+  },
+  "case_record": {
+    "title": "Constitución de tercero civil y legitimación procesal",
+    "resolution_reference": "Casación 40-2023, Loreto",
+    "resolution_type": "Casación",
+    "court": "Corte Suprema de Justicia de la República",
+    "chamber": "Sala Penal Permanente",
+    "date_text": "Lima, cinco de mayo de dos mil veinticinco",
+    "judge_rapporteur": "César San Martín Castro",
+    "topic_label": "Constitución de tercero civil",
+    "sumilla": "Primero debe resolverse la constitución en actor civil y luego la incorporación de tercero civil.",
+    "highlighted_holding": "La legitimación para solicitar incorporación de tercero civil depende de la previa constitución en actor civil.",
+    "facts_background": "La empresa agraviada presentó en la misma fecha solicitud para constituirse en actor civil y para incorporar a un tercero civil.",
+    "legal_issue": "Si puede resolverse primero la incorporación de tercero civil sin haber resuelto la constitución en actor civil.",
+    "reasoning_summary": "La tutela jurisdiccional exige resolver primero la constitución en actor civil por ser presupuesto de legitimación.",
+    "decision_summary": "Se reconoce que la secuencia procesal correcta exigía resolver primero la constitución en actor civil.",
+    "participants": {
+      "victim_or_claimant": "empresa agraviada",
+      "accused_or_investigated": "imputados por hurto agravado",
+      "third_parties": ["SIMAI"]
+    }
+  },
+  "legal_context": {
+    "anchor_norm": {
+      "code": "CPP",
+      "article_id": "111",
+      "heading": "Artículo 111.- Citación a personas que tengan responsabilidad civil",
+      "relation_type": "anchor",
+      "confidence": "high"
+    },
+    "explicit_concordances": [
+      {
+        "code": "NCPP",
+        "article_id": "100",
+        "relation_type": "concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "NCPP",
+        "article_id": "101",
+        "relation_type": "concordance",
+        "confidence": "high"
+      },
+      {
+        "code": "CC",
+        "article_id": "163",
+        "relation_type": "concordance",
+        "confidence": "high"
+      }
+    ],
+    "inferred_related_norms": [],
+    "institutional_context": []
+  },
+  "dataset_signals": {
+    "domain_relevance": {
+      "violencia_familiar": "low",
+      "violencia_genero": "low",
+      "proteccion_victima": "low",
+      "procedural_guidance": "high"
+    },
+    "query_generation_ready": true,
+    "query_generation_source": "facts_background",
+    "positive_context_ready": true,
+    "positive_context_strategy": "case_plus_anchor_norm",
+    "hard_negative_group_keys": [
+      "CPP_111",
+      "tercero_civil",
+      "actor_civil",
+      "procedimiento_penal"
+    ],
+    "needs_human_review": false,
+    "notes_for_generation": "Útil para consultas sobre incorporación de tercero civil y orden de resolución procesal."
+  }
+}
