@@ -2,15 +2,13 @@
 from __future__ import annotations
 
 import json
-import re
-from pathlib import Path
 
-from legal_data.index_parser import parse_index_entries
+from legal_data.paths import PROCESSED_DIR
 from legal_data.storage import write_json
 
-INPUT_JSON = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/processed/input_indices_10.json")
-ENTRIES_OUTPUT = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/processed/jurisprudence_entries_llm_10.json")
-FILTERED_OUTPUT = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/processed/jurisprudence_entries_filtered_10.json")
+INPUT_JSON = PROCESSED_DIR / "jurisprudence_index_llm_10.json"
+ENTRIES_OUTPUT = PROCESSED_DIR / "jurisprudence_entries_llm_10.json"
+FILTERED_OUTPUT = PROCESSED_DIR / "jurisprudence_entries_filtered_10.json"
 
 
 def _predict_jurisprudence_type(text: str, category: str | None) -> str:
@@ -56,56 +54,50 @@ def _classify_relevance(text: str, predicted_type: str) -> tuple[str, str, bool]
 
 
 def main() -> None:
-    sampled_pages = json.loads(INPUT_JSON.read_text(encoding="utf-8"))
-    parsed_pages = [
-        {
-            "id": item["index_page_id"],
-            "jurisprudence_url": item["index_page_url"],
-            "raw_html_path": item["raw_html_path"],
-            "linked_articles": item.get("linked_articles", []),
-        }
-        for item in sampled_pages
-    ]
+    parsed_pages = json.loads(INPUT_JSON.read_text(encoding="utf-8"))
 
-    entries = parse_index_entries(parsed_pages)
-    llm_like_entries = []
+    llm_entries = []
     filtered_entries = []
 
-    for entry in entries:
-        predicted_type = _predict_jurisprudence_type(
-            entry.get("entry_title_candidate") or entry.get("entry_text") or "",
-            entry.get("entry_category"),
-        )
-        relevance_status, relevance_reason, needs_llm_review = _classify_relevance(
-            entry.get("entry_title_candidate") or entry.get("entry_text") or "",
-            predicted_type,
-        )
+    for page in parsed_pages:
+        parsed = page.get("parsed") or {}
+        categories = parsed.get("categories") or []
+        counter = 0
+        for category in categories:
+            category_name = category.get("name")
+            for entry in category.get("entries") or []:
+                title = (entry.get("title") or "").strip()
+                if not title:
+                    continue
+                counter += 1
+                entry_id = f"{page['index_page_id']}_e{counter:04d}"
+                predicted_type = _predict_jurisprudence_type(title, category_name)
+                relevance_status, relevance_reason, needs_llm_review = _classify_relevance(title, predicted_type)
+                row = {
+                    "entry_id": entry_id,
+                    "index_page_id": page["index_page_id"],
+                    "index_page_url": page["index_page_url"],
+                    "article_id": page.get("article_id"),
+                    "article_heading": page.get("article_heading"),
+                    "entry_category": category_name,
+                    "entry_title_raw": title,
+                    "entry_url": entry.get("matched_url"),
+                    "resolution_reference_raw": None,
+                    "jurisprudence_type_hint": predicted_type,
+                    "parse_confidence": "high" if entry.get("matched_url") else "medium",
+                }
+                llm_entries.append(row)
+                filtered_entries.append(
+                    {
+                        **row,
+                        "jurisprudence_type_predicted": predicted_type,
+                        "relevance_status": relevance_status,
+                        "relevance_reason": relevance_reason,
+                        "needs_llm_review": needs_llm_review,
+                    }
+                )
 
-        llm_like = {
-            "entry_id": entry["entry_id"],
-            "index_page_id": entry["page_id"],
-            "index_page_url": entry["page_source_url"],
-            "article_id": entry.get("page_anchor_article_id"),
-            "article_heading": entry.get("page_anchor_article_heading"),
-            "entry_category": entry.get("entry_category"),
-            "entry_title_raw": entry.get("entry_title_candidate") or entry.get("entry_text"),
-            "entry_url": entry.get("lp_entry_url"),
-            "resolution_reference_raw": entry.get("resolution_reference_raw"),
-            "jurisprudence_type_hint": predicted_type,
-            "parse_confidence": "high" if entry.get("lp_entry_url") else "medium",
-        }
-        llm_like_entries.append(llm_like)
-        filtered_entries.append(
-            {
-                **llm_like,
-                "jurisprudence_type_predicted": predicted_type,
-                "relevance_status": relevance_status,
-                "relevance_reason": relevance_reason,
-                "needs_llm_review": needs_llm_review,
-            }
-        )
-
-    write_json(ENTRIES_OUTPUT, llm_like_entries)
+    write_json(ENTRIES_OUTPUT, llm_entries)
     write_json(FILTERED_OUTPUT, filtered_entries)
     summary = {
         "entries_total": len(filtered_entries),

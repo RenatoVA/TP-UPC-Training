@@ -10,12 +10,13 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+from legal_data.paths import PROCESSED_DIR, RAW_DIR
 from legal_data.storage import write_json
 
-FILTERED_INPUT = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/processed/jurisprudence_entries_filtered_10.json")
-PDF_CANDIDATES_OUTPUT = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/processed/jurisprudence_pdf_candidates_10.json")
-PDF_MANIFEST_OUTPUT = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/processed/pdf_download_manifest_10.json")
-PDF_DIR = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10")
+FILTERED_INPUT = PROCESSED_DIR / "jurisprudence_entries_filtered_10.json"
+PDF_CANDIDATES_OUTPUT = PROCESSED_DIR / "jurisprudence_pdf_candidates_10.json"
+PDF_MANIFEST_OUTPUT = PROCESSED_DIR / "pdf_download_manifest_10.json"
+PDF_DIR = RAW_DIR / "pdfs_sample_10"
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 

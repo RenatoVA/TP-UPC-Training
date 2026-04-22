@@ -5,18 +5,16 @@ import json
 from pathlib import Path
 
 from legal_data.collector import collect_jurisprudence_sources, deduplicate_by_url, fetch_jurisprudence_page
+from legal_data.paths import PROCESSED_DIR, RAW_DIR, TIPO_02_CANDIDATES, TIPO_03_CANDIDATES
 from legal_data.storage import write_json, write_text
 
-PENAL_CANDIDATES = "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json"
-CPP_CANDIDATES = "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json"
-
 SAMPLE_SIZE = 10
-OUTPUT_JSON = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/processed/input_indices_10.json")
-RAW_DIR = Path("recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10")
+OUTPUT_JSON = PROCESSED_DIR / "input_indices_10.json"
+RAW_HTML_DIR = RAW_DIR / "html_sample_10"
 
 
 def main() -> None:
-    collected = collect_jurisprudence_sources([PENAL_CANDIDATES, CPP_CANDIDATES])
+    collected = collect_jurisprudence_sources([TIPO_02_CANDIDATES, TIPO_03_CANDIDATES])
     deduped = deduplicate_by_url(collected)
     sampled = deduped[:SAMPLE_SIZE]
 
@@ -24,7 +22,7 @@ def main() -> None:
     for idx, item in enumerate(sampled, start=1):
         page = fetch_jurisprudence_page(item["jurisprudence_url"])
         index_page_id = f"jp_{idx:04d}"
-        raw_path = RAW_DIR / f"{index_page_id}.html"
+        raw_path = RAW_HTML_DIR / f"{index_page_id}.html"
         write_text(raw_path, page["html"])
         first_link = item.get("linked_articles", [{}])[0]
         result.append(

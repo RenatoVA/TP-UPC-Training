@@ -39,6 +39,21 @@ La prueba debe llegar hasta:
 Schema de entrada/salida de esta prueba:
 - `docs/subpipeline-10-indices-schema.md`
 
+## Ejecución local recomendada
+
+Desde esta misma carpeta puede correrse la prueba completa de 10 índices con un único runner:
+
+```bash
+cd recoleccion/data_types/tipo_04_jurisprudencia
+uv run python run_sample_10_pipeline.py
+```
+
+Esto ejecuta:
+- sample de 10 índices,
+- parseo LLM-first,
+- clasificación de entries,
+- resolución y descarga de PDFs.
+
 ## Scripts activos vs experimentales
 
 ### Scripts activos
