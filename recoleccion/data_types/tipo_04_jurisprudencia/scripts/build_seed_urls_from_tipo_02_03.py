@@ -8,8 +8,8 @@ from typing import Any
 from legal_data.paths import PROJECT_ROOT, PROCESSED_DIR
 from legal_data.storage import write_json
 
-TIPO_02_ALL = PROJECT_ROOT / "recoleccion" / "data_types" / "tipo_02_codigo_penal" / "data" / "processed" / "all_articles.json"
-TIPO_03_ALL = PROJECT_ROOT / "recoleccion" / "data_types" / "tipo_03_codigo_procesal_penal" / "data" / "processed" / "all_articles.json"
+TIPO_02_ALL = PROJECT_ROOT / "recoleccion" / "data_types" / "tipo_02_codigo_penal" / "data" / "processed" / "candidate_articles.json"
+TIPO_03_ALL = PROJECT_ROOT / "recoleccion" / "data_types" / "tipo_03_codigo_procesal_penal" / "data" / "processed" / "candidate_articles.json"
 OUTPUT_JSON = PROCESSED_DIR / "jurisprudence_seed_urls.json"
 
 

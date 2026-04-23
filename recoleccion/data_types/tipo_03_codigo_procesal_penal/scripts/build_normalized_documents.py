@@ -8,7 +8,7 @@ from typing import Any
 from legal_data.paths import PROCESSED_DIR
 from legal_data.storage import write_text
 
-INPUT_JSON = PROCESSED_DIR / "all_articles.json"
+INPUT_JSON = PROCESSED_DIR / "candidate_articles.json"
 OUTPUT_JSONL = PROCESSED_DIR / "normalized_documents.jsonl"
 
 
