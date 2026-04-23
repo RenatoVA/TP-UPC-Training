@@ -67,20 +67,40 @@ python3 recoleccion/run_base_documental.py tipo04-sample10
 Comandos disponibles actualmente para artefactos reales:
 
 ```bash
+python3 recoleccion/run_base_documental.py tipo01-normalize
+python3 recoleccion/run_base_documental.py tipo01-chunk
 python3 recoleccion/run_base_documental.py tipo02-normalize
 python3 recoleccion/run_base_documental.py tipo02-chunk
 python3 recoleccion/run_base_documental.py tipo03-normalize
 python3 recoleccion/run_base_documental.py tipo03-chunk
+python3 recoleccion/run_base_documental.py tipo04-build-seeds
+python3 recoleccion/run_base_documental.py tipo04-fetch-indexes
+python3 recoleccion/run_base_documental.py tipo04-parse-entries
+python3 recoleccion/run_base_documental.py tipo04-resolve-content
+python3 recoleccion/run_base_documental.py tipo04-summarize
+python3 recoleccion/run_base_documental.py tipo04-build-contextual-chunks
 python3 recoleccion/run_base_documental.py tipo04-normalize
 python3 recoleccion/run_base_documental.py tipo04-chunk
 python3 recoleccion/run_base_documental.py tipo05-normalize
 python3 recoleccion/run_base_documental.py tipo05-chunk
+python3 recoleccion/run_base_documental.py consolidate-chunks
 ```
 
 Además, sigue disponible la muestra reproducible actual de tipo 04:
 
 ```bash
 python3 recoleccion/run_base_documental.py tipo04-sample10
+```
+
+Pipeline recomendado nuevo para tipo 04:
+
+```bash
+python3 recoleccion/run_base_documental.py tipo04-build-seeds
+python3 recoleccion/run_base_documental.py tipo04-fetch-indexes
+python3 recoleccion/run_base_documental.py tipo04-parse-entries
+python3 recoleccion/run_base_documental.py tipo04-resolve-content
+python3 recoleccion/run_base_documental.py tipo04-summarize
+python3 recoleccion/run_base_documental.py tipo04-build-contextual-chunks
 ```
 
 ## Documentación del schema unificado

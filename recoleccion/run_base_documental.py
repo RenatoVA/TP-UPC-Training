@@ -43,6 +43,31 @@ def cmd_tipo04_sample10() -> None:
     run_python(script_path=script_path, cwd=type_dir, extra_env={"PYTHONPATH": str(src_dir)})
 
 
+def cmd_tipo04_build_seeds() -> None:
+    _run_type_script("tipo_04_jurisprudencia", "build_seed_urls_from_tipo_02_03.py")
+
+
+def cmd_tipo04_fetch_indexes() -> None:
+    _run_type_script("tipo_04_jurisprudencia", "fetch_all_index_pages.py")
+
+
+def cmd_tipo04_parse_entries() -> None:
+    _run_type_script("tipo_04_jurisprudencia", "llm_parse_index_entries.py")
+    _run_type_script("tipo_04_jurisprudencia", "dedupe_entries.py")
+
+
+def cmd_tipo04_resolve_content() -> None:
+    _run_type_script("tipo_04_jurisprudencia", "resolve_entry_content.py")
+
+
+def cmd_tipo04_summarize() -> None:
+    _run_type_script("tipo_04_jurisprudencia", "llm_summarize_jurisprudence.py")
+
+
+def cmd_tipo04_build_contextual_chunks() -> None:
+    _run_type_script("tipo_04_jurisprudencia", "build_contextual_chunks.py")
+
+
 def cmd_tipo04_normalize() -> None:
     type_dir = RECOLECCION_DIR / "data_types" / "tipo_04_jurisprudencia"
     src_dir = type_dir / "src"
@@ -131,6 +156,12 @@ def build_parser() -> argparse.ArgumentParser:
         "tipo04-sample10",
         help="Ejecuta la muestra reproducible de 10 índices de tipo_04_jurisprudencia desde la raíz de recoleccion.",
     )
+    subparsers.add_parser("tipo04-build-seeds", help="Construye seeds globales de jurisprudencia desde tipo_02 y tipo_03.")
+    subparsers.add_parser("tipo04-fetch-indexes", help="Descarga todos los índices de jurisprudencia seed.")
+    subparsers.add_parser("tipo04-parse-entries", help="Parsea con LLM los entries de todos los índices y deduplica.")
+    subparsers.add_parser("tipo04-resolve-content", help="Resuelve contenido textual por entry de jurisprudencia.")
+    subparsers.add_parser("tipo04-summarize", help="Sintetiza por LLM los entries de jurisprudencia para retrieval.")
+    subparsers.add_parser("tipo04-build-contextual-chunks", help="Construye chunks contextuales finales de tipo_04.")
     subparsers.add_parser(
         "tipo04-normalize",
         help="Construye normalized_documents.jsonl para tipo_04 desde los detail pages ya recolectados.",
@@ -182,6 +213,24 @@ def main() -> None:
         return
     if args.command == "tipo04-sample10":
         cmd_tipo04_sample10()
+        return
+    if args.command == "tipo04-build-seeds":
+        cmd_tipo04_build_seeds()
+        return
+    if args.command == "tipo04-fetch-indexes":
+        cmd_tipo04_fetch_indexes()
+        return
+    if args.command == "tipo04-parse-entries":
+        cmd_tipo04_parse_entries()
+        return
+    if args.command == "tipo04-resolve-content":
+        cmd_tipo04_resolve_content()
+        return
+    if args.command == "tipo04-summarize":
+        cmd_tipo04_summarize()
+        return
+    if args.command == "tipo04-build-contextual-chunks":
+        cmd_tipo04_build_contextual_chunks()
         return
     if args.command == "tipo04-normalize":
         cmd_tipo04_normalize()
