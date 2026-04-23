@@ -37,6 +37,13 @@ def cmd_tipo04_sample10() -> None:
     run_python(script_path=script_path, cwd=type_dir, extra_env={"PYTHONPATH": str(src_dir)})
 
 
+def cmd_tipo04_normalize() -> None:
+    type_dir = RECOLECCION_DIR / "data_types" / "tipo_04_jurisprudencia"
+    src_dir = type_dir / "src"
+    script_path = type_dir / "scripts" / "build_normalized_documents.py"
+    run_python(script_path=script_path, cwd=type_dir, extra_env={"PYTHONPATH": str(src_dir)})
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Entrypoint reproducible desde recoleccion/ para el pipeline base documental."
@@ -47,6 +54,10 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "tipo04-sample10",
         help="Ejecuta la muestra reproducible de 10 índices de tipo_04_jurisprudencia desde la raíz de recoleccion.",
+    )
+    subparsers.add_parser(
+        "tipo04-normalize",
+        help="Construye normalized_documents.jsonl para tipo_04 desde los detail pages ya recolectados.",
     )
 
     return parser
@@ -61,6 +72,9 @@ def main() -> None:
         return
     if args.command == "tipo04-sample10":
         cmd_tipo04_sample10()
+        return
+    if args.command == "tipo04-normalize":
+        cmd_tipo04_normalize()
         return
 
     parser.print_help()

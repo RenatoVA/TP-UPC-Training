@@ -64,6 +64,12 @@ Para ejecutar la muestra reproducible actual de jurisprudencia tipo 04:
 python3 recoleccion/run_base_documental.py tipo04-sample10
 ```
 
+Para construir el primer artefacto real (`normalized_documents.jsonl`) de tipo 04 usando los detail pages ya recolectados:
+
+```bash
+python3 recoleccion/run_base_documental.py tipo04-normalize
+```
+
 ## Documentación del schema unificado
 
 Ver:
