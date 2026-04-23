@@ -27,6 +27,12 @@ def cmd_plan() -> None:
     print("[4] tipo_04_jurisprudencia -> fetch detail + resumen base documental por entry")
     print("[5] tipo_05_documentos_institucionales -> normalización por sección/bloque")
     print("[6] chunking unificado + consolidación global")
+    print("\nImplementado ahora mismo:")
+    print("- tipo_01 normalize/chunk")
+    print("- tipo_02 normalize/chunk")
+    print("- tipo_03 normalize/chunk")
+    print("- tipo_04 normalize/chunk")
+    print("- tipo_05 normalize/chunk")
     print("\nVer esquema: recoleccion/docs/unified-normalization-schema.md")
 
 
@@ -51,6 +57,45 @@ def cmd_tipo04_chunk() -> None:
     run_python(script_path=script_path, cwd=type_dir, extra_env={"PYTHONPATH": str(src_dir)})
 
 
+def _run_type_script(relative_type_dir: str, script_name: str) -> None:
+    type_dir = RECOLECCION_DIR / "data_types" / relative_type_dir
+    src_dir = type_dir / "src"
+    script_path = type_dir / "scripts" / script_name
+    run_python(script_path=script_path, cwd=type_dir, extra_env={"PYTHONPATH": str(src_dir)})
+
+
+def cmd_tipo01_normalize() -> None:
+    _run_type_script("tipo_01_ley_30364", "build_normalized_documents.py")
+
+
+def cmd_tipo01_chunk() -> None:
+    _run_type_script("tipo_01_ley_30364", "build_document_chunks.py")
+
+
+def cmd_tipo02_normalize() -> None:
+    _run_type_script("tipo_02_codigo_penal", "build_normalized_documents.py")
+
+
+def cmd_tipo02_chunk() -> None:
+    _run_type_script("tipo_02_codigo_penal", "build_document_chunks.py")
+
+
+def cmd_tipo03_normalize() -> None:
+    _run_type_script("tipo_03_codigo_procesal_penal", "build_normalized_documents.py")
+
+
+def cmd_tipo03_chunk() -> None:
+    _run_type_script("tipo_03_codigo_procesal_penal", "build_document_chunks.py")
+
+
+def cmd_tipo05_normalize() -> None:
+    _run_type_script("tipo_05_documentos_institucionales", "build_normalized_documents.py")
+
+
+def cmd_tipo05_chunk() -> None:
+    _run_type_script("tipo_05_documentos_institucionales", "build_document_chunks.py")
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Entrypoint reproducible desde recoleccion/ para el pipeline base documental."
@@ -58,6 +103,30 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers = parser.add_subparsers(dest="command")
 
     subparsers.add_parser("plan", help="Muestra el orden del pipeline base documental unificado.")
+    subparsers.add_parser(
+        "tipo01-normalize",
+        help="Construye normalized_documents.jsonl para tipo_01_ley_30364 desde snapshot SPIJ.",
+    )
+    subparsers.add_parser(
+        "tipo01-chunk",
+        help="Construye document_chunks.jsonl para tipo_01_ley_30364.",
+    )
+    subparsers.add_parser(
+        "tipo02-normalize",
+        help="Construye normalized_documents.jsonl para tipo_02_codigo_penal.",
+    )
+    subparsers.add_parser(
+        "tipo02-chunk",
+        help="Construye document_chunks.jsonl para tipo_02_codigo_penal.",
+    )
+    subparsers.add_parser(
+        "tipo03-normalize",
+        help="Construye normalized_documents.jsonl para tipo_03_codigo_procesal_penal.",
+    )
+    subparsers.add_parser(
+        "tipo03-chunk",
+        help="Construye document_chunks.jsonl para tipo_03_codigo_procesal_penal.",
+    )
     subparsers.add_parser(
         "tipo04-sample10",
         help="Ejecuta la muestra reproducible de 10 índices de tipo_04_jurisprudencia desde la raíz de recoleccion.",
@@ -70,6 +139,18 @@ def build_parser() -> argparse.ArgumentParser:
         "tipo04-chunk",
         help="Construye document_chunks.jsonl para tipo_04 desde normalized_documents.jsonl.",
     )
+    subparsers.add_parser(
+        "tipo05-normalize",
+        help="Construye normalized_documents.jsonl para tipo_05_documentos_institucionales.",
+    )
+    subparsers.add_parser(
+        "tipo05-chunk",
+        help="Construye document_chunks.jsonl para tipo_05_documentos_institucionales.",
+    )
+    subparsers.add_parser(
+        "consolidate-chunks",
+        help="Consolida los document_chunks.jsonl de todos los tipos en una salida global.",
+    )
 
     return parser
 
@@ -81,6 +162,24 @@ def main() -> None:
     if args.command == "plan":
         cmd_plan()
         return
+    if args.command == "tipo01-normalize":
+        cmd_tipo01_normalize()
+        return
+    if args.command == "tipo01-chunk":
+        cmd_tipo01_chunk()
+        return
+    if args.command == "tipo02-normalize":
+        cmd_tipo02_normalize()
+        return
+    if args.command == "tipo02-chunk":
+        cmd_tipo02_chunk()
+        return
+    if args.command == "tipo03-normalize":
+        cmd_tipo03_normalize()
+        return
+    if args.command == "tipo03-chunk":
+        cmd_tipo03_chunk()
+        return
     if args.command == "tipo04-sample10":
         cmd_tipo04_sample10()
         return
@@ -89,6 +188,15 @@ def main() -> None:
         return
     if args.command == "tipo04-chunk":
         cmd_tipo04_chunk()
+        return
+    if args.command == "tipo05-normalize":
+        cmd_tipo05_normalize()
+        return
+    if args.command == "tipo05-chunk":
+        cmd_tipo05_chunk()
+        return
+    if args.command == "consolidate-chunks":
+        run_python(script_path=RECOLECCION_DIR / "scripts" / "consolidate_document_chunks.py", cwd=RECOLECCION_DIR)
         return
 
     parser.print_help()

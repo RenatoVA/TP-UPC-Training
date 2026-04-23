@@ -64,16 +64,23 @@ Para ejecutar la muestra reproducible actual de jurisprudencia tipo 04:
 python3 recoleccion/run_base_documental.py tipo04-sample10
 ```
 
-Para construir el primer artefacto real (`normalized_documents.jsonl`) de tipo 04 usando los detail pages ya recolectados:
+Comandos disponibles actualmente para artefactos reales:
 
 ```bash
+python3 recoleccion/run_base_documental.py tipo02-normalize
+python3 recoleccion/run_base_documental.py tipo02-chunk
+python3 recoleccion/run_base_documental.py tipo03-normalize
+python3 recoleccion/run_base_documental.py tipo03-chunk
 python3 recoleccion/run_base_documental.py tipo04-normalize
+python3 recoleccion/run_base_documental.py tipo04-chunk
+python3 recoleccion/run_base_documental.py tipo05-normalize
+python3 recoleccion/run_base_documental.py tipo05-chunk
 ```
 
-Para construir el segundo artefacto real (`document_chunks.jsonl`) de tipo 04 desde los documentos normalizados:
+Además, sigue disponible la muestra reproducible actual de tipo 04:
 
 ```bash
-python3 recoleccion/run_base_documental.py tipo04-chunk
+python3 recoleccion/run_base_documental.py tipo04-sample10
 ```
 
 ## Documentación del schema unificado
