@@ -48,6 +48,34 @@ Para modo worker:
 python3 run_recoleccion.py worker
 ```
 
+## Pipeline base documental unificado
+
+Desde `recoleccion/` o desde la raíz del repo se debe poder invocar un runner reproducible para la base documental.
+
+Desde la raíz del repo:
+
+```bash
+python3 recoleccion/run_base_documental.py plan
+```
+
+Para ejecutar la muestra reproducible actual de jurisprudencia tipo 04:
+
+```bash
+python3 recoleccion/run_base_documental.py tipo04-sample10
+```
+
+## Documentación del schema unificado
+
+Ver:
+
+- `recoleccion/docs/unified-normalization-schema.md`
+
+Ese documento define:
+- schema unificado de `normalized_document`
+- schema unificado de `document_chunk`
+- mapeo de `tipo_01` a `tipo_05`
+- orden del pipeline base documental
+
 ## Principio de diseño
 
 La fase de recolección **no** debería mezclar objetivos de entrenamiento ni de generación de dataset. Aquí se resuelve principalmente:
