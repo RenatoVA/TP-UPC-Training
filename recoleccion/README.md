@@ -70,6 +70,12 @@ Para construir el primer artefacto real (`normalized_documents.jsonl`) de tipo 0
 python3 recoleccion/run_base_documental.py tipo04-normalize
 ```
 
+Para construir el segundo artefacto real (`document_chunks.jsonl`) de tipo 04 desde los documentos normalizados:
+
+```bash
+python3 recoleccion/run_base_documental.py tipo04-chunk
+```
+
 ## Documentación del schema unificado
 
 Ver:

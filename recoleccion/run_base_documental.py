@@ -44,6 +44,13 @@ def cmd_tipo04_normalize() -> None:
     run_python(script_path=script_path, cwd=type_dir, extra_env={"PYTHONPATH": str(src_dir)})
 
 
+def cmd_tipo04_chunk() -> None:
+    type_dir = RECOLECCION_DIR / "data_types" / "tipo_04_jurisprudencia"
+    src_dir = type_dir / "src"
+    script_path = type_dir / "scripts" / "build_document_chunks.py"
+    run_python(script_path=script_path, cwd=type_dir, extra_env={"PYTHONPATH": str(src_dir)})
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Entrypoint reproducible desde recoleccion/ para el pipeline base documental."
@@ -58,6 +65,10 @@ def build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "tipo04-normalize",
         help="Construye normalized_documents.jsonl para tipo_04 desde los detail pages ya recolectados.",
+    )
+    subparsers.add_parser(
+        "tipo04-chunk",
+        help="Construye document_chunks.jsonl para tipo_04 desde normalized_documents.jsonl.",
     )
 
     return parser
@@ -75,6 +86,9 @@ def main() -> None:
         return
     if args.command == "tipo04-normalize":
         cmd_tipo04_normalize()
+        return
+    if args.command == "tipo04-chunk":
+        cmd_tipo04_chunk()
         return
 
     parser.print_help()
