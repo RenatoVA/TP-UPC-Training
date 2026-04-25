@@ -15,6 +15,12 @@ def _render_text(unit: dict) -> str:
     title = unit.get("title")
     if title:
         parts.append(f"Título: {title}")
+    
+    # Añadimos el tipo de documento estandarizado al texto del chunk para darle más contexto al LLM en el retrieval
+    doc_kind = unit.get("document_kind_standardized")
+    if doc_kind:
+        parts.append(f"Tipo de resolución: {doc_kind}")
+        
     if unit.get("facts_summary"):
         parts.append(f"Hechos relevantes: {unit['facts_summary']}")
     if unit.get("legal_issue"):
@@ -31,10 +37,26 @@ def _render_text(unit: dict) -> str:
         parts.append(f"Relevancia procesal: {unit['procedural_relevance']}")
     if unit.get("practical_context_summary"):
         parts.append(f"Contexto práctico: {unit['practical_context_summary']}")
+        
+    # --- ACTUALIZACIÓN DE NORMAS ---
     norms = unit.get("applicable_norms") or []
     if norms:
-        norm_text = "; ".join(f"{n.get('norm') or ''} art. {n.get('article') or ''}".strip() for n in norms)
+        norm_parts = []
+        for n in norms:
+            # Usamos el nombre estandarizado (o el raw si por alguna razón falla)
+            norm_name = n.get("norm_standardized") or n.get("norm_raw_text") or "Norma no especificada"
+            articles_list = n.get("articles") or []
+            
+            if articles_list:
+                # Unimos la lista de artículos con comas
+                art_text = f"art(s). {', '.join(articles_list)}"
+                norm_parts.append(f"{norm_name} {art_text}")
+            else:
+                norm_parts.append(norm_name)
+                
+        norm_text = "; ".join(norm_parts)
         parts.append(f"Normas aplicables: {norm_text}")
+        
     return "\n".join(parts)
 
 
@@ -57,12 +79,20 @@ def main() -> None:
                 "text": _render_text(unit),
                 "order": 1,
                 "metadata": {
+                    "source_url": item.get("entry_url"),
+                    "article_id": None,
+                    "resolution_reference": unit.get("detected_case_number") or unit.get("detected_resolution_label"),
+                    "resolution_type": unit.get("document_kind_standardized"),
+                    "issuing_body": unit.get("document_kind_raw") or unit.get("document_kind_standardized"),
+                    "topic_tags": keywords,
+                    "parent_unit_type": "jurisprudence_context_unit",
                     "entry_id": item.get("entry_id"),
                     "index_page_id": item.get("index_page_id"),
                     "entry_url": item.get("entry_url"),
                     "pdf_url": item.get("pdf_url"),
                     "pdf_url_mapped": unit.get("pdf_url_mapped"),
-                    "document_kind": unit.get("document_kind"),
+                    "document_kind_standardized": unit.get("document_kind_standardized"),
+                    "document_kind_raw": unit.get("document_kind_raw"),
                     "detected_resolution_label": unit.get("detected_resolution_label"),
                     "detected_case_number": unit.get("detected_case_number"),
                     "applicable_norms": unit.get("applicable_norms") or [],
