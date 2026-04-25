@@ -1,0 +1,13 @@
+{
+  "jurisprudence_context_units_total": 2231,
+  "vf_non_null": 248,
+  "vf_factrich": 218,
+  "pdf_candidates": 217,
+  "chunks_tipo04_vf": 248,
+  "outputs": {
+    "vf_non_null": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/generacion_dataset/data/intermediate/jurisprudence_vf_non_null.json",
+    "vf_factrich": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/generacion_dataset/data/intermediate/jurisprudence_vf_factrich.json",
+    "pdf_candidates": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/generacion_dataset/data/intermediate/jurisprudence_pdf_candidates_217.json",
+    "chunks_tipo04_vf": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/generacion_dataset/data/intermediate/document_chunks_tipo04_vf.jsonl"
+  }
+}
