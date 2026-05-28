@@ -1,4 +1,4 @@
-# peru-legal-rag-data
+# Ampara Legal RAG
 
 Repositorio de trabajo para la tesis, organizado por fases en la raíz del proyecto.
 
