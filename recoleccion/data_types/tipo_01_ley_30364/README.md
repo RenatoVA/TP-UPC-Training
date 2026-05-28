@@ -2,6 +2,18 @@
 
 Este subárbol contiene todo el trabajo de la fase de **recolección** relacionado con la **Ley N.° 30364** y su actualización incremental.
 
+## Clasificación metodológica
+
+Según `recoleccion/METODOLOGIA_DATOS.md`, este tipo de dato corresponde a:
+
+- **normativa principal**
+
+## Función en el sistema
+
+- servir como fuente normativa central del dominio,
+- definir conceptos, medidas e instituciones principales,
+- actuar como base primaria de grounding para consultas especializadas.
+
 ## Alcance
 
 Incluye:
@@ -9,7 +21,7 @@ Incluye:
 - snapshot base desde SPIJ
 - vigilancia incremental desde El Peruano
 - extracción de PDFs y texto
-- conversión PDF → imagen para clasificación con LLM
+- conversión PDF → imagen para clasificación con LLM cuando aplique
 - bootstrap de una versión estructurada local de la ley
 - estado del worker y artefactos canónicos de salida
 
@@ -63,6 +75,12 @@ Si quieres ejecutar scripts sueltos, usa como `PYTHONPATH` la carpeta `src/` de 
   - `PYTHONPATH=recoleccion/data_types/tipo_01_ley_30364/src uv run python recoleccion/data_types/tipo_01_ley_30364/scripts/classify_pdf_with_llm.py <pdf_path>`
 - loop diario del worker:
   - `PYTHONPATH=recoleccion/data_types/tipo_01_ley_30364/src uv run python recoleccion/data_types/tipo_01_ley_30364/scripts/run_daily_worker_loop.py`
+
+## Criterio de inclusión
+
+- texto vigente consolidado,
+- modificaciones relevantes incorporadas,
+- prioridad frente a otras normas cuando exista regulación específica de violencia familiar.
 
 ## Nota
 

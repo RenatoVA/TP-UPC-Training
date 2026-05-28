@@ -1,0 +1,81 @@
+[
+  {
+    "entry_id": "jp_0001_e0001",
+    "raw_entry_text": "del cuerpo [",
+    "lp_entry_url": "https://lpderecho.pe/el-animo-defensivo-de-una-persona-no-legitima-cualquier-conducta-externa-de-proteccion-aunque-se-produjera-un-acto-de-vandalismo-un-grupo-de-jovenes-con-palos-de-beisbol-ello-no-ju/",
+    "llm_cleaned": {
+      "title": "El ánimo defensivo no legitima cualquier conducta externa de protección",
+      "summary": "El texto del entry está truncado e impide analizar el criterio completo. Basado en el URL, se refiere a los límites de la legítima defensa, señalando que el ánimo defensivo no justifica cualquier conducta de protección incluso ante actos de vandalismo.",
+      "reference": null,
+      "type": "jurisprudencia_corte_suprema",
+      "relevance": {
+        "domain": "violencia_familiar_genero",
+        "level": "baja",
+        "reason": "El asunto trata sobre legítima defensa y vandalismo, sin indicadores explícitos de violencia familiar o de género."
+      },
+      "notes": "ENTRY INCOMPLETO: El campo 'entry_text' contiene solo 'del cuerpo ['. La referencia de resolución es nula. La información se ha inferido parcialmente del slug del URL."
+    }
+  },
+  {
+    "entry_id": "jp_0001_e0002",
+    "raw_entry_text": "e y precisa [",
+    "lp_entry_url": "https://lpderecho.pe/obediencia-debida-personal-policial-obligado-ejecutar-ordenes-dudas-murmuraciones-principio-legalidad-dignidad-humana-prevalecen-cualquier-orden-ilicita-casacion-76-2023-apurimac/",
+    "llm_cleaned": {
+      "title": "Obediencia debida y principio de legalidad en personal policial (Casación N.° 76-2023-Apurímac)",
+      "summary": "El texto del fallo se encuentra truncado e incompleto en la fuente original. Según la metadata y URL, el caso analiza la obligación del personal policial de ejecutar órdenes, estableciendo que el principio de legalidad y la dignidad humana prevalecen frente a cualquier orden ilícita. Se vincula al análisis del artículo 20 sobre inimputabilidad.",
+      "reference_normalized": "Casación N.° 76-2023-Apurímac",
+      "entry_type_refined": "Casación",
+      "relevance_estimate": {
+        "domain": "violencia_familiar_genero_peru",
+        "score": 0.1,
+        "justification": "El tema central es la responsabilidad penal policial y la obediencia debida. No existe indicio en los metadatos disponibles que vincule el caso específicamente a violencia familiar o de género."
+      },
+      "notes": "ALERTA DE INTEGRIDAD: El campo 'entry_text' original está corrupto ('e y precisa ['). La reconstrucción del título y resumen se basa exclusivamente en la URL y los encabezados de artículo, no en el cuerpo del texto jurisprudencial. Se recomienda verificar la fuente original."
+    }
+  },
+  {
+    "entry_id": "jp_0001_e0003",
+    "raw_entry_text": "insuperable [",
+    "lp_entry_url": "https://lpderecho.pe/obediencia-debida-orden-legitima-licita-logica-oportuna-clara-coherente-precisa-casacion-76-2023-apurimac/",
+    "llm_cleaned": {
+      "title": "Casación N.° 76-2023-Apurímac: Obediencia debida e inimputabilidad",
+      "summary": "Texto original truncado e ilegible. No es posible extraer el criterio jurídico. Los metadatos indican vinculación con el Artículo 20 del Código Penal (Inimputabilidad) y requisitos de la orden legítima.",
+      "reference_normalized": "Casación N.° 76-2023-Apurímac",
+      "entry_type_refined": "jurisprudencia_casacion",
+      "relevance_estimate": {
+        "domain": "violencia_familiar_genero_peru",
+        "score": 0.1,
+        "reasoning": "Tema de derecho penal general (inimputabilidad/obediencia debida). No hay evidencia en metadatos que vincule específicamente con violencia familiar o de género."
+      },
+      "notes": "ENTRY TEXT CORRUPTO: El campo 'entry_text' contiene solo 'insuperable ['. La referencia se infiere de la URL (lp_entry_url). Se requiere recuperación del texto completo para validación jurídica."
+    }
+  },
+  {
+    "entry_id": "jp_0001_e0004",
+    "raw_entry_text": "freniforme» [",
+    "lp_entry_url": "https://lpderecho.pe/obrar-disposicion-ley-norma-permisiva-legitima-clara-pudiendo-basarse-mera-interpretacion-particular-casacion-1115-2022-cusco/",
+    "llm_cleaned": {
+      "title": "Casación N.° 1115-2022 Cusco: Inimputabilidad y actuación conforme a ley",
+      "summary": "No fue posible extraer el criterio jurídico debido a que el texto del entry está corrupto e insuficiente. La metadata sugiere una discusión sobre la inimputabilidad (Art. 20 CP) y la distinción entre actuar conforme a una norma permisiva versus basarse en una interpretación particular.",
+      "reference_normalized": "Casación 1115-2022 Cusco",
+      "entry_type_refined": "Casación Penal",
+      "relevance_estimate": 0.1,
+      "relevance_reason": "Temática general de derecho penal (inimputabilidad). No hay indicadores en la metadata ni en el texto fragmentado que vinculen el caso específicamente con violencia familiar o de género.",
+      "notes": "ALERTA DE INTEGRIDAD: El campo 'entry_text' original ('freniforme» [') está severamente truncado o corrupto, imposibilitando un análisis jurisprudencial real. Los datos del título y resumen se infieren conservadoramente del slug de la URL y el anclaje del artículo, no del cuerpo del texto."
+    }
+  },
+  {
+    "entry_id": "jp_0001_e0005",
+    "raw_entry_text": "el imputado [",
+    "lp_entry_url": "https://lpderecho.pe/joven-mujer-alejada-familia-violentada-pareja-amenaza-obligada-alquilar-habitacion-guardar-droga-actua-bajo-imperio-miedo-insuperable-apelacion-343-2023-apurimac/",
+    "llm_cleaned": {
+      "clean_title": "Miedo Insuperable y Violencia de Pareja: Obligación de Almacenar Droga",
+      "summary": "Texto del fallo truncado. Según metadata de URL, se trata de una mujer violentada por su pareja quien la obliga a almacenar droga bajo amenaza. Se analiza la eximente de miedo insuperable (Art. 20 CP). No se dispone del criterio jurídico específico por falta de cuerpo textual.",
+      "normalized_reference": "APELACIÓN N.° 343-2023, CORTE SUPERIOR DE JUSTICIA DE APURÍMAC",
+      "refined_type": "Jurisprudencia Penal",
+      "relevance_estimate": 0.9,
+      "relevance_domain": "Violencia Familiar/Género",
+      "notes": "ALERTA DE INTEGRIDAD: El campo 'entry_text' está roto/incompleto (solo contiene 'el imputado ['). La reconstrucción del título y los hechos se basa exclusivamente en el slug de la URL proporcionado. Existe discrepancia entre la categoría original ('Corte Suprema') y la referencia de URL ('Apelación', usualmente Corte Superior)."
+    }
+  }
+]

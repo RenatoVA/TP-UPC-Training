@@ -1,0 +1,195 @@
+[
+  {
+    "unit_id": "case_ctx_000001",
+    "source_type": "jurisprudencia",
+    "source_trace": {
+      "index_page_id": "jp_0003",
+      "index_page_url": null,
+      "entry_category": "Corte Suprema",
+      "entry_title_raw": "Acuerdo Plenario N.° 02-2019/CJ-116",
+      "entry_url": "https://lpderecho.pe/vigilancia-electronica-personal-acuerdo-plenario-02-2019-cij-116/",
+      "pdf_url": "https://static.legis.pe/wp-content/uploads/2019/10/Acuerdo-Plenario-2-2019-CJ-116-Legis.pe_.pdf",
+      "resolution_reference_raw": null
+    },
+    "case_record": {
+      "title": "Acuerdo Plenario N.° 02-2019/CJ-116",
+      "resolution_reference": null,
+      "resolution_type": null,
+      "court": null,
+      "chamber": null,
+      "date_text": "Lima, diez de septiembre de dos mil diecinueve",
+      "judge_rapporteur": null,
+      "topic_label": "Vigilancia electrónica personal",
+      "sumilla": null,
+      "highlighted_holding": "El XI Pleno Jurisdiccional Penal planteó el tratamiento de la “vigilancia electrónica personal” como uno de los temas materia de evaluación, a fin de examinarla, desde la perspectiva jurídica y social, como una alternativa razonable a la pena privativa de libertad y a la prisión preventiva, que contribuya al uso más racional de la primera y excepcional de la segunda.",
+      "facts_background": null,
+      "legal_issue": null,
+      "reasoning_summary": "El XI Pleno Jurisdiccional Penal planteó el tratamiento de la “vigilancia electrónica personal” como uno de los temas materia de evaluación, a fin de examinarla, desde la perspectiva jurídica y social, como una alternativa razonable a la pena privativa de libertad y a la prisión preventiva, que contribuya al uso más racional de la primera y excepcional de la segunda. La vigilancia electrónica personal —cuyo origen puede situarse en la década de los sesenta del siglo pasado en Estados Unidos...— tiene como antecedente nacional la Ley 29499, de 16 de enero de 2010... constituyen antecedentes del Decreto Legislativo vigente 1322, de 6 de enero de 2017. Según el artículo 1 del Decreto Legislativo 1322, la vigilancia electrónica personal se concibe: 1. Como una pena, aplicable por conversión... 2. Como una restricción para la medida de comparecencia... 3. Como un beneficio penitenciario...",
+      "decision_summary": null,
+      "participants": {
+        "victim_or_claimant": null,
+        "accused_or_investigated": null,
+        "third_parties": []
+      }
+    },
+    "legal_context": {
+      "anchor_norm": {
+        "code": "CP",
+        "article_id": null,
+        "heading": null,
+        "relation_type": "anchor",
+        "confidence": "high"
+      },
+      "explicit_concordances": [],
+      "inferred_related_norms": [],
+      "institutional_context": []
+    },
+    "dataset_signals": {
+      "domain_relevance": {
+        "violencia_familiar": "unknown",
+        "violencia_genero": "unknown",
+        "proteccion_victima": "unknown",
+        "procedural_guidance": "low"
+      },
+      "query_generation_ready": true,
+      "query_generation_source": "sumilla",
+      "positive_context_ready": true,
+      "positive_context_strategy": "case_plus_anchor_norm",
+      "hard_negative_group_keys": [
+        "CP",
+        "Corte Suprema"
+      ],
+      "needs_human_review": false,
+      "notes_for_generation": "Muestra inicial transformada desde extracción LLM de índice y detalle de resolución."
+    }
+  },
+  {
+    "unit_id": "case_ctx_000002",
+    "source_type": "jurisprudencia",
+    "source_trace": {
+      "index_page_id": null,
+      "index_page_url": null,
+      "entry_category": null,
+      "entry_title_raw": "Infundada solicitud de aclaración de resolución. Al declararse nulo el traslado de la acusación, el proceso queda en suspenso hasta que se obtenga el resultado de la pericia ordenada, lo que implica que no se puede entrar a la etapa de control de acusación: ello no significa que se retrotraiga el proceso penal a la fase de investigación preparatoria.",
+      "entry_url": "https://lpderecho.pe/declaracion-nulidad-traslado-acusacion-suspende-inicio-control-acusacion-retrotrae-proceso-etapa-investigacion-preparatoria-apelacion-102-2024-corte-sup/",
+      "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2025/09/Apelacion-102-2024-Corte-Suprema-LPDerecho.pdf",
+      "resolution_reference_raw": "APELACIÓN N.° 102-2024"
+    },
+    "case_record": {
+      "title": "Infundada solicitud de aclaración de resolución. Al declararse nulo el traslado de la acusación, el proceso queda en suspenso hasta que se obtenga el resultado de la pericia ordenada, lo que implica que no se puede entrar a la etapa de control de acusación: ello no significa que se retrotraiga el proceso penal a la fase de investigación preparatoria.",
+      "resolution_reference": "APELACIÓN N.° 102-2024",
+      "resolution_type": null,
+      "court": "CORTE SUPREMA DE JUSTICIA DE LA REPÚBLICA",
+      "chamber": "SALA PENAL PERMANENTE",
+      "date_text": "Lima, diecinueve de mayo de dos mil veinticinco",
+      "judge_rapporteur": "PEÑA FARFÁN",
+      "topic_label": "Infundada solicitud de aclaración de resolución. Al declararse nulo el traslado de la acusación, el proceso queda en suspenso hasta que se obtenga el resultado de la pericia ordenada, lo que implica que no se puede entrar a la etapa de control de acusación: ello no significa que se retrotraiga el proceso penal a la fase de investigación preparatoria.",
+      "sumilla": "Infundada solicitud de aclaración de resolución. Al declararse nulo el traslado de la acusación, el proceso queda en suspenso hasta que se obtenga el resultado de la pericia ordenada, lo que implica que no se puede entrar a la etapa de control de acusación: ello no significa que se retrotraiga el proceso penal a la fase de investigación preparatoria.",
+      "highlighted_holding": "4.10. Al declararse nulo el traslado de la acusación, el proceso queda en suspenso hasta que se obtenga el resultado de la pericia ordenada, lo que impide el inicio de la etapa de control de acusación, lo cual no implica retrotraer el proceso penal a la fase de investigación preparatoria.",
+      "facts_background": null,
+      "legal_issue": null,
+      "reasoning_summary": null,
+      "decision_summary": "Infundada solicitud de aclaración de la ejecutoria suprema del cuatro de marzo de dos mil veinticinco que declaró nula la Resolución n.º 1 del quince de febrero de dos mil veintitrés (traslado del requerimiento acusatorio). El proceso queda en suspenso hasta obtener resultado de pericia informática ordenada. Ministerio Público decide si prosigue acusación o desiste. No hay ambigüedad.",
+      "participants": {
+        "victim_or_claimant": null,
+        "accused_or_investigated": null,
+        "third_parties": []
+      }
+    },
+    "legal_context": {
+      "anchor_norm": {
+        "code": "UNKNOWN",
+        "article_id": null,
+        "heading": null,
+        "relation_type": "anchor",
+        "confidence": "high"
+      },
+      "explicit_concordances": [],
+      "inferred_related_norms": [],
+      "institutional_context": []
+    },
+    "dataset_signals": {
+      "domain_relevance": {
+        "violencia_familiar": "unknown",
+        "violencia_genero": "unknown",
+        "proteccion_victima": "unknown",
+        "procedural_guidance": "low"
+      },
+      "query_generation_ready": true,
+      "query_generation_source": "sumilla",
+      "positive_context_ready": true,
+      "positive_context_strategy": "case_plus_anchor_norm",
+      "hard_negative_group_keys": [
+        "UNKNOWN"
+      ],
+      "needs_human_review": false,
+      "notes_for_generation": "Muestra inicial transformada desde extracción LLM de índice y detalle de resolución."
+    }
+  },
+  {
+    "unit_id": "case_ctx_000003",
+    "source_type": "jurisprudencia",
+    "source_trace": {
+      "index_page_id": "jp_0086",
+      "index_page_url": null,
+      "entry_category": "Corte Suprema",
+      "entry_title_raw": "El tercero civilmente responsable en el marco de los convenios de cooperación interinstitucional suscritos entre la Policía Nacional del Perú y las empresas privadas. El convenio suscrito entre la Policía Nacional y la empresa minera Las Bambas S. A. tiene sustento legal, conforme al artículo 51 de la Ley de la Policía Nacional del Perú, así como el Decreto Legislativo número 1148 y el Decreto Supremo número 004-2009-IN, que facultan a la institución policial para suscribir convenios complementarios incluso con personas jurídicas privadas. La suscripción de tal convenio no determina per se la subordinación de los efectivos policiales, pues, a pesar del incentivo que representa la contraprestación aportada por la empresa, la actuación de la Policía se enmarca dentro de las funciones constitucionalmente establecidas, como son mantener el orden interno, garantizar el cumplimiento de las leyes y la seguridad tanto del patrimonio público como del privado.",
+      "entry_url": "https://lpderecho.pe/tercero-civil-marco-convenios-cooperacion-pnp-empresas-privadas-casacion-49-2020-apurimac/",
+      "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2022/04/Casacion-49-2020-Apurimac-LPDerecho.pdf",
+      "resolution_reference_raw": "49-2020-APURIMAC"
+    },
+    "case_record": {
+      "title": "El tercero civilmente responsable en el marco de los convenios de cooperación interinstitucional suscritos entre la Policía Nacional del Perú y las empresas privadas. El convenio suscrito entre la Policía Nacional y la empresa minera Las Bambas S. A. tiene sustento legal, conforme al artículo 51 de la Ley de la Policía Nacional del Perú, así como el Decreto Legislativo número 1148 y el Decreto Supremo número 004-2009-IN, que facultan a la institución policial para suscribir convenios complementarios incluso con personas jurídicas privadas. La suscripción de tal convenio no determina per se la subordinación de los efectivos policiales, pues, a pesar del incentivo que representa la contraprestación aportada por la empresa, la actuación de la Policía se enmarca dentro de las funciones constitucionalmente establecidas, como son mantener el orden interno, garantizar el cumplimiento de las leyes y la seguridad tanto del patrimonio público como del privado.",
+      "resolution_reference": "49-2020-APURIMAC",
+      "resolution_type": "Recurso de Casación",
+      "court": "Corte Suprema de Justicia de la República",
+      "chamber": "Sala Penal Permanente",
+      "date_text": "17 de marzo de 2022",
+      "judge_rapporteur": "CARBAJAL CHÁVEZ",
+      "topic_label": "El tercero civilmente responsable en el marco de los convenios de cooperación interinstitucional suscritos entre la Policía Nacional del Perú y las empresas privadas. El convenio suscrito entre la Policía Nacional y la empresa minera Las Bambas S. A. tiene sustento legal, conforme al artículo 51 de la Ley de la Policía Nacional del Perú, así como el Decreto Legislativo número 1148 y el Decreto Supremo número 004-2009-IN, que facultan a la institución policial para suscribir convenios complementarios incluso con personas jurídicas privadas. La suscripción de tal convenio no determina per se la subordinación de los efectivos policiales, pues, a pesar del incentivo que representa la contraprestación aportada por la empresa, la actuación de la Policía se enmarca dentro de las funciones constitucionalmente establecidas, como son mantener el orden interno, garantizar el cumplimiento de las leyes y la seguridad tanto del patrimonio público como del privado.",
+      "sumilla": "El tercero civilmente responsable en el marco de los convenios de cooperación interinstitucional suscritos entre la Policía Nacional del Perú y las empresas privadas. El convenio suscrito entre la Policía Nacional y la empresa minera Las Bambas S. A. tiene sustento legal, conforme al artículo 51 de la Ley de la Policía Nacional del Perú, así como el Decreto Legislativo número 1148 y el Decreto Supremo número 004-2009-IN, que facultan a la institución policial para suscribir convenios complementarios incluso con personas jurídicas privadas. La suscripción de tal convenio no determina per se la subordinación de los efectivos policiales, pues, a pesar del incentivo que representa la contraprestación aportada por la empresa, la actuación de la Policía se enmarca dentro de las funciones constitucionalmente establecidas, como son mantener el orden interno, garantizar el cumplimiento de las leyes y la seguridad tanto del patrimonio público como del privado.",
+      "highlighted_holding": "Es relevante, entonces, establecer si del convenio celebrado entre la empresa y la Policía Nacional puede derivarse una relación de dependencia o sujeción entre los autores de los homicidios culposos y la empresa.",
+      "facts_background": null,
+      "legal_issue": null,
+      "reasoning_summary": "Es relevante, entonces, establecer si del convenio celebrado entre la empresa y la Policía Nacional puede derivarse una relación de dependencia o sujeción entre los autores de los homicidios culposos y la empresa. Resulta innegable la existencia del Convenido Específico de Cooperación Interinstitucional entre la Minera Las Bambas S. A. y la Policía Nacional del Perú, suscrito el trece de agosto de dos mil quince (véase a foja 140). Asimismo, en este se detalla que la vigencia del convenio es de un año desde su suscripción, es decir, los hechos ocurrieron en el marco de vigencia del convenio. Asimismo, en resumen, este tenía por finalidad que los efectivos policiales prestaran servicios complementarios de seguridad a la empresa minera y recibirían a cambio una contraprestación pecuniaria. No obstante, dicho convenio tiene sustento legal en lo dispuesto en el artículo 51 de la Ley de la Policía Nacional del Perú, así como en el Decreto Legislativo número 1148 y el Decreto Supremo número 004-2009-IN, que facultan a la institución policial para suscribir convenios complementarios incluso con personas jurídicas privadas. Este tipo de convenios no originan per se la subordinación de los efectivos policiales a la empresa a la que prestan el servicio de seguridad, pues a pesar de la contraprestación percibida debe considerarse que la actuación de la Policía Nacional responde a las funciones que la Constitución específicamente le confiere en el artículo 166: mantener el orden interno, garantizar el cumplimiento de las leyes y la seguridad tanto del patrimonio público como del privado. Previene, investiga y combate la delincuencia. Vigila y controla las fronteras.",
+      "decision_summary": "Fundado el recurso de casación. No se presenta el supuesto normativo que permite incluir como tercero civilmente responsable a la empresa minera Las Bambas S. A.",
+      "participants": {
+        "victim_or_claimant": "Alberto Cárdenas Challco, Beto Chahuayllo Huilca, Exaltación Huamaní Mío",
+        "accused_or_investigated": null,
+        "third_parties": [
+          "Empresa Minera Las Bambas S.A."
+        ]
+      }
+    },
+    "legal_context": {
+      "anchor_norm": {
+        "code": "CPP",
+        "article_id": null,
+        "heading": null,
+        "relation_type": "anchor",
+        "confidence": "high"
+      },
+      "explicit_concordances": [],
+      "inferred_related_norms": [],
+      "institutional_context": []
+    },
+    "dataset_signals": {
+      "domain_relevance": {
+        "violencia_familiar": "unknown",
+        "violencia_genero": "unknown",
+        "proteccion_victima": "unknown",
+        "procedural_guidance": "medium"
+      },
+      "query_generation_ready": true,
+      "query_generation_source": "sumilla",
+      "positive_context_ready": true,
+      "positive_context_strategy": "case_plus_anchor_norm",
+      "hard_negative_group_keys": [
+        "CPP",
+        "Corte Suprema"
+      ],
+      "needs_human_review": false,
+      "notes_for_generation": "Muestra inicial transformada desde extracción LLM de índice y detalle de resolución."
+    }
+  }
+]

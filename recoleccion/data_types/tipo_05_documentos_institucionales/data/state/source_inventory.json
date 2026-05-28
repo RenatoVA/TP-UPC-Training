@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mpfn_denuncia_violencia",
+    "institution": "Ministerio Público",
+    "title": "Denunciar casos de violencia contra la mujer en el Ministerio Público",
+    "url": "https://www.gob.pe/32113-denunciar-casos-de-violencia-contra-la-mujer-en-el-ministerio-publico",
+    "document_type": "servicio_orientacion",
+    "subtype": "ruta_denuncia",
+    "access": "html",
+    "priority": "high"
+  },
+  {
+    "id": "mpfn_asistencia_violencia",
+    "institution": "Ministerio Público",
+    "title": "Solicitar asistencia al Ministerio Público en caso de violencia contra la mujer",
+    "url": "https://www.gob.pe/institucion/mpfn/pages/23937-solicitar-asistencia-al-ministerio-publico-en-caso-de-violencia-contra-la-mujer",
+    "document_type": "servicio_orientacion",
+    "subtype": "linea_orientacion",
+    "access": "html",
+    "priority": "high"
+  },
+  {
+    "id": "mimp_protocolo_base_2019",
+    "institution": "MIMP",
+    "title": "Decreto Supremo N.° 012-2019-MIMP - Protocolo Base de Actuación Conjunta",
+    "url": "https://www.gob.pe/institucion/mimp/normas-legales/275844-012-2019-mimp",
+    "document_type": "protocolo",
+    "subtype": "actuacion_conjunta",
+    "access": "html_with_pdf_links",
+    "priority": "high"
+  },
+  {
+    "id": "mimp_guias_publicas",
+    "institution": "MIMP",
+    "title": "Guías e informes públicos del MIMP",
+    "url": "https://www.gob.pe/institucion/mimp/informes-publicaciones/tipos/68-guia",
+    "document_type": "coleccion_guias",
+    "subtype": "cartillas_y_guias",
+    "access": "html",
+    "priority": "medium"
+  }
+]

@@ -1,0 +1,269 @@
+{
+  "source_trace": {
+    "source_url": "https://lpderecho.pe/hasta-momento-victima-constituirse-actor-civil-casacion-482-2022-puno/",
+    "title": "NUEVO: La notificación al agraviado y/o perjudicado de la disposición de conclusión de la investigación restringe su derecho a solicitar la constitución en actor civil [Casación 482-2022, Puno, ff. jj. 1.10, 1.11]",
+    "resolution_reference_raw": "482-2022, Puno",
+    "jurisprudence_type": "Casacion",
+    "pdf_filename": "jp_00008_e0002.pdf"
+  },
+  "resumeai_run": {
+    "status": "success",
+    "run_id": "370fc099c60c",
+    "source_url": "https://lpderecho.pe/hasta-momento-victima-constituirse-actor-civil-casacion-482-2022-puno/",
+    "title": "NUEVO: La notificación al agraviado y/o perjudicado de la disposición de conclusión de la investigación restringe su derecho a solicitar la constitución en actor civil [Casación 482-2022, Puno, ff. jj. 1.10, 1.11]",
+    "resolution_reference_raw": "482-2022, Puno",
+    "jurisprudence_type": "Casacion",
+    "pdf_filename": "jp_00008_e0002.pdf",
+    "pdf_sha256": "e151bf6cc866f53a74cbabb413f3c38643d9c2af26f4a76fd04219913cf81c51",
+    "api_base_url": "http://127.0.0.1:8000",
+    "warnings": [
+      "Mas del 50% del documento es escaneado (8 paginas). El rendimiento puede ser menor."
+    ],
+    "errors": []
+  },
+  "report": {
+    "document_metadata": {
+      "title": "",
+      "author": "",
+      "creation_date": "",
+      "total_pages": 8,
+      "producer": "iLovePDF",
+      "subject": ""
+    },
+    "executive_summary": "Ella había esperado dos horas aquella noche de enero de 2019. Cuando por fin llegó, el hombre que era su conviviente y padre de sus hijos no traía excusas, sino violencia. En la propia casa del padre de él, mientras su hijo pequeño miraba, la tomó por la casaca, le presionó el cuello y la arrastró al segundo piso. No estaba sola en el ataque: otra mujer, Betzalda, lanzó contra ella tres cuchillos y una lata, mientras él seguía apretándole las muñecas. Era una escena de abuso físico y psicológico en un entorno de asimetría total: la víctima enfrentaba a su agresor y a otra persona en la misma vivienda, aislada y sin apoyo inmediato. Logró zafarse, huir y poner la denuncia en la comisaría, pero el miedo y la vulnerabilidad ya estaban sembrados.\n\nAl denunciar, ella creyó que el sistema la ampararía. Sin embargo, cuando la investigación preparatoria llegó a su fin y le notificaron la disposición de conclusión, ella quiso ejercer su derecho a ser parte activa del proceso: el mismo día de la notificación, el 21 de mayo de 2021, solicitó constituirse como actora civil para buscar reparación. La respuesta fue un portazo judicial: su solicitud fue rechazada por extemporánea, bajo el argumento de que el plazo para pedirlo ya había vencido. Para ella, fue una barrera técnica que la dejaba fuera, como si su dolor no mereciera ser escuchado en el juicio. El agresor, mientras tanto, se beneficiaba de ese obstáculo procesal que reducía su exposición a las consecuencias legales.\n\nPero la justicia no se detuvo ahí. La Corte Suprema revisó su caso y corrigió el error. Aplicando la garantía constitucional de tutela jurisdiccional efectiva, estableció que el plazo para que una víctima se constituya en parte civil no corre desde un trámite interno, sino desde que ella recibe la notificación oficial. Con esa decisión, la Sala Penal Permanente admitió su solicitud y la reconoció como parte en el proceso. Así, el tribunal no solo validó su testimonio, sino que le devolvió la voz: ahora ella podría buscar reparación integral por el daño sufrido. Este caso demuestra que, incluso cuando el sistema judicial tropieza con tecnicismos, puede corregirse a tiempo para poner a la víctima en el centro de la protección que la ley le garantiza.",
+    "insights": [
+      {
+        "fact": "El delito imputado es agresiones en contra de las mujeres con agravantes, tipificado en el artículo 122-B del Código Penal, concordante con el segundo párrafo numeral 7 y el artículo 108-B numeral 1.",
+        "page_reference": 1,
+        "related_pages": [
+          1,
+          2,
+          8
+        ],
+        "context_snippet": "por el delito de agresiones en contra de las mujeres, con agravantes —ilícito penal previsto y sancionado por el primer párrafo del artículo 122-B del Código Penal, concordante con el segundo párrafo, numeral 7, del mismo artículo y el artículo 108-B, numeral 1, del Código Penal—",
+        "dedup_status": "unique"
+      },
+      {
+        "fact": "El expediente muestra que la agraviada solicitó su constitución en actor civil el mismo día de la notificación de la disposición de conclusión de la investigación preparatoria (21 de mayo de 2021), pero fue rechazada por extemporánea, creando un obstáculo procesal.",
+        "page_reference": 2,
+        "related_pages": [
+          2,
+          4
+        ],
+        "context_snippet": "La agraviada presentó una solicitud de constitución en actor civil el veintiuno de mayo de dos mil veintiuno. Mediante Resolución n.º 1, del veintisiete de mayo de dos mil veintiuno, se declaró improcedente por extemporánea.",
+        "dedup_status": "unique"
+      },
+      {
+        "fact": "El 9 de enero de 2019, la agraviada fue agredida físicamente por su conviviente en la vivienda del padre de éste. Tras esperarlo dos horas, le reclamó por el abandono de sus hijos. El denunciado la cogió por la casaca, la presionó del cuello y la subió al segundo piso. Otra mujer, Betzalda Ricardina Borda Cervantes, arrojó tres cuchillos y una lata contra la víctima, mientras el denunciado presionaba sus muñecas. La víctima se retiró y denunció en la comisaría.",
+        "page_reference": 3,
+        "related_pages": [
+          3
+        ],
+        "context_snippet": "El nueve de enero de dos mil diecinueve la agraviada fue objeto de agresiones físicas por parte de su conviviente... el denunciado la cogió de la casaca, la presionó en el cuello y la subió al segundo piso del inmueble.",
+        "dedup_status": "unique"
+      },
+      {
+        "fact": "La denunciante fue agredida por su conviviente en presencia de su hijo y otra mujer, mostrando su vulnerabilidad en un contexto de violencia intrafamiliar.",
+        "page_reference": 3,
+        "related_pages": [
+          3
+        ],
+        "context_snippet": "Borda Cervantes tomó por la casaca al menor hijo de la agraviada y lo trasladó a otro ambiente, por lo que la víctima le reclamó que lo soltara.",
+        "dedup_status": "unique"
+      },
+      {
+        "fact": "Se citó la Casación n.º 683-2019/Lambayeque para distinguir entre el plazo de investigación y la notificación, estableciendo que la conclusión del plazo es automática y no depende de la notificación.",
+        "page_reference": 4,
+        "related_pages": [
+          4
+        ],
+        "context_snippet": "este Tribunal ya ha establecido en la Casación n.º 683-2019/Lambayeque, del diecisiete de enero de dos mil veinte, que la conclusión del plazo de investigación preparatoria está en función del cumplimiento de los plazos legalmente estipulados; es inevitable y meramente declarativa",
+        "dedup_status": "unique"
+      },
+      {
+        "fact": "La Corte Suprema fundamentó su decisión en la garantía de tutela jurisdiccional (artículo 139.3 de la Constitución Política) y en los artículos 127.1 y 143.5 del CPP, estableciendo que la restricción para constituirse en parte civil rige a partir de la notificación de la disposición de conclusión de la investigación preparatoria.",
+        "page_reference": 5,
+        "related_pages": [
+          5,
+          6,
+          7
+        ],
+        "context_snippet": "la garantía de la tutela jurisdiccional —reconocido en el artículo 139.3 de la Constitución Política—... la notificación surte efecto al día siguiente hábil de efectuada, por lo que la notificación de la disposición de conclusión de la investigación preparatoria para efectos de la restricción del ejercicio del derecho de constitución en parte civil recién operó al día siguiente hábil de efectuada",
+        "dedup_status": "unique"
+      },
+      {
+        "fact": "La Sala Penal Permanente casó la resolución de vista y admitió a trámite la solicitud de constitución en parte civil de la recurrente, garantizando su derecho de participación en el proceso.",
+        "page_reference": 8,
+        "related_pages": [
+          8
+        ],
+        "context_snippet": "DECLARARON FUNDADO el recurso de casación... CASARON la resolución de vista... admitieron a trámite la solicitud de constitución en parte civil de la recurrente.",
+        "dedup_status": "unique"
+      }
+    ],
+    "tables": [],
+    "formulas": [],
+    "legal_analysis": {
+      "case_background": [
+        {
+          "fact": "El expediente muestra que la agraviada solicitó su constitución en actor civil el mismo día de la notificación de la disposición de conclusión de la investigación preparatoria (21 de mayo de 2021), pero fue rechazada por extemporánea, creando un obstáculo procesal.",
+          "page_reference": 2,
+          "related_pages": [
+            2,
+            4
+          ],
+          "context_snippet": "La agraviada presentó una solicitud de constitución en actor civil el veintiuno de mayo de dos mil veintiuno. Mediante Resolución n.º 1, del veintisiete de mayo de dos mil veintiuno, se declaró improcedente por extemporánea.",
+          "dedup_status": "unique"
+        },
+        {
+          "fact": "El 9 de enero de 2019, la agraviada fue agredida físicamente por su conviviente en la vivienda del padre de éste. Tras esperarlo dos horas, le reclamó por el abandono de sus hijos. El denunciado la cogió por la casaca, la presionó del cuello y la subió al segundo piso. Otra mujer, Betzalda Ricardina Borda Cervantes, arrojó tres cuchillos y una lata contra la víctima, mientras el denunciado presionaba sus muñecas. La víctima se retiró y denunció en la comisaría.",
+          "page_reference": 3,
+          "related_pages": [
+            3
+          ],
+          "context_snippet": "El nueve de enero de dos mil diecinueve la agraviada fue objeto de agresiones físicas por parte de su conviviente... el denunciado la cogió de la casaca, la presionó en el cuello y la subió al segundo piso del inmueble.",
+          "dedup_status": "unique"
+        },
+        {
+          "fact": "La denunciante fue agredida por su conviviente en presencia de su hijo y otra mujer, mostrando su vulnerabilidad en un contexto de violencia intrafamiliar.",
+          "page_reference": 3,
+          "related_pages": [
+            3
+          ],
+          "context_snippet": "Borda Cervantes tomó por la casaca al menor hijo de la agraviada y lo trasladó a otro ambiente, por lo que la víctima le reclamó que lo soltara.",
+          "dedup_status": "unique"
+        },
+        {
+          "fact": "La Sala Penal Permanente casó la resolución de vista y admitió a trámite la solicitud de constitución en parte civil de la recurrente, garantizando su derecho de participación en el proceso.",
+          "page_reference": 8,
+          "related_pages": [
+            8
+          ],
+          "context_snippet": "DECLARARON FUNDADO el recurso de casación... CASARON la resolución de vista... admitieron a trámite la solicitud de constitución en parte civil de la recurrente.",
+          "dedup_status": "unique"
+        }
+      ],
+      "parties_and_relationship_context": [
+        {
+          "fact": "El 9 de enero de 2019, la agraviada fue agredida físicamente por su conviviente en la vivienda del padre de éste. Tras esperarlo dos horas, le reclamó por el abandono de sus hijos. El denunciado la cogió por la casaca, la presionó del cuello y la subió al segundo piso. Otra mujer, Betzalda Ricardina Borda Cervantes, arrojó tres cuchillos y una lata contra la víctima, mientras el denunciado presionaba sus muñecas. La víctima se retiró y denunció en la comisaría.",
+          "page_reference": 3,
+          "related_pages": [
+            3
+          ],
+          "context_snippet": "El nueve de enero de dos mil diecinueve la agraviada fue objeto de agresiones físicas por parte de su conviviente... el denunciado la cogió de la casaca, la presionó en el cuello y la subió al segundo piso del inmueble.",
+          "dedup_status": "unique"
+        },
+        {
+          "fact": "La denunciante fue agredida por su conviviente en presencia de su hijo y otra mujer, mostrando su vulnerabilidad en un contexto de violencia intrafamiliar.",
+          "page_reference": 3,
+          "related_pages": [
+            3
+          ],
+          "context_snippet": "Borda Cervantes tomó por la casaca al menor hijo de la agraviada y lo trasladó a otro ambiente, por lo que la víctima le reclamó que lo soltara.",
+          "dedup_status": "unique"
+        }
+      ],
+      "reported_acts": [
+        {
+          "fact": "La denunciante fue agredida por su conviviente en presencia de su hijo y otra mujer, mostrando su vulnerabilidad en un contexto de violencia intrafamiliar.",
+          "page_reference": 3,
+          "related_pages": [
+            3
+          ],
+          "context_snippet": "Borda Cervantes tomó por la casaca al menor hijo de la agraviada y lo trasladó a otro ambiente, por lo que la víctima le reclamó que lo soltara.",
+          "dedup_status": "unique"
+        }
+      ],
+      "evidence_summary": [],
+      "legal_reasoning": [],
+      "protective_measures_and_orders": [],
+      "prosecutorial_or_procedural_outcomes": [
+        {
+          "fact": "El expediente muestra que la agraviada solicitó su constitución en actor civil el mismo día de la notificación de la disposición de conclusión de la investigación preparatoria (21 de mayo de 2021), pero fue rechazada por extemporánea, creando un obstáculo procesal.",
+          "page_reference": 2,
+          "related_pages": [
+            2,
+            4
+          ],
+          "context_snippet": "La agraviada presentó una solicitud de constitución en actor civil el veintiuno de mayo de dos mil veintiuno. Mediante Resolución n.º 1, del veintisiete de mayo de dos mil veintiuno, se declaró improcedente por extemporánea.",
+          "dedup_status": "unique"
+        },
+        {
+          "fact": "Se citó la Casación n.º 683-2019/Lambayeque para distinguir entre el plazo de investigación y la notificación, estableciendo que la conclusión del plazo es automática y no depende de la notificación.",
+          "page_reference": 4,
+          "related_pages": [
+            4
+          ],
+          "context_snippet": "este Tribunal ya ha establecido en la Casación n.º 683-2019/Lambayeque, del diecisiete de enero de dos mil veinte, que la conclusión del plazo de investigación preparatoria está en función del cumplimiento de los plazos legalmente estipulados; es inevitable y meramente declarativa",
+          "dedup_status": "unique"
+        },
+        {
+          "fact": "La Corte Suprema fundamentó su decisión en la garantía de tutela jurisdiccional (artículo 139.3 de la Constitución Política) y en los artículos 127.1 y 143.5 del CPP, estableciendo que la restricción para constituirse en parte civil rige a partir de la notificación de la disposición de conclusión de la investigación preparatoria.",
+          "page_reference": 5,
+          "related_pages": [
+            5,
+            6,
+            7
+          ],
+          "context_snippet": "la garantía de la tutela jurisdiccional —reconocido en el artículo 139.3 de la Constitución Política—... la notificación surte efecto al día siguiente hábil de efectuada, por lo que la notificación de la disposición de conclusión de la investigación preparatoria para efectos de la restricción del ejercicio del derecho de constitución en parte civil recién operó al día siguiente hábil de efectuada",
+          "dedup_status": "unique"
+        }
+      ],
+      "norms_cited": [
+        {
+          "fact": "El delito imputado es agresiones en contra de las mujeres con agravantes, tipificado en el artículo 122-B del Código Penal, concordante con el segundo párrafo numeral 7 y el artículo 108-B numeral 1.",
+          "page_reference": 1,
+          "related_pages": [
+            1,
+            2,
+            8
+          ],
+          "context_snippet": "por el delito de agresiones en contra de las mujeres, con agravantes —ilícito penal previsto y sancionado por el primer párrafo del artículo 122-B del Código Penal, concordante con el segundo párrafo, numeral 7, del mismo artículo y el artículo 108-B, numeral 1, del Código Penal—",
+          "dedup_status": "unique"
+        },
+        {
+          "fact": "La Corte Suprema fundamentó su decisión en la garantía de tutela jurisdiccional (artículo 139.3 de la Constitución Política) y en los artículos 127.1 y 143.5 del CPP, estableciendo que la restricción para constituirse en parte civil rige a partir de la notificación de la disposición de conclusión de la investigación preparatoria.",
+          "page_reference": 5,
+          "related_pages": [
+            5,
+            6,
+            7
+          ],
+          "context_snippet": "la garantía de la tutela jurisdiccional —reconocido en el artículo 139.3 de la Constitución Política—... la notificación surte efecto al día siguiente hábil de efectuada, por lo que la notificación de la disposición de conclusión de la investigación preparatoria para efectos de la restricción del ejercicio del derecho de constitución en parte civil recién operó al día siguiente hábil de efectuada",
+          "dedup_status": "unique"
+        }
+      ]
+    },
+    "processing_metrics": {
+      "total_pages": 8,
+      "chunks_vlm_optimized": 1,
+      "chunks_ocr_augmented": 0,
+      "avg_token_reduction": 0.0,
+      "total_vlm_tokens": 0,
+      "total_cost_usd": 0.0,
+      "processing_time_sec": 16.01489543914795
+    },
+    "total_pages_processed": 8,
+    "total_chunks_processed": 1
+  },
+  "metrics": {
+    "total_pages": 8,
+    "chunks_vlm_optimized": 1,
+    "chunks_ocr_augmented": 0,
+    "avg_token_reduction": 0.0,
+    "total_vlm_tokens": 0,
+    "total_cost_usd": 0.0,
+    "processing_time_sec": 16.01489543914795
+  },
+  "factual_density_signals": {
+    "has_case_background": true,
+    "has_reported_acts": true,
+    "has_evidence_summary": false,
+    "has_legal_reasoning": false,
+    "has_procedural_outcomes": true,
+    "norms_count": 2,
+    "factual_richness_score": 5,
+    "is_fact_rich_minimum": true,
+    "is_dataset_candidate": true
+  }
+}

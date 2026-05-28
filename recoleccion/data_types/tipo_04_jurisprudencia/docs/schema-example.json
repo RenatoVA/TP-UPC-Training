@@ -1,0 +1,55 @@
+{
+  "index_entry_example": {
+    "entry_id": "jp_0086_e0001",
+    "page_id": "jp_0086",
+    "page_source_url": "https://lpderecho.pe/articulo-111-codigo-procesal-penal-citacion-personas-responsabilidad-civil-tercero-civil/",
+    "entry_category": "Corte Suprema",
+    "entry_type": "jurisprudencia",
+    "entry_prefix_flags": ["NUEVO"],
+    "entry_text": "Ante dos solicitudes presentadas en la misma fecha, primero debe resolverse la de constitución como actor civil...",
+    "entry_title_candidate": "Constitución de tercero civil y legitimación procesal",
+    "resolution_reference_raw": "Casación 40-2023, Loreto",
+    "resolution_type": "Casación",
+    "resolution_number": "40-2023",
+    "resolution_year": 2023,
+    "resolution_jurisdiction": "Loreto",
+    "lp_entry_url": "https://lpderecho.pe/ante-dos-solicitudes-presentadas-en-la-misma-fecha-primero-debe-resolverse-la-de-constitucion-como-actor-civil-y-luego-en-la-misma-o-en-otra-resolucion-consecutiva-la-incorporacion-como-tercero-ci/",
+    "short_link_url": "https://lpderecho.pe/ante-dos-solicitudes-presentadas-en-la-misma-fecha-primero-debe-resolverse-la-de-constitucion-como-actor-civil-y-luego-en-la-misma-o-en-otra-resolucion-consecutiva-la-incorporacion-como-tercero-ci/",
+    "page_anchor_code": "NCPP",
+    "page_anchor_article_id": "111",
+    "page_anchor_article_heading": "Artículo 111.- Citación a personas que tengan responsabilidad civil",
+    "page_concordances": [
+      {"code": "NCPP", "articles": ["100", "101", "102", "149", "150", "151", "152", "153", "154"]},
+      {"code": "CC", "articles": ["163", "166", "172", "195"]}
+    ],
+    "related_norms": [
+      {"code": "NCPP", "article_id": "111", "relation_type": "page_anchor", "confidence": "high"},
+      {"code": "NCPP", "article_id": "100", "relation_type": "page_concordance", "confidence": "high"}
+    ],
+    "domain_relevance_candidate": null
+  },
+  "case_detail_example": {
+    "entry_id": "jp_0086_e0001",
+    "lp_case_url": "https://lpderecho.pe/ante-dos-solicitudes-presentadas-en-la-misma-fecha-primero-debe-resolverse-la-de-constitucion-como-actor-civil-y-luego-en-la-misma-o-en-otra-resolucion-consecutiva-la-incorporacion-como-tercero-ci/",
+    "page_title": "Ante dos solicitudes presentadas en la misma fecha... [Casación 40-2023, Loreto]",
+    "h1_title": "Ante dos solicitudes presentadas en la misma fecha, primero debe resolverse...",
+    "highlighted_holding": "No es posible desconocer que desde una perspectiva lógica ante dos solicitudes de la misma fecha primero debió resolverse la solicitud de constitución en actora civil...",
+    "sumilla": "Constitución de tercero civil. Legitimación. Oportunidad.",
+    "court_name": "Corte Suprema de Justicia de la República",
+    "chamber_name": "Sala Penal Permanente",
+    "resolution_reference": "Casación 40-2023/LORETO",
+    "resolution_type": "Casación",
+    "resolution_number": "40-2023",
+    "resolution_year": 2023,
+    "resolution_jurisdiction": "Loreto",
+    "date_text": "Lima, cinco de mayo de dos mil veinticinco",
+    "reporting_judge": "César San Martín Castro",
+    "facts_text": "Los hechos objeto del proceso penal y del trámite incidental...",
+    "background_text": "La empresa agraviada presentó dos solicitudes al juzgado...",
+    "legal_reasoning_text": "No es posible desconocer que desde una perspectiva lógica...",
+    "decision_text": null,
+    "pdf_url": null,
+    "noise_flags": ["promo_links_present"],
+    "detail_parse_status": "partial"
+  }
+}

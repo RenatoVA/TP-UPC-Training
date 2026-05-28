@@ -1,0 +1,3614 @@
+[
+  {
+    "id": "jp_0001",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-20-del-codigo-penal-inimputabilidad/",
+    "title": "Jurisprudencia del artículo 20 del Código Penal.- Inimputabilidad | LP",
+    "sha256": "ffffaacf7099c0d007c464f54cbe532697463931b378461157e158bc69fa7ac5",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0001.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "20",
+        "heading": "Artículo 20.- Inimputabilidad*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0002",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-22-codigo-penal-responsabilidad-restringida-edad/",
+    "title": "Jurisprudencia del artículo 22 del Código Penal.- Responsabilidad restringida por la edad | LP",
+    "sha256": "4cc3376b970c1847cf2b30047bca7189259b6b5f906d5f87f8c563702b52c0e3",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0002.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "22",
+        "heading": "Artículo 22.- Responsabilidad restringida por la edad*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0003",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-29-a-del-codigo-penal-cumplimiento-de-la-pena-de-vigilancia-electronica-personal/",
+    "title": "Jurisprudencia del artículo 29-A del Código Penal.- Cumplimiento de la pena de vigilancia electrónica personal | LP",
+    "sha256": "dd5ac4c1de0227b88bf332d036fe20d18e52105f990c9227bfa8a7ca3cbf169d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0003.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "29-A",
+        "heading": "Artículo 29-A.- Cumplimiento de la pena de vigilancia electrónica personal*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0004",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-36-del-codigo-penal-inhabilitacion/",
+    "title": "Jurisprudencia del artículo 36 del Código Penal.- Inhabilitación | LP",
+    "sha256": "b9636d83d5af14b8dacd532c00c0e52fa3fdeddd811efc5d5fcc3c044def46a3",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0004.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "36",
+        "heading": "Artículo 36. Inhabilitación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0005",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-46-e-del-codigo-penal-circunstancia-agravante-cualificada-por-abuso-de-parentesco/",
+    "title": "Jurisprudencia del artículo 46-E del Código Penal.- Circunstancia agravante cualificada por abuso de parentesco | LP",
+    "sha256": "590b3932b3bf9c709ccbf24065061b5d6822a8cadd10a59db6723447b1eafc97",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0005.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "46-E",
+        "heading": "Artículo 46-E.- Circunstancia agravante cualificada por abuso de parentesco*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0006",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-57-codigo-penal-requisitos/",
+    "title": "Jurisprudencia del artículo 57 del Código Penal.- Requisitos (suspensión de la ejecución de la pena) | LP",
+    "sha256": "5827aeb9985c460d2242f38ea1efb7739ed85b063d6b0806e7c444e59e118607",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0006.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "57",
+        "heading": "Artículo 57.- Requisitos para la suspensión de la ejecución de la pena*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0007",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-108-b-del-codigo-penal-feminicidio/",
+    "title": "Jurisprudencia del artículo 108-B del Código Penal.- Feminicidio | LP",
+    "sha256": "e5b1355a4d720e74d96ceb7bd33a16762ae35cb2fe75f082de0d52b2384dbe77",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0007.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "108-B",
+        "heading": "Artículo 108-B.- Feminicidio*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0008",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-121-del-codigo-penal-lesiones-graves/",
+    "title": "Jurisprudencia del artículo 121 del Código Penal.- Lesiones graves | LP",
+    "sha256": "11a7591611eda2edf980d0413cea10e21c9cad0eeac42b9cd6882b3ebfc54413",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0008.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "121",
+        "heading": "Artículo 121.- Lesiones graves*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0009",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-121-b-codigo-penal-lesiones-graves-violencia-mujeres-integrantes-grupo-familiar/",
+    "title": "Jurisprudencia del artículo 121-B del Código Penal.- Lesiones graves por violencia contra las mujeres e integrantes del grupo familiar | LP",
+    "sha256": "f62ce3a8e9e55da8f91527733f5fd61fd3d126e5d91e6191c7589ef5a0fc54ac",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0009.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "121-B",
+        "heading": "Artículo 121-B.- Lesiones graves por violencia contra las mujeres e integrantes del grupo familiar*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0010",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-122-codigo-penal-lesiones-leves/",
+    "title": "Jurisprudencia del artículo 122 del Código Penal.- Lesiones leves | LP",
+    "sha256": "5ac82d89955cf2073cd6497467d3499f1a6a4c8dcbea46b774f46a99adc7904f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0010.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "122",
+        "heading": "Artículo 122. Lesiones leves*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0011",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-122-b-codigo-penal-agresiones-mujeres-integrantes-grupo-familiar/",
+    "title": "Jurisprudencia del artículo 122-B del Código Penal.- Agresiones en contra de las mujeres o integrantes del grupo familiar | LP",
+    "sha256": "c9a3c4b92175b56e28423dba1c861040f247ef4971b5178fb15d620663053512",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0011.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "122-B",
+        "heading": "Artículo 122-B.- Agresiones en contra de las mujeres o integrantes del grupo familiar*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0012",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-124-del-codigo-penal-lesiones-culposas/",
+    "title": "Jurisprudencia del artículo 124 del Código Penal.- Lesiones Culposas | LP",
+    "sha256": "d0a51a2a7269db9c53d9a3a5392868bb67a3929f8f9416a43423e3a7e6bfe7fa",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0012.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "124",
+        "heading": "Artículo 124.- Lesiones Culposas*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0013",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-129-a-del-codigo-penal-trata-de-personas/",
+    "title": "Jurisprudencia del artículo 129-A del Código Penal.- Trata de personas | LP",
+    "sha256": "1dc6824213b6d34becb39c0e0ba7ba49020969a42d733f46377c88b1b387dfbf",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0013.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "129-A",
+        "heading": "Artículo 129-A.- Trata de personas*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0014",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-129-b-del-codigo-penal-formas-agravadas-trata-personas/",
+    "title": "Jurisprudencia del artículo 129-B del Código Penal.- Formas agravadas de la Trata de Personas | LP",
+    "sha256": "7a1e261a975790bf3397b7613b817f3dc9fd75be974d8ed6da48a9b77d822999",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0014.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "129-B",
+        "heading": "Artículo 129-B.- Formas agravadas de la Trata de Personas*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0015",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-129-c-del-codigo-penal-explotacion-sexual/",
+    "title": "Jurisprudencia del artículo 129-C del Código Penal.- Explotación sexual | LP",
+    "sha256": "769940023f057d0add02c271b30fb172393c018b3b6c73b1279abe0c3adee902",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0015.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "129-C",
+        "heading": "Artículo 129-C.- Explotación sexual*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0016",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-129-h-del-codigo-penal-explotacion-sexual-de-ninas-ninos-y-adolescentes/",
+    "title": "Jurisprudencia del artículo 129-H del Código Penal.- Explotación sexual de niñas, niños y adolescentes | LP",
+    "sha256": "4702988124d49bb719ee2c587f6b8b2c4bc43d31ab5c33a1787beacf04bcba28",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0016.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "129-H",
+        "heading": "Artículo 129-H.- Explotación sexual de niñas, niños y adolescentes*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0017",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-129-n-del-codigo-penal-esclavitud-otras-formas-explotacion/",
+    "title": "Jurisprudencia del artículo 129-Ñ del Código Penal.- Esclavitud y otras formas de explotación | LP",
+    "sha256": "7c9f5371068b0975deef0a7aab5baa19fe0d14ce6fc6dc7c80a28d4043d3223b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0017.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "129-",
+        "heading": "Artículo 129-Ñ.- Esclavitud y otras formas de explotación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0018",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-154-del-codigo-penal-violacion-de-la-intimidad/",
+    "title": "Jurisprudencia del artículo 154 del Código Penal.- Violación de la intimidad | LP",
+    "sha256": "bd6c80605e64f392c9908f9efb885e2469c727550a777096f2ab2f90de0d9f7e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0018.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "154",
+        "heading": "Artículo 154.- Violación de la intimidad"
+      }
+    ]
+  },
+  {
+    "id": "jp_0019",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-156-del-codigo-penal-revelacion-de-la-intimidad-personal-y-familiar/",
+    "title": "Jurisprudencia del artículo 156 del Código Penal.- Revelación de la intimidad personal y familiar | LP",
+    "sha256": "ce59cd1d037b0ebc8935b7382f9494ce2c38019736771f4726167ff4515b18fa",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0019.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "156",
+        "heading": "Artículo 156.- Revelación de la intimidad personal y familiar"
+      }
+    ]
+  },
+  {
+    "id": "jp_0020",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-170-del-codigo-penal-violacion-sexual/",
+    "title": "Jurisprudencia del artículo 170 del Código Penal.- Violación sexual | LP",
+    "sha256": "2f79ff8428e826ae4fcc8524607f1ff9613f33d8fbf103d754bf8587aad61045",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0020.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "170",
+        "heading": "Artículo 170.- Violación sexual*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0021",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-173-del-codigo-penal-violacion-sexual-de-menor-de-edad/",
+    "title": "Jurisprudencia del artículo 173 del Código Penal.- Violación sexual de menor de edad | LP",
+    "sha256": "fd23dc696cef6701c8fc8fe44171600eba8354e39b2fb80f6d626d16b43d32c7",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0021.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "173",
+        "heading": "Artículo 173.- Violación sexual de menor de edad*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0022",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-176-del-codigo-penal-tocamientos-actos-de-connotacion-sexual-o-actos-libidinosos-sin-consentimiento/",
+    "title": "Jurisprudencia del artículo 176 del Código Penal.- Tocamientos, actos de connotación sexual o actos libidinosos sin consentimiento | LP",
+    "sha256": "a592b15901853894e5ed750abdba32cf4d879184a08c21031151f9a6ac77c3a3",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0022.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "176",
+        "heading": "Artículo 176.- Tocamientos, actos de connotación sexual o actos libidinosos sin consentimiento*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0023",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-176-a-del-codigo-penal-tocamientos-actos-de-connotacion-sexual-o-actos-libidinosos-en-agravio-de-menores/",
+    "title": "Jurisprudencia del artículo 176-A del Código Penal.- Tocamientos, actos de connotación sexual o actos libidinosos en agravio de menores | LP",
+    "sha256": "fc28417003164c37e91ff2143e183ab65ce58f72725f3eac57638fdb82f167ad",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0023.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "176-A",
+        "heading": "Artículo 176-A.- Tocamientos, actos de connotación sexual o actos libidinosos en agravio de menores*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0024",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-176-b-codigo-penal-acoso-sexual/",
+    "title": "Jurisprudencia del artículo 176-B del Código Penal.- Acoso sexual | LP",
+    "sha256": "e6eac1a3428f8ba13d5acc24a41416618ec6c8dc06cfbe400b904be04126102f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0024.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "176-B",
+        "heading": "Artículo 176-B.- Acoso sexual*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0025",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-179-del-codigo-penal-favorecimiento-prostitucion/",
+    "title": "Jurisprudencia del artículo 179 del Código Penal.- Favorecimiento a la prostitución | LP",
+    "sha256": "a0f0b0291e0075879e9aedd25b52e5701b4b453c3cd8ee9decc0df6ad824d478",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0025.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "179",
+        "heading": "Artículo 179.- Favorecimiento a la prostitución*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0026",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-180-del-codigo-penal-rufianismo/",
+    "title": "Jurisprudencia del artículo 180 del Código Penal.- Rufianismo | LP",
+    "sha256": "743ad6b603ab02052b0f004f14126ca76bde82d28bef014de74e815949c78ac2",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0026.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "180",
+        "heading": "Artículo 180.- Rufianismo*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0027",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-181-del-codigo-penal-proxenetismo/",
+    "title": "Jurisprudencia del artículo 181 del Código Penal.- Proxenetismo | LP",
+    "sha256": "cafe65c8bb1761ba2982fec5a6ed621799e7183933181a4f4efb7a8e3eb4ee12",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0027.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "181",
+        "heading": "Artículo 181.- Proxenetismo*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0028",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-183-b-codigo-penal-proposiciones-ninos-ninas-adolescentes-fines-sexuales/",
+    "title": "Jurisprudencia del artículo 183-B del Código Penal.- Proposiciones a niños, niñas y adolescentes con fines sexuales | LP",
+    "sha256": "992ed4f405e087846ac0586c4508b82a0fda7520b43aa414cd9902b9e6de98b1",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0028.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "183-B",
+        "heading": "Artículo 183-B.- Proposiciones a niños, niñas y adolescentes con fines sexuales*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0029",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-189-del-codigo-penal-robo-agravado/",
+    "title": "Jurisprudencia del artículo 189 del Código Penal.- Robo agravado | LP",
+    "sha256": "3a578268b981b97dc9a0ce01df137f460881f6c59ce69732c010e97ec99c955b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0029.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "189",
+        "heading": "Artículo 189.- Robo agravado*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0030",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-200-del-codigo-penal-extorsion/",
+    "title": "Jurisprudencia del artículo 200 del Código Penal.- Extorsión | LP",
+    "sha256": "4499af27f111f23778bd9feda399a720e98cea73da6b2073503367715c4a435c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0030.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "200",
+        "heading": "Artículo 200.- Extorsión*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0031",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-208-del-codigo-penal-excusa-absolutoria-exencion-de-pena/",
+    "title": "Jurisprudencia del artículo 208 del Código Penal.- Excusa absolutoria. Exención de Pena | LP",
+    "sha256": "5665b6c0ea5cbbc349e4b3736250e26797c9e0581f5174dd9fbfda8551357292",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0031.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "208",
+        "heading": "Artículo 208.- Excusa absolutoria. Exención de Pena*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0032",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-368-del-codigo-penal-resistencia-o-desobediencia-a-la-autoridad/",
+    "title": "Jurisprudencia del artículo 368 del Código Penal.- Resistencia o desobediencia a la autoridad | LP",
+    "sha256": "49315fbebabfa48c8331f595173a4da427c4f0b7fda1f724871603843c60de1c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0032.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "368",
+        "heading": "Artículo 368.- Resistencia o desobediencia a la autoridad*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0033",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-377-del-codigo-penal-omision-rehusamiento-o-demora-de-actos-funcionales/",
+    "title": "Jurisprudencia del artículo 377 del Código Penal.- Omisión, rehusamiento o demora de actos funcionales | LP",
+    "sha256": "10475281d71b62dd9db482df0b52109c1da8b1031519e6cd85da6fc23bfcf812",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0033.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "377",
+        "heading": "Artículo 377.- Omisión, rehusamiento o demora de actos funcionales*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0034",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-378-del-codigo-penal-denegacion-o-deficiente-apoyo-policial/",
+    "title": "Jurisprudencia del artículo 378 del Código Penal.- Denegación o deficiente apoyo policial | LP",
+    "sha256": "e3d3a02f2c173f7f836a1241828427060b0cbc74846de7fd1b19215603e392b2",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0034.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "378",
+        "heading": "Artículo 378.- Denegación o deficiente apoyo policial*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0035",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-442-del-codigo-penal-maltrato-faltas-contra-la-persona/",
+    "title": "Jurisprudencia del artículo 442 del Código Penal.- Maltrato (faltas contra la persona) | LP",
+    "sha256": "144ced8d38d957f5fad353cb07f9bed8236efb4a0326f520ed9c24cf6310bdd6",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0035.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "442",
+        "heading": "Artículo 442.- Maltrato*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0036",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-iv-del-codigo-procesal-penal-titular-de-la-accion-penal/",
+    "title": "Jurisprudencia del artículo IV del Código Procesal Penal.- Titular de la acción penal (Título preliminar) | LP",
+    "sha256": "9ee5857eb0121bc0d19d8ac61b98c0b1379e8ce6e2d3dbce6c5d24ff57a4a6b4",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0036.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "IV",
+        "heading": "Artículo IV. Titular de la acción penal*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0037",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-ix-del-codigo-procesal-penal-derecho-de-defensa/",
+    "title": "Jurisprudencia del artículo IX del Código Procesal Penal.- Derecho de Defensa (título preliminar) | LP",
+    "sha256": "f473fe5e9cff8dd80551eed7fcdfcbd669b6193ff02198144a6ffd163689ce9d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0037.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "IX",
+        "heading": "Artículo IX. Derecho de Defensa*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0038",
+    "jurisprudence_url": "https://lpderecho.pe/jurisprudencia-del-articulo-1-del-codigo-procesal-penal-accion-penal/",
+    "title": "Jurisprudencia del artículo 1 del Código Procesal Penal.- Acción penal | LP",
+    "sha256": "0b7bbe6b1224acbb9611b0f11690cae0321fd5868ad9da06309ae95a2f6c59eb",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0038.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "1",
+        "heading": "Artículo 1. Acción penal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0039",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-2-del-codigo-procesal-penal-principio-de-oportunidad/",
+    "title": "Jurisprudencia del artículo 2 del Código Procesal Penal.- Principio de oportunidad | LP",
+    "sha256": "465ae2d5701a90a274d18c0c8c2476587f020db74c9398be365c64403a8d700f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0039.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "2",
+        "heading": "Artículo 2. Principio de oportunidad*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0040",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-3-del-codigo-procesal-penal-comunicacion-al-juez-de-la-continuacion-de-la-investigacion/",
+    "title": "Jurisprudencia del artículo 3 del Código Procesal Penal.- Comunicación al Juez de la continuación de la investigación | LP",
+    "sha256": "23f84d5d2980f4ade587ae13eb4caf92359142e1481057645dddd44dab998b36",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0040.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "3",
+        "heading": "Artículo 3. Comunicación al Juez de la continuación de la investigación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0041",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-4-del-codigo-procesal-penal-cuestion-previa/",
+    "title": "Jurisprudencia del artículo 4 del Código Procesal Penal.- Cuestión previa | LP",
+    "sha256": "188f2d821fa62f066cb444b8b90ce0506321575ab244e4eab423c06251113bfd",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0041.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "4",
+        "heading": "Artículo 4. Cuestión previa"
+      }
+    ]
+  },
+  {
+    "id": "jp_0042",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-5-del-codigo-procesal-penal-cuestion-prejudicial/",
+    "title": "Jurisprudencia del artículo 5 del Código Procesal Penal.- Cuestión prejudicial | LP",
+    "sha256": "505389ea0c1ddf0c50c62e45728cb05525ff1f86129d7039e8cac6a513bc2138",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0042.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "5",
+        "heading": "Artículo 5. Cuestión prejudicial"
+      }
+    ]
+  },
+  {
+    "id": "jp_0043",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-7-del-codigo-procesal-penal-oportunidad-de-los-medios-de-defensa/",
+    "title": "Jurisprudencia del artículo 7 del Código Procesal Penal.- Oportunidad de los medios de defensa | LP",
+    "sha256": "553dd06b3f5aa4fd6d6229084ecff9683dc9ab8ba6d9947833419080c2c273ba",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0043.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "7",
+        "heading": "Artículo 7. Oportunidad de los medios de defensa"
+      }
+    ]
+  },
+  {
+    "id": "jp_0044",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-8-del-codigo-procesal-penal-tramite-de-los-medios-de-defensa/",
+    "title": "Jurisprudencia del artículo 8 del Código Procesal Penal.- Trámite de los medios de defensa | LP",
+    "sha256": "0e754e58b54c701cde76b67c954e97b7bad83c2932910e358dc57296a5a80bae",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0044.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "8",
+        "heading": "Artículo 8. Trámite de los medios de defensa"
+      }
+    ]
+  },
+  {
+    "id": "jp_0045",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-9-del-codigo-procesal-penal-recurso-de-apelacion/",
+    "title": "Jurisprudencia del artículo 9 del Código Procesal Penal.- Recurso de Apelación (la acción penal) | LP",
+    "sha256": "77aa53d97d6e57e6fd553e2a931b91ec2a0a42e3bb054fdae780868c6f6f66c1",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0045.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "9",
+        "heading": "Artículo 9. Recurso de Apelación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0046",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-10-del-codigo-procesal-penal/",
+    "title": "Jurisprudencia del artículo 10 del Código Procesal Penal.- Indicios de delitos en proceso extrapenal | LP",
+    "sha256": "d27fff0b3c85f6c79926525598497faa01a53cdad2367d7721f949c141acfd0e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0046.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "10",
+        "heading": "Artículo 10. Indicios de delitos en proceso extra – penal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0047",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-11-del-codigo-procesal-penal-ejercicio-y-contenido/",
+    "title": "Jurisprudencia del artículo 11 del Código Procesal Penal.- Ejercicio y contenido (la acción civil) | LP",
+    "sha256": "a31d6f57cfafa06880319a639a4dbeff353fe16b3385f217c1de7354fd4ae3c7",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0047.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "11",
+        "heading": "Artículo 11. Ejercicio y contenido"
+      }
+    ]
+  },
+  {
+    "id": "jp_0048",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-14-del-codigo-procesal-penal-transaccion/",
+    "title": "Jurisprudencia del artículo 14 del Código Procesal Penal.- Transacción | LP",
+    "sha256": "24e32ccfc7945f7faae2b57fa650abe9b39ddde463ae99d66f4e6bba08f7d264",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0048.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "14",
+        "heading": "Artículo 14. Transacción"
+      }
+    ]
+  },
+  {
+    "id": "jp_0049",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-15-del-codigo-procesal-penal-nulidad-de-transferencias/",
+    "title": "Jurisprudencia del artículo 15 del Código Procesal Penal.- Nulidad de transferencias | LP",
+    "sha256": "4218d3d66c2e5e90b439433711d674e98b1ca585817a32a4718d5c52f85e92f5",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0049.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "15",
+        "heading": "Artículo 15. Nulidad de transferencias"
+      }
+    ]
+  },
+  {
+    "id": "jp_0050",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-27-del-codigo-procesal-penal-competencia-de-las-salas-penales-de-las-cortes-superiores/",
+    "title": "Jurisprudencia del artículo 27 del Código Procesal Penal.- Competencia de las Salas Penales de las Cortes Superiores | LP",
+    "sha256": "02de3e6b9bc133d81482ee4fa2b1fc618b3245f700bd023ca4265ce1f3d9505c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0050.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "27",
+        "heading": "Artículo 27. Competencia de las Salas Penales de las Cortes Superiores"
+      }
+    ]
+  },
+  {
+    "id": "jp_0051",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-29-del-codigo-procesal-penal-competencia-de-los-juzgados-de-la-investigacion-preparatoria/",
+    "title": "Jurisprudencia del artículo 29 del Código Procesal Penal.- Competencia de los Juzgados de la Investigación Preparatoria | LP",
+    "sha256": "3e6fc16d92ef77302abd2c1ce34a663641b6d276ca22586fddb266074aab0eec",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0051.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "29",
+        "heading": "Artículo 29. Competencia de los Juzgados de la Investigación Preparatoria"
+      }
+    ]
+  },
+  {
+    "id": "jp_0052",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-34-del-codigo-procesal-penal-declinatoria-de-competencia/",
+    "title": "Jurisprudencia del artículo 34 del Código Procesal Penal.- Declinatoria de competencia | LP",
+    "sha256": "04f54b1a5d9875462e00494708871493cc1bd7457d99a89a139f75c9fa7221f0",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0052.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "34",
+        "heading": "Artículo 34. Declinatoria de competencia"
+      }
+    ]
+  },
+  {
+    "id": "jp_0053",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-40-del-codigo-procesal-procesal-penal-tramite/",
+    "title": "Jurisprudencia del artículo 40 del Código Procesal Procesal Penal.- Trámite (transferencia de competencia) | LP",
+    "sha256": "a5ca755a71aaf0ebf1bd19fd32d1ae232813f9ed34d25e26603ff0c4fda061af",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0053.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "40",
+        "heading": "Artículo 40. Trámite"
+      }
+    ]
+  },
+  {
+    "id": "jp_0054",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-53-del-codigo-procesal-penal-inhibicion/",
+    "title": "Jurisprudencia del artículo 53 del Código Procesal Penal.- Inhibición | LP",
+    "sha256": "718d63ae5152433e8aff524cf899174512a5e08ab617e1fa73f050ff05467604",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0054.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "53",
+        "heading": "Artículo 53. Inhibición *"
+      }
+    ]
+  },
+  {
+    "id": "jp_0055",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-60-del-codigo-procesal-penal-funciones/",
+    "title": "Jurisprudencia del artículo 60 del Código Procesal Penal.- Funciones (el Ministerio Público) | LP",
+    "sha256": "7fb4392c4533400fae2a158169e98fff9686ab5259f598e1782024b34fb6a653",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0055.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "60",
+        "heading": "Artículo 60. Funciones*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0056",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-61-codigo-procesal-penal-atribuciones-obligaciones/",
+    "title": "Jurisprudencia del artículo 61 del Código Procesal Penal.- Atribuciones y obligaciones (el Ministerio Público) | LP",
+    "sha256": "d7229d992c7f0488163ef6b9152e7ba2415af68293eb91cc5775eec928d05ed7",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0056.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "61",
+        "heading": "Artículo 61. Atribuciones y obligaciones*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0057",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-62-del-codigo-procesal-penal-exclusion-del-fiscal/",
+    "title": "Jurisprudencia del artículo 62 del Código Procesal Penal.- Exclusión del Fiscal | LP",
+    "sha256": "678021ecc48fe1db40e5c08ca6ee708f633e470970eb5e7d4058716ed7909404",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0057.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "62",
+        "heading": "Artículo 62. Exclusión del Fiscal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0058",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-63-del-codigo-procesal-penal-actividad-y-distribucion-de-funciones/",
+    "title": "Jurisprudencia del artículo 63 del Código Procesal Penal.- Actividad y distribución de funciones (El Ministerio Público) | LP",
+    "sha256": "ea5b20850c76e9c15a287453e431349b7528e273e86c628bf25d6b19e6b271ca",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0058.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "63",
+        "heading": "Artículo 63. Actividad y distribución de funciones"
+      }
+    ]
+  },
+  {
+    "id": "jp_0059",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-64-codigo-procesal-penal-disposiciones-y-requerimientos/",
+    "title": "Jurisprudencia del artículo 64 del Código Procesal Penal.- Disposiciones y requerimientos | LP",
+    "sha256": "c58219ac7ddac0bf3702c0c33d43827d578e5c153bef8b5e90eb3a9e834aa5bc",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0059.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "64",
+        "heading": "Artículo 64. Disposiciones y requerimientos"
+      }
+    ]
+  },
+  {
+    "id": "jp_0060",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-65-del-codigo-procesal-penal-la-investigacion-del-delito-destinada-a-ejercitar-la-accion-penal/",
+    "title": "Jurisprudencia del artículo 65 del Código Procesal Penal.- La investigación del delito destinada a ejercitar la acción penal | LP",
+    "sha256": "a9a31068ecd3638937f314535468aa3003abf67fec1343317525679f82918bf1",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0060.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "65",
+        "heading": "Artículo 65. La investigación del delito destinada a ejercitar la acción penal*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0061",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-66-del-codigo-procesal-penal-poder-coercitivo-2/",
+    "title": "Jurisprudencia del artículo 66 del Código Procesal Penal.- Poder coercitivo (El Ministerio Público) | LP",
+    "sha256": "d8e897c6e8aa292fd5a73a6396670348fbfb45ff0cb47a39988438aa941b477e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0061.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "66",
+        "heading": "Artículo 66. Poder coercitivo"
+      }
+    ]
+  },
+  {
+    "id": "jp_0062",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-67-del-codigo-procesal-penal-funcion-de-investigacion-de-la-policia/",
+    "title": "Jurisprudencia del artículo 67 del Código Procesal Penal.- Función de investigación de la Policía Nacional del Perú | LP",
+    "sha256": "f55d51dff2cb32fca66037a6dfe84227d9c6fc25caa575dd10b9ceab7f2c1b89",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0062.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "67",
+        "heading": "Artículo 67. Función de investigación de la Policía Nacional*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0063",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-68-codigo-procesal-atribuciones-de-la-policia/",
+    "title": "Jurisprudencia del artículo 68 del Código Procesal Penal.- Atribuciones de la Policía Nacional del Perú | LP",
+    "sha256": "efaf2a780c856ff21bc1b5c8679e949e96d885ed8a73a3d0405cccdcadcdd0bd",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0063.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "68",
+        "heading": "Artículo 68. Atribuciones de la Policía Nacional del Perú*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0064",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-68-a-del-codigo-procesal-penal-operativo-de-revelacion-del-delito/",
+    "title": "Jurisprudencia del artículo 68-A del Código Procesal Penal.- Operativo de revelación del delito | LP",
+    "sha256": "b7c9f475910248901ebb7357aeb22692289b3477669ab4782ebe59d917aa4225",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0064.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "68-A",
+        "heading": "Artículo 68-A. Operativo de revelación del delito*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0065",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-70-del-codigo-procesal-penal-prohibicion-de-informar/",
+    "title": "Jurisprudencia del artículo 70 del Código Procesal Penal.- Prohibición de informar (La Policía) | LP",
+    "sha256": "286252fedb8c04d9a3df99103fd62c489da013f18236d11e54db3de1c97c3c6d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0065.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "70",
+        "heading": "Artículo 70. Prohibición de informar"
+      }
+    ]
+  },
+  {
+    "id": "jp_0066",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-71-del-codigo-procesal-penal-derechos-del-imputado/",
+    "title": "Jurisprudencia del artículo 71 del Código Procesal Penal.- Derechos del imputado | LP",
+    "sha256": "8b9417712d7b2e5cdd2d38fe8e59f3dbcdc8281bb364f9130c11e93f9fd35676",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0066.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "71",
+        "heading": "Artículo 71. Derechos del imputado"
+      }
+    ]
+  },
+  {
+    "id": "jp_0067",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-79-del-codigo-procesal-penal-contumacia-y-ausencia/",
+    "title": "Jurisprudencia del artículo 79 del Código Procesal Penal.- Contumacia y Ausencia | LP",
+    "sha256": "8862684c6d059355251213f085405cd62a168b8684398f5a9126d10e2dfd7157",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0067.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "79",
+        "heading": "Artículo 79. Contumacia y Ausencia"
+      }
+    ]
+  },
+  {
+    "id": "jp_0068",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-84-del-codigo-procesal-penal-derechos-y-deberes-del-abogado-defensor/",
+    "title": "Jurisprudencia del artículo 84 del Código Procesal Penal.- Derechos y deberes del abogado defensor | LP",
+    "sha256": "899f77c4c28a48579de75fa2c240a966b89653cf0e1e5356fb09d03fc25d1ca4",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0068.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "84",
+        "heading": "Artículo 84. Derechos y deberes del abogado defensor*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0069",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-85-del-codigo-procesal-penal-reemplazo-del-abogado-defensor/",
+    "title": "Jurisprudencia del artículo 85 del Código Procesal Penal.- Reemplazo del abogado defensor | LP",
+    "sha256": "a790173e6863f2228de50a1d047419b7839b8ca28f139aa6e8d90ef2d51d147c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0069.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "85",
+        "heading": "Artículo 85. Reemplazo del abogado defensor*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0070",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-86-del-codigo-procesal-penal-momento-y-caracter-de-la-declaracion/",
+    "title": "Jurisprudencia del artículo 86 del Código Procesal Penal.- Momento y carácter de la declaración (la declaración del imputado) | LP",
+    "sha256": "631ca3636798873f2a673ae8140ca35f5310a322308b3bddcea6674a05623fd4",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0070.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "86",
+        "heading": "Artículo 86. Momento y carácter de la declaración*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0071",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-87-del-codigo-procesal-penal-instrucciones-preliminares/",
+    "title": "Jurisprudencia del artículo 87 del Código Procesal Penal.- Instrucciones preliminares (la declaración del imputado) | LP",
+    "sha256": "757420384d49f6f8a479727817879d78b66f54b81e8d55dfe75ba048a67474ae",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0071.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "87",
+        "heading": "Artículo 87. Instrucciones preliminares"
+      }
+    ]
+  },
+  {
+    "id": "jp_0072",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-90-del-codigo-procesal-penal-incorporacion-al-proceso/",
+    "title": "Jurisprudencia del artículo 90 del Código Procesal Penal.- Incorporación al proceso (Las Personas Jurídicas) | LP",
+    "sha256": "e64f3df273c2ae7e30dc2d8d95abc0ff6566376b1d000fbaf14a838d3ef7dc54",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0072.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "90",
+        "heading": "Artículo 90. Incorporación al proceso"
+      }
+    ]
+  },
+  {
+    "id": "jp_0073",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-94-del-codigo-procesal-penal-definicion/",
+    "title": "Jurisprudencia del artículo 94 del Código Procesal Penal.- Definición (el agraviado) | LP",
+    "sha256": "8d1d6b234e92cde87e4c865e9ae55489a43e47546913e70caf120cd7e6f8b337",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0073.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "94",
+        "heading": "Artículo 94. Definición"
+      }
+    ]
+  },
+  {
+    "id": "jp_0074",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-95-del-codigo-procesal-penal-derechos-del-agraviado/",
+    "title": "Jurisprudencia del artículo 95 del Código Procesal Penal.- Derechos del agraviado | LP",
+    "sha256": "0062caae1fa06c2809704d88225e1cf2fe6fee9291764417ed1d4a401d281ab0",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0074.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "95",
+        "heading": "Artículo 95. Derechos del agraviado"
+      }
+    ]
+  },
+  {
+    "id": "jp_0075",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-96-del-codigo-procesal-penal-deberes-del-agraviado/",
+    "title": "Jurisprudencia del artículo 96 del Código Procesal Penal.- Deberes del agraviado | LP",
+    "sha256": "84be09900eafae1ff1297d51d6481d686ed5bcf8e5a8ef471080145f9dfda294",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0075.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "96",
+        "heading": "Artículo 96. Deberes del agraviado"
+      }
+    ]
+  },
+  {
+    "id": "jp_0076",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-98-del-codigo-procesal-penal-constitucion-y-derechos/",
+    "title": "Jurisprudencia del artículo 98 del Código Procesal Penal.- Constitución y derechos (el actor civil) | LP",
+    "sha256": "8b08c71226ba58a183e32128f2f527bdd08481ea6e8429d9e3b47f04801d5845",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0076.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "98",
+        "heading": "Artículo 98. Constitución y derechos*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0077",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-100-del-codigo-procesal-penal-requisitos-para-constituirse-en-actor-civil/",
+    "title": "Jurisprudencia del artículo 100 del Código Procesal Penal.- Requisitos para constituirse en actor civil | LP",
+    "sha256": "4d250fd90b56626b7e4405c1725c96043d51527ec19449e38dba69f527a1d5b4",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0077.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "100",
+        "heading": "Artículo 100. Requisitos para constituirse en actor civil"
+      }
+    ]
+  },
+  {
+    "id": "jp_0078",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-101-del-codigo-procesal-penal-oportunidad-de-la-constitucion-en-actor-civil/",
+    "title": "Jurisprudencia del artículo 101 del Código Procesal Penal.- Oportunidad de la constitución en actor civil | LP",
+    "sha256": "d8321e3552aafa875a296c72dbe5e382d94612fecafc8eda7ed62b06716f2c82",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0078.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "101",
+        "heading": "Artículo 101. Oportunidad de la constitución en actor civil"
+      }
+    ]
+  },
+  {
+    "id": "jp_0079",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-102-del-codigo-procesal-penal-tramite-de-la-constitucion-en-actor-civil/",
+    "title": "Jurisprudencia del artículo 102 del Código Procesal Penal.- Trámite de la constitución en actor civil | LP",
+    "sha256": "64a59ac3bab566500f8c77c0959bd86dbbd15ac1f0127dc7993930cf4b0ae68c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0079.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "102",
+        "heading": "Artículo 102. Trámite de la constitución en actor civil*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0080",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-104-del-codigo-procesal-penal-facultades-del-actor-civil/",
+    "title": "Jurisprudencia del artículo 104 del Código Procesal Penal.- Facultades del actor civil | LP",
+    "sha256": "31f4e9a738bcbd3e42ecdcd892b504eaeff40be85c0132d4d72267ef61213274",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0080.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "104",
+        "heading": "Artículo 104. Facultades del actor civil"
+      }
+    ]
+  },
+  {
+    "id": "jp_0081",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-106-del-codigo-procesal-penal-impedimento-de-acudir-a-la-via-extra-penal/",
+    "title": "Jurisprudencia del artículo 106 del Código Procesal Penal.- Impedimento de acudir a la vía extra – penal | LP",
+    "sha256": "12aebf1371f8200c527a1773f4ecd32e9779d79783b6b20235a2b60f48ee940e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0081.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "106",
+        "heading": "Artículo 106. Impedimento de acudir a la vía extra – penal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0082",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-107-del-codigo-procesal-penal-derechos-del-querellante-particular/",
+    "title": "Jurisprudencia del artículo 107 del Código Procesal Penal.- Derechos del querellante particular | LP",
+    "sha256": "8c4a9973a25781bfe206999a6ac6c70a28a2f6838806c690c22a88e72e92f674",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0082.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "107",
+        "heading": "Artículo 107. Derechos del querellante particular"
+      }
+    ]
+  },
+  {
+    "id": "jp_0083",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-108-del-codigo-procesal-penal-requisitos-para-constituirse-en-querellante-particular/",
+    "title": "Jurisprudencia del artículo 108 del Código Procesal Penal.- Requisitos para constituirse en querellante particular | LP",
+    "sha256": "b04eac39c78ce686fb1a33675c2ee9c28593b5fd7b6872881c21d52f79a36239",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0083.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "108",
+        "heading": "Artículo 108. Requisitos para constituirse en querellante particular"
+      }
+    ]
+  },
+  {
+    "id": "jp_0084",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-109-del-codigo-procesal-penal-facultades-del-querellante-particular/",
+    "title": "Jurisprudencia del artículo 109 del Código Procesal Penal.- Facultades del querellante particular | LP",
+    "sha256": "c62a36ca63acbd7c99b40077c85d3906a2454fdf7b311eacce9101f16d261d2b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0084.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "109",
+        "heading": "Artículo 109. Facultades del querellante particular"
+      }
+    ]
+  },
+  {
+    "id": "jp_0085",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-110-del-codigo-procesal-penal-desistimiento-del-querellante-particular/",
+    "title": "Jurisprudencia del artículo 110 del Código Procesal Penal.- Desistimiento del querellante particular | LP",
+    "sha256": "9b3370c7a8fb07246b3bff1cefa4b51d5ba741cd21c9cacb847e1dd538d10a34",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0085.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "110",
+        "heading": "Artículo 110. Desistimiento del querellante particular"
+      }
+    ]
+  },
+  {
+    "id": "jp_0086",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-111-del-codigo-procesal-penal-citacion-a-personas-que-tengan-responsabilidad-civil/",
+    "title": "Jurisprudencia del artículo 111 del Código Procesal Penal.- Citación a personas que tengan responsabilidad civil (tercero civil) | LP",
+    "sha256": "f382afbda96c580c67f44ac1661783ab02c73170b9d83cf9ac579ace3217edcb",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0086.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "111",
+        "heading": "Artículo 111. Citación a personas que tengan responsabilidad civil"
+      }
+    ]
+  },
+  {
+    "id": "jp_0087",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-119-a-codigo-procesal-penal-audiencia/",
+    "title": "Jurisprudencia del artículo 119-A del Código Procesal Penal.- Audiencia | LP",
+    "sha256": "bd8985ddb9d42522b73d16bf0c9f46bc8da7f81f008eee7d1dc7f42858d7a835",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0087.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "119-A",
+        "heading": "Artículo 119-A. Audiencia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0088",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-120-del-codigo-procesal-penal-regimen-general/",
+    "title": "Jurisprudencia del artículo 120 del Código Procesal Penal.- Régimen General (las actas) | LP",
+    "sha256": "dfe1ee83f78e07141fb17d67351ced74687176cc7bf38e73b6de208e40598601",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0088.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "120",
+        "heading": "Artículo 120. Régimen General"
+      }
+    ]
+  },
+  {
+    "id": "jp_0089",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-122-del-codigo-procesal-penal-actos-del-ministerio-publico/",
+    "title": "Jurisprudencia del artículo 122 del Código Procesal Penal.- Actos del Ministerio Público | LP",
+    "sha256": "7fe15305ae6109aa96a758209bc37a3a5cd44020f355dbfdd49d808990ab93f1",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0089.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "122",
+        "heading": "Artículo 122. Actos del Ministerio Público"
+      }
+    ]
+  },
+  {
+    "id": "jp_0090",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-126-del-codigo-procesal-penal-poder-coercitivo/",
+    "title": "Jurisprudencia del artículo 126 del Código Procesal Penal.- Poder coercitivo | LP",
+    "sha256": "c1704c7116707fc1d65111e2d88ee2b55168ec5d98c93d1d8224b745ed46229a",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0090.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "126",
+        "heading": "Artículo 126. Poder coercitivo"
+      }
+    ]
+  },
+  {
+    "id": "jp_0091",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-127-del-codigo-procesal-penal-notificacion/",
+    "title": "Jurisprudencia del artículo 127 del Código Procesal Penal.- Notificación | LP",
+    "sha256": "3f962c3ec9f1148a8d58b3d349c68e9ca1b244907de31afdfb8f6b3240fad7bf",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0091.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "127",
+        "heading": "Artículo 127. Notificación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0092",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-128-codigo-procesal-penal-notificacion-edictos/",
+    "title": "Jurisprudencia del artículo 128 del Código Procesal Penal.- Notificación por edictos  | LP",
+    "sha256": "dd53ef3a6ec2bfe5b00359a9d6930841c9b66960c176318b24083e8a3d12d856",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0092.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "128",
+        "heading": "Artículo 128 . Notificación por edictos"
+      }
+    ]
+  },
+  {
+    "id": "jp_0093",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-129-del-codigo-procesal-penal-citaciones/",
+    "title": "Jurisprudencia del artículo 129 del Código Procesal Penal.- Citaciones | LP",
+    "sha256": "68f3381d88068d1b304c595e237850f3e5729c37a5d5f073fee2dee5eb24bf42",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0093.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "129",
+        "heading": "Artículo 129. Citaciones"
+      }
+    ]
+  },
+  {
+    "id": "jp_0094",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-132-del-codigo-procesal-penal-forma/",
+    "title": "Jurisprudencia del artículo 132 del Código Procesal Penal.- Forma (comunicación entre autoridades) | LP",
+    "sha256": "714dffca5a06f4e7a714958e4803b8d2c7ca56fa01037b4300b76392fd53d96b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0094.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "132",
+        "heading": "Artículo 132 . Forma"
+      }
+    ]
+  },
+  {
+    "id": "jp_0095",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-134-del-codigo-procesal-penal-contenido-del-expediente-fiscal/",
+    "title": "Jurisprudencia del artículo 134 del Código Procesal Penal.- Contenido del Expediente Fiscal | LP",
+    "sha256": "5fafb7a693d307bf91abc7b788c6e96174f1129ff4ed2965e1e396f1f2579e41",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0095.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "134",
+        "heading": "Artículo 134 . Contenido del Expediente Fiscal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0096",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-135-del-codigo-procesal-penal-requerimientos-del-fiscal/",
+    "title": "Jurisprudencia del artículo 135 del Código Procesal Penal.- Requerimientos del Fiscal | LP",
+    "sha256": "3438ee664c575648f3482d7ea6e7a5510518ae4d00e0a1aea82c9d0677c0591e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0096.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "135",
+        "heading": "Artículo 135. Requerimientos del Fiscal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0097",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-136-del-codigo-procesal-penal-contenido-del-expediente-judicial/",
+    "title": "Jurisprudencia del artículo 136 del Código Procesal Penal.- Contenido del Expediente Judicial | LP",
+    "sha256": "7a265296a9e7f52d1112251726072fe5b6ff96db519f7c01c2067360341a92a8",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0097.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "136",
+        "heading": "Artículo 136. Contenido del Expediente Judicial"
+      }
+    ]
+  },
+  {
+    "id": "jp_0098",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-138-del-codigo-procesal-penal-obtencion-de-copias/",
+    "title": "Jurisprudencia del artículo 138 del Código Procesal Penal.- Obtención de copias | LP",
+    "sha256": "a40555713d762de9478663ad81b75cff83b0388bac663db5973f0d6d6453c08f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0098.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "138",
+        "heading": "Artículo 138. Obtención de copias*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0099",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-139-del-codigo-procesal-penal-prohibicion-de-publicacion-de-la-actuacion-procesal/",
+    "title": "Jurisprudencia del artículo 139 del Código Procesal Penal.- Prohibición de publicación de la actuación procesal | LP",
+    "sha256": "418b1bd17621773eacb2c378753be88391d85c564de37498fc8e47d630d7c4cf",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0099.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "139",
+        "heading": "Artículo 139. Prohibición de publicación de la actuación procesal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0100",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-144-del-codigo-procesal-penal-caducidad/",
+    "title": "Jurisprudencia del artículo 144 del Código Procesal Penal.- Caducidad | LP",
+    "sha256": "6c6e5c8ef1336fbd98a1103845c476115caddc98df92518aca02109e22cd6bbf",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0100.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "144",
+        "heading": "Artículo 144. Caducidad"
+      }
+    ]
+  },
+  {
+    "id": "jp_0101",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-146-del-codigo-procesal-penal-subsidiariedad/",
+    "title": "Jurisprudencia del artículo 146 del Código Procesal Penal.- Subsidiariedad (los plazos) | LP",
+    "sha256": "373d6e4b78453b41d8f3174c3e5dae65bed93ec33070a3c60f8cf6221b65ac61",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0101.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "146",
+        "heading": "Artículo 146. Subsidiariedad"
+      }
+    ]
+  },
+  {
+    "id": "jp_0102",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-150-del-codigo-procesal-penal-nulidad-absoluta/",
+    "title": "Jurisprudencia del artículo 150 del Código Procesal Penal.- Nulidad absoluta | LP",
+    "sha256": "6c921fee7fd89d8df1ea346de9e8e036329332c4ccc7cb8f74e7fa66eaceb627",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0102.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "150",
+        "heading": "Artículo 150. Nulidad absoluta"
+      }
+    ]
+  },
+  {
+    "id": "jp_0103",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-152-del-codigo-procesal-penal-convalidacion/",
+    "title": "Jurisprudencia del artículo 152 del Código Procesal Penal.- Convalidación (la nulidad) | LP",
+    "sha256": "1d383bb8999e205995b0ede3f495a55c076c09b3cd237ac3c3251e6c260ef1f8",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0103.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "152",
+        "heading": "Artículo 152. Convalidación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0104",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-154-del-codigo-procesal-penal-efectos-de-la-nulidad/",
+    "title": "Jurisprudencia del artículo 154 del Código Procesal Penal.- Efectos de la nulidad | LP",
+    "sha256": "fc0703bc469557626215224e8cf1af8d9fb306331aff3b894fd447a758cb3ee6",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0104.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "154",
+        "heading": "Artículo 154. Efectos de la nulidad"
+      }
+    ]
+  },
+  {
+    "id": "jp_0105",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-155-del-codigo-procesal-penal-actividad-probatoria/",
+    "title": "Jurisprudencia del artículo 155 del Código Procesal Penal.- Actividad probatoria | LP",
+    "sha256": "7662f01bea23a3c6c52d827897a966007399d8d7064160496857ac27e6672cf8",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0105.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "155",
+        "heading": "Artículo 155. Actividad probatoria"
+      }
+    ]
+  },
+  {
+    "id": "jp_0106",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-158-del-codigo-procesal-penal-valoracion/",
+    "title": "Jurisprudencia del artículo 158 del Código Procesal Penal.- Valoración (la prueba) | LP",
+    "sha256": "7ea966f3b565e215ce33a8b563d2c65873dfd1980b2db700c83b00004f30ed81",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0106.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "158",
+        "heading": "Artículo 158. Valoración"
+      }
+    ]
+  },
+  {
+    "id": "jp_0107",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-160-del-codigo-procesal-penal-valor-de-prueba-de-la-confesion/",
+    "title": "Jurisprudencia del artículo 160 del Código Procesal Penal.- Valor de prueba de la confesión | LP",
+    "sha256": "fdb641c6717cf83d4de34954e9110c0bfc81bf22e0cfd0d6de42205ab14eb80f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0107.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "160",
+        "heading": "Artículo 160. Valor de prueba de la confesión*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0108",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-163-del-codigo-procesal-penal-obligaciones-del-testigo/",
+    "title": "Jurisprudencia del artículo 163 del Código Procesal Penal.- Obligaciones del testigo | LP",
+    "sha256": "c9fd43d54f23491d2a7e054356973aa9c0a3a5422203e2dcd2da3a8f9e67ed61",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0108.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "163",
+        "heading": "Artículo 163. Obligaciones del testigo"
+      }
+    ]
+  },
+  {
+    "id": "jp_0109",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-165-del-codigo-procesal-penal-abstencion-para-rendir-testimonio/",
+    "title": "Jurisprudencia del artículo 165 del Código Procesal Penal.- Abstención para rendir testimonio | LP",
+    "sha256": "2e0ab1f2a98d495acad1aa21703be1df775fc200f4a258faa10607025cb381b4",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0109.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "165",
+        "heading": "Artículo 165. Abstención para rendir testimonio"
+      }
+    ]
+  },
+  {
+    "id": "jp_0110",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-166-del-codigo-procesal-penal-contenido-de-la-declaracion/",
+    "title": "Jurisprudencia del artículo 166 del Código Procesal Penal.- Contenido de la declaración | LP",
+    "sha256": "ae07458d18414aa4477e04ac5afb775f53d948a122e97ae4684f3f942cac8b2e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0110.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "166",
+        "heading": "Artículo 166. Contenido de la declaración"
+      }
+    ]
+  },
+  {
+    "id": "jp_0111",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-170-del-codigo-procesal-penal-desarrollo-del-interrogatorio/",
+    "title": "Jurisprudencia del artículo 170 del Código Procesal Penal.- Desarrollo del interrogatorio | LP",
+    "sha256": "5168870634b4841bef9190e717172416b3bfdd993584e8247c19e8b8d8aeb83e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0111.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "170",
+        "heading": "Artículo 170. Desarrollo del interrogatorio*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0112",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-171-del-codigo-procesal-penal-testimonios-especiales/",
+    "title": "Jurisprudencia del artículo 171 del Código Procesal Penal.- Testimonios especiales | LP",
+    "sha256": "bf0e6515b1a3e65177d37c310e36e5dafe08ec5ef337a5af25f7cac2a6dbc025",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0112.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "171",
+        "heading": "Artículo 171. Testimonios especiales"
+      }
+    ]
+  },
+  {
+    "id": "jp_0113",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-173-del-codigo-procesal-penal-nombramiento/",
+    "title": "Jurisprudencia del artículo 173 del Código Procesal Penal.- Nombramiento (la pericia) | LP",
+    "sha256": "03b0bcb0d831a073943086693504df7623063f9a280b8cf27f2d9504f9a6a174",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0113.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "173",
+        "heading": "Artículo 173. Nombramiento*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0114",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-180-del-codigo-procesal-penal-reglas-adicionales/",
+    "title": "Jurisprudencia del artículo 180 del Código Procesal Penal.- Reglas adicionales (la pericia) | LP",
+    "sha256": "98262bdcfabb20660984af182998e5740061ff84c69fe6e2f592bfcb9163e636",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0114.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "180",
+        "heading": "Artículo 180. Reglas adicionales*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0115",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-182-del-codigo-procesal-penal-procedencia/",
+    "title": "Jurisprudencia del artículo 182 del Código Procesal Penal.- Procedencia (El careo) | LP",
+    "sha256": "c0d11de4fdb8317d0f1e8cc62470ec552cb566ea30e7791e9b0f7b186086f24e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0115.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "182",
+        "heading": "Artículo 182. Procedencia"
+      }
+    ]
+  },
+  {
+    "id": "jp_0116",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-183-del-codigo-procesal-penal-reglas-del-careo/",
+    "title": "Jurisprudencia del artículo 183 del Código Procesal Penal.- Reglas del careo | LP",
+    "sha256": "012818995766eaeb9994dbc1a58c59ca3c5562448f24261a2573bb01e8964c6b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0116.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "183",
+        "heading": "Artículo 183. Reglas del careo"
+      }
+    ]
+  },
+  {
+    "id": "jp_0117",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-184-del-codigo-procesal-penal-incorporacion/",
+    "title": "Jurisprudencia del artículo 184 del Código Procesal Penal.- Incorporación (la prueba documental) | LP",
+    "sha256": "ff851def975b4b91c6338bdb30b30ceb18e5d2c464e05d23bddbe6ba5622939b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0117.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "184",
+        "heading": "Artículo 184. Incorporación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0118",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-188-del-codigo-procesal-penal-requerimiento-de-informes/",
+    "title": "Jurisprudencia del artículo 188 del Código Procesal Penal.- Requerimiento de informes  | LP",
+    "sha256": "b0056d8ad370f0b6d4cfd4f1ec4432541ef1e8fb52609d30843655d50fda6771",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0118.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "188",
+        "heading": "Artículo 188. Requerimiento de informes"
+      }
+    ]
+  },
+  {
+    "id": "jp_0119",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-189-del-codigo-procesal-penal-reconocimientos-de-personas/",
+    "title": "Jurisprudencia del artículo 189 del Código Procesal Penal.- Reconocimientos de personas | LP",
+    "sha256": "e88e8239ec2d6248ea4e2d008c4804252cc0e1477ed842348c08992badb0359d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0119.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "189",
+        "heading": "Artículo 189. Reconocimientos de personas"
+      }
+    ]
+  },
+  {
+    "id": "jp_0120",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-192-del-codigo-procesal-penal-objeto/",
+    "title": "Jurisprudencia del artículo 192 del Código Procesal Penal.- Objeto (la inspección judicial y la reconstrucción) | LP",
+    "sha256": "2bb57ac4cd5498b9ac5cbf7de0f2668c835fc075dbff939cc48639777e1e5c5d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0120.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "192",
+        "heading": "Artículo 192. Objeto"
+      }
+    ]
+  },
+  {
+    "id": "jp_0121",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-194-del-codigo-procesal-penal-participacion-de-testigos-y-peritos/",
+    "title": "Jurisprudencia del artículo 194 del Código Procesal Penal.- Participación de testigos y peritos | LP",
+    "sha256": "00710ceafa83cee897c853b2e0bc84de0debaa5eeeacc0faa52434258bdff69d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0121.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "194",
+        "heading": "Artículo 194. Participación de testigos y peritos"
+      }
+    ]
+  },
+  {
+    "id": "jp_0122",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-195-del-codigo-procesal-penal-levantamiento-de-cadaver/",
+    "title": "Jurisprudencia del artículo 195 del Código Procesal Penal.- Levantamiento de cadáver | LP",
+    "sha256": "b9df70197505dbfc1aa3f5ae2acdcf2be9a59c374f04266709a585f95a9afd08",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0122.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "195",
+        "heading": "Artículo 195. Levantamiento de Cadáver*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0123",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-196-del-codigo-procesal-penal-necropsia/",
+    "title": "Jurisprudencia del artículo 196 del Código Procesal Penal.- Necropsia | LP",
+    "sha256": "2cc563393f76ce6fe259b779060e921da727dc54835cff5a496cc90a270c7e08",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0123.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "196",
+        "heading": "Artículo 196. Necropsia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0124",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-201-a-del-codigo-procesal-penal-informes-tecnicos-oficiales-especializados-de-la-contraloria-general-de-la-republica/",
+    "title": "Jurisprudencia del artículo 201-A del Código Procesal Penal.- Informes técnicos oficiales especializados de la Contraloría General de la República | LP",
+    "sha256": "f955618d7ccbf54cb914bc011a4bb88aa26e097b03b41c354d24f5c22bee2072",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0124.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "201-A",
+        "heading": "Artículo 201-A. Informes técnicos oficiales especializados de la Contraloría General de la República*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0125",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-203-del-codigo-procesal-penal-presupuestos/",
+    "title": "Jurisprudencia del artículo 203 del Código Procesal Penal.- Presupuestos (la búsqueda de pruebas y restricción de derechos) | LP",
+    "sha256": "a5861b37a291b036a4f34650013839c98f04a81504e12f6b64d39a6b51fdaf55",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0125.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "203",
+        "heading": "Artículo 203. Presupuestos"
+      }
+    ]
+  },
+  {
+    "id": "jp_0126",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-204-del-codigo-procesal-penal-impugnacion/",
+    "title": "Jurisprudencia del artículo 204 del Código Procesal Penal.- Impugnación (la búsqueda de pruebas y restricción de derechos) | LP",
+    "sha256": "f696f34035e4ff33ae6ec77c3b9af507aab0369d26bf47b8a54dc8efc5043e43",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0126.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "204",
+        "heading": "Artículo 204. Impugnación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0127",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-205-del-codigo-procesal-penal-control-de-identidad-policial/",
+    "title": "Jurisprudencia del artículo 205 del Código Procesal Penal.- Control de identidad policial | LP",
+    "sha256": "8df1093b4bdbe3e6c63609cf2ff84406e33252c8707ef61a2f604f2225971230",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0127.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "205",
+        "heading": "Artículo 205. Control de identidad policial*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0128",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-207-del-codigo-procesal-penal-presupuestos-y-ejecucion/",
+    "title": "Jurisprudencia del artículo 207 del Código Procesal Penal.- Presupuestos y Ejecución (la videovigilancia) | LP",
+    "sha256": "3c9f2da741cc36f71018f0e9ab7caf374044446dfea9e4f54b29304bbb35f1ec",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0128.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "207",
+        "heading": "Artículo 207. Presupuestos y Ejecución*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0129",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-208-del-codigo-procesal-penal-motivos-y-objeto-de-la-inspeccion/",
+    "title": "Jurisprudencia del artículo 208 del Código Procesal Penal.- Motivos y objeto de la inspección (las pesquisas) | LP",
+    "sha256": "7fa89134f7cc980254e060608d6f919fb42b074b3408a5b6df55abef1104f42b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0129.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "208",
+        "heading": "Artículo 208. Motivos y objeto de la inspección*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0130",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-209-del-codigo-procesal-penal-retenciones/",
+    "title": "Jurisprudencia del artículo 209 del Código Procesal Penal.- Retenciones | LP",
+    "sha256": "2236a5af571e01752094b2b1365652987cc8439e33e30e025de93b5e0d3182e6",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0130.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "209",
+        "heading": "Artículo 209. Retenciones*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0131",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-210-del-codigo-procesal-penal-registro-de-personas/",
+    "title": "Jurisprudencia del artículo 210 del Código Procesal Penal.- Registro de personas | LP",
+    "sha256": "22ea8f9431e87bb07df80ae294118e70af5693737daf5f5a6ac6a7413916a0db",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0131.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "210",
+        "heading": "Artículo 210. Registro de personas*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0132",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-211-del-codigo-procesal-penal-examen-corporal-del-imputado/",
+    "title": "Jurisprudencia del artículo 211 del Código Procesal Penal.- Examen corporal del imputado | LP",
+    "sha256": "310fdf600634b5a384607f1d10208ab9c40643cb75eb45e60e64ec33bce9df7d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0132.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "211",
+        "heading": "Artículo 211. Examen corporal del imputado"
+      }
+    ]
+  },
+  {
+    "id": "jp_0133",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-213-del-codigo-procesal-penal-examen-corporal-para-prueba-de-alcoholemia/",
+    "title": "Jurisprudencia del artículo 213 del Código Procesal Penal.- Examen corporal para prueba de alcoholemia | LP",
+    "sha256": "1e4015dd55eb8b96df630a2223b41939673f7584802e23dcaabfcc5a56543f1f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0133.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "213",
+        "heading": "Artículo 213. Examen corporal para prueba de alcoholemia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0134",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-214-del-codigo-procesal-penal-solicitud-y-ambito-del-allanamiento/",
+    "title": "Jurisprudencia del artículo 214 del Código Procesal Penal.- Solicitud y ámbito del allanamiento | LP",
+    "sha256": "91d0eed13ab47ddc253fd8e598e69d1e63a2e587283d646f23f9b410c0db69a4",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0134.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "214",
+        "heading": "Artículo 214. Solicitud y ámbito del allanamiento"
+      }
+    ]
+  },
+  {
+    "id": "jp_0135",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-215-del-codigo-procesal-penal-contenido-de-la-resolucion/",
+    "title": "Jurisprudencia del artículo 215 del Código Procesal Penal.- Contenido de la resolución (el allanamiento) | LP",
+    "sha256": "76f57d94f9b7898dbf8aaf4725bfaba854e993411b32f1ba2b9af3e80cb33d2a",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0135.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "215",
+        "heading": "Artículo 215. Contenido de la resolución"
+      }
+    ]
+  },
+  {
+    "id": "jp_0136",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-216-del-codigo-procesal-penal-desarrollo-de-la-diligencia/",
+    "title": "Jurisprudencia del artículo 216 del Código Procesal Penal.- Desarrollo de la diligencia (el allanamiento) | LP",
+    "sha256": "7695d061ca5dc7f1f825eed794a61dbec2dad5a8dc710f88e1202a3f0ba225c0",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0136.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "216",
+        "heading": "Artículo 216. Desarrollo de la diligencia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0137",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-217-del-codigo-procesal-penal-solicitud-del-fiscal-para-incautacion-y-registro-de-personas/",
+    "title": "Jurisprudencia del artículo 217 del Código Procesal Penal.- Solicitud del Fiscal para incautación y registro de personas (el allanamiento) | LP",
+    "sha256": "5d41e5d6251a07a40edcfaf49722268ea9ba273134495336bd653ecf901794f9",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0137.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "217",
+        "heading": "Artículo 217. Solicitud del Fiscal para incautación y registro de personas"
+      }
+    ]
+  },
+  {
+    "id": "jp_0138",
+    "jurisprudence_url": "https://lpderecho.pe/jurisprudencia-del-articulo-218-del-codigo-procesal-penal-solicitud-del-fiscal-la-exhibicion-e-incautacion-de-bienes/",
+    "title": "Jurisprudencia del artículo 218 del Código Procesal Penal.- Solicitud del Fiscal (la exhibición e incautación de bienes) | LP",
+    "sha256": "bb01ff553c243b06649597372e873d4f2750bfd41c1cfb8642afc89945f809db",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0138.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "218",
+        "heading": "Artículo 218. Solicitud del Fiscal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0139",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-219-del-codigo-procesal-penal-contenido-de-la-resolucion/",
+    "title": "Jurisprudencia del artículo 219 del Código Procesal Penal.- Contenido de la resolución | LP",
+    "sha256": "4d2a2249d0a25e511458b33ec4ffbd4598a1a75026eb951a6da70e3bce615943",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0139.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "219",
+        "heading": "Artículo 219. Contenido de la resolución"
+      }
+    ]
+  },
+  {
+    "id": "jp_0140",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-220-del-codigo-procesal-penal-diligencia-de-secuestro-o-exhibicion/",
+    "title": "Jurisprudencia del artículo 220 del Código Procesal Penal.- Diligencia de secuestro o exhibición (la búsqueda de pruebas y restricción de derechos) | LP",
+    "sha256": "22ebc76173448818fd4a0f54fabeb708681d3c65844d2633e0dab85b7b716155",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0140.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "220",
+        "heading": "Artículo 220. Diligencia de secuestro o exhibición"
+      }
+    ]
+  },
+  {
+    "id": "jp_0141",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-222-del-codigo-procesal-penal-devolucion-de-bienes-incautados-y-entrega-de-bienes-sustraidos/",
+    "title": "Jurisprudencia del artículo 222 del Código Procesal Penal.- Devolución de bienes incautados y entrega de bienes sustraídos u otorgados en acto de extorsión | LP",
+    "sha256": "3846af5c13421d4efc2378968bcb5f33b086b7b98c30c37638875e37d5c38359",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0141.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "222",
+        "heading": "Artículo 222. Devolución de bienes incautados y entrega de bienes sustraídos *"
+      }
+    ]
+  },
+  {
+    "id": "jp_0142",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-230-del-codigo-procesal-penal-intervencion-grabacion-o-registro-de-comunicaciones-telefonicas-o-de-otras-formas-de-comunicacion-y-geolocalizacion-de-telefonos-m/",
+    "title": "Jurisprudencia del artículo 230 del Código Procesal Penal.- Intervención, grabación o registro de comunicaciones telefónicas o de otras formas de comunicación y geolocalización de teléfonos móviles | LP",
+    "sha256": "3f86788828cb41766a60415974f6b2fa7e3ffa073d94f13f472d6decceb0a821",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0142.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "230",
+        "heading": "Artículo 230. Intervención, grabación o registro de comunicaciones telefónicas o de otras formas de comunicación y geolocalización de teléfonos móviles*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0143",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-231-del-codigo-procesal-penal-registro-de-la-intervencion-de-comunicaciones-telefonicas-o-de-otras-formas-de-comunicacion/",
+    "title": "Jurisprudencia del artículo 231 del Código Procesal Penal.- Registro de la intervención de comunicaciones telefónicas o de otras formas de comunicación | LP",
+    "sha256": "0c413ad115aae4129a269753176c88b7d07149073ca2b99bcb059bc1552558f2",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0143.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "231",
+        "heading": "Artículo 231. Registro de la intervención de comunicaciones telefónicas o de otras formas de comunicación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0144",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-233-del-codigo-procesal-penal-incautacion-de-documentos-privados/",
+    "title": "Jurisprudencia del artículo 233 del Código Procesal Penal.- Incautación de documentos privados | LP",
+    "sha256": "e927c7eebaf34198d778b17b306c50028eda8b340262bb7f26890d7b019a6ad0",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0144.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "233",
+        "heading": "Artículo 233. Incautación de documentos privados"
+      }
+    ]
+  },
+  {
+    "id": "jp_0145",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-235-del-codigo-procesal-penal-levantamiento-del-secreto-bancario/",
+    "title": "Jurisprudencia del artículo 235 del Código Procesal Penal.- Levantamiento del secreto bancario | LP",
+    "sha256": "33e2cc1d7e82ab641a5ca2e176601b2c008fcb426fc1b2e65317c44d32b24b9f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0145.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "235",
+        "heading": "Artículo 235. Levantamiento del secreto bancario*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0146",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-236-del-codigo-procesal-penal-levantamiento-de-la-reserva-tributaria/",
+    "title": "Jurisprudencia del artículo 236 del Código Procesal Penal.- Levantamiento de la reserva tributaria | LP",
+    "sha256": "c4252eb570a8937bd19e0e9bf8b28f688076fc88539c3e075149def028740aef",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0146.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "236",
+        "heading": "Artículo 236. Levantamiento de la reserva tributaria"
+      }
+    ]
+  },
+  {
+    "id": "jp_0147",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-242-del-codigo-procesal-penal-supuestos-de-prueba-anticipada/",
+    "title": "Jurisprudencia del artículo 242 del Código Procesal Penal.- Supuestos de prueba anticipada | LP",
+    "sha256": "59c2f59ecbfdd404a6b84b003a982c0f7f625d12d9c2abf01f2800be0111df64",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0147.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "242",
+        "heading": "Artículo 242. Supuestos de prueba anticipada*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0148",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-243-del-codigo-procesal-penal-requisitos-de-la-solicitud/",
+    "title": "Jurisprudencia del artículo 243 del Código Procesal Penal.- Requisitos de la solicitud (la prueba anticipada) | LP",
+    "sha256": "8a283243f7c905dc8d7f5c988d4cd857486e569889de9e5fc9cdc3b30d49f15d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0148.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "243",
+        "heading": "Artículo 243. Requisitos de la solicitud*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0149",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-245-del-codigo-procesal-penal-audiencia-de-prueba-anticipada/",
+    "title": "Jurisprudencia del artículo 245 del Código Procesal Penal.- Audiencia de prueba anticipada | LP",
+    "sha256": "fbe79cc144fe92957cc36e8d6cce32915709aa578a9dfead9a51e58d9ed150c0",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0149.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "245",
+        "heading": "Artículo 245. Audiencia de prueba anticipada"
+      }
+    ]
+  },
+  {
+    "id": "jp_0150",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-247-del-codigo-procesal-penal-personas-destinatarias-de-las-medidas-de-proteccion/",
+    "title": "Jurisprudencia del artículo 247 del Código Procesal Penal.- Personas destinatarias de las medidas de protección | LP",
+    "sha256": "505c1b4c60659b6f2df2b34a4a16443e5d41dc9e7997799048ed7da501f340f8",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0150.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "247",
+        "heading": "Artículo 247. Personas destinatarias de las medidas de protección*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0151",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-248-del-codigo-procesal-penal-medidas-de-proteccion/",
+    "title": "Jurisprudencia del artículo 248 del Código Procesal Penal.- Medidas de protección | LP",
+    "sha256": "de3d5553d44540f356514eb9fe6696d9f1585e05db88c4128ac24ec5f5981bc4",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0151.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "248",
+        "heading": "Artículo 248. Medidas de protección*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0152",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-250-del-codigo-procesal-penal-variabilidad-de-las-medidas/",
+    "title": "Jurisprudencia del artículo 250 del Código Procesal Penal.- Variabilidad de las medidas | LP",
+    "sha256": "c28aeee6bba7c57035ac5f7b6312fa5f5a1f266d3f296ba988b2bc20cdc9b8ad",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0152.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "250",
+        "heading": "Artículo 250. Variabilidad de las medidas"
+      }
+    ]
+  },
+  {
+    "id": "jp_0153",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-251-del-codigo-procesal-penal/",
+    "title": "Jurisprudencia del artículo 251 del Código Procesal Penal.- Reexamen e Impugnaciones | LP",
+    "sha256": "76155fcc366be07a687ccb5041529098fc6b53933c1660f2ef93ab1a6dab0862",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0153.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "251",
+        "heading": "Artículo 251. Reexamen e Impugnaciones"
+      }
+    ]
+  },
+  {
+    "id": "jp_0154",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-252-del-codigo-procesal-penal-programa-de-proteccion/",
+    "title": "Jurisprudencia del artículo 252 del Código Procesal Penal.- Programa de protección | LP",
+    "sha256": "a7c09f813a59f923e5007c6e20abb2fb255c2af1cdba7277625df8bbfb92eff2",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0154.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "252",
+        "heading": "Artículo 252. Programa de protección"
+      }
+    ]
+  },
+  {
+    "id": "jp_0155",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-254-del-codigo-procesal-penal-requisitos-y-tramite-del-auto-judicial/",
+    "title": "Jurisprudencia del artículo 254 del Código Procesal Penal.- Requisitos y trámite del auto judicial (las medidas de coerción procesal) | LP",
+    "sha256": "236fa3291a12fbd58d1280e53530307ccf5bb1cfffdd3c59c26c72f27751aa2b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0155.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "254",
+        "heading": "Artículo 254. Requisitos y trámite del auto judicial"
+      }
+    ]
+  },
+  {
+    "id": "jp_0156",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-255-del-codigo-procesal-penal-legitimacion-y-variabilidad/",
+    "title": "Jurisprudencia del artículo 255 del Código Procesal Penal.- Legitimación y variabilidad (las medidas de coerción procesal) | LP",
+    "sha256": "a3f8548bb37ff428bd0e5b4682c638eefc45ef56b6f209cfc34871f15b88bce8",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0156.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "255",
+        "heading": "Artículo 255. Legitimación y variabilidad*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0157",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-257-del-codigo-procesal-penal-impugnacion/",
+    "title": "Jurisprudencia del artículo 257 del Código Procesal Penal.- Impugnación (las medidas de coerción procesal) | LP",
+    "sha256": "bf7d3fc4cc816b2397ec6d4820f99d141919da6d4af3589f68306f4d53174945",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0157.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "257",
+        "heading": "Artículo 257. Impugnación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0158",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-259-del-codigo-procesal-penal-detencion-policial/",
+    "title": "Jurisprudencia del artículo 259 del Código Procesal Penal.- Detención Policial | LP",
+    "sha256": "148ed8ae358ef8d9d000996068119452baa237f60ba54167bc1d02f6772ad763",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0158.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "259",
+        "heading": "Artículo 259. Detención Policial*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0159",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-260-codigo-procesal-penal-arresto-ciudadano/",
+    "title": "Jurisprudencia del artículo 260 del Código Procesal Penal.- Arresto Ciudadano | LP",
+    "sha256": "d8ad3993ab9104a4504d6c903ca495f35a8b71763be72eb1d2a3b86f758354cb",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0159.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "260",
+        "heading": "Artículo 260. Arresto Ciudadano*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0160",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-261-del-codigo-procesal-penal-detencion-preliminar-judicial/",
+    "title": "Jurisprudencia del artículo 261 del Código Procesal Penal.- Detención preliminar judicial | LP",
+    "sha256": "04a6fd584e39184443d7cbee66ebf4a2221529a23120b5cf20fe27a1aeeee7d8",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0160.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "261",
+        "heading": "Artículo 261. Detención Preliminar Judicial*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0161",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-263-del-codigo-procesal-penal-deberes-de-la-policia/",
+    "title": "Jurisprudencia del artículo 263 del Código Procesal Penal.- Deberes de la autoridad policial | LP",
+    "sha256": "6e24eae91ce6f9484d5f860540f1a8375853a056db5c6a4fafd30c590afedc13",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0161.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "263",
+        "heading": "Artículo 263. Deberes de la autoridad policial*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0162",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-264-del-codigo-procesal-penal-plazo-de-la-detencion/",
+    "title": "Jurisprudencia del artículo 264 del Código Procesal Penal.- Plazo de la detención | LP",
+    "sha256": "1ca19626673d16073552a7e3a760d9d85beeaefa93573487cc40c150926ab22c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0162.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "264",
+        "heading": "Artículo 264. Plazo de la detención*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0163",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-265-del-codigo-procesal-penal-detencion-preliminar-incomunicada/",
+    "title": "Jurisprudencia del artículo 265 del Código Procesal Penal.- Detención preliminar incomunicada | LP",
+    "sha256": "e4f217484f56133f501ae36eff1a46760f31b6835adb5e3b3822a649b2f80442",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0163.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "265",
+        "heading": "Artículo 265. Detención preliminar incomunicada"
+      }
+    ]
+  },
+  {
+    "id": "jp_0164",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-266-del-codigo-procesal-penal-detencion-judicial-en-caso-de-flagrancia/",
+    "title": "Jurisprudencia del artículo 266 del Código Procesal Penal.- Detención judicial en caso de flagrancia | LP",
+    "sha256": "2e8f3c3d7fefb282961e129a5e4152d25731b74243d7e703de72461e1604cfae",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0164.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "266",
+        "heading": "Artículo 266. Detención judicial en caso de flagrancia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0165",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-268-del-codigo-procesal-penal-presupuestos-materiales-prision-preventiva/",
+    "title": "Jurisprudencia del artículo 268 del Código Procesal Penal.- Presupuestos materiales (prisión preventiva) | LP",
+    "sha256": "974de90a958f45b9a9502d58a3d5386ccb8281336cb5a6486c77ebc0198b2169",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0165.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "268",
+        "heading": "Artículo 268. Presupuestos materiales*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0166",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-271-del-codigo-procesal-penal-audiencia-y-resolucion/",
+    "title": "Jurisprudencia del artículo 271 del Código Procesal Penal.- Audiencia y resolución (prisión preventiva) | LP",
+    "sha256": "ec7f32bbec6b7ff037099b47b5a61088c5595acf029229fd53725a07790fb923",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0166.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "271",
+        "heading": "Artículo 271. Audiencia y resolución"
+      }
+    ]
+  },
+  {
+    "id": "jp_0167",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-273-del-codigo-procesal-penal-libertad-del-imputado/",
+    "title": "Jurisprudencia del artículo 273 del Código Procesal Penal.- Libertad del imputado (prisión preventiva) | LP",
+    "sha256": "f46fa3ce702f421253cd993b2e13e4d79744a2d2d07819a48706fecc4ead09f5",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0167.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "273",
+        "heading": "Artículo 273. Libertad del imputado"
+      }
+    ]
+  },
+  {
+    "id": "jp_0168",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-274-del-codigo-procesal-penal-prolongacion-de-la-prision-preventiva/",
+    "title": "Jurisprudencia del artículo 274 del Código Procesal Penal.- Prolongación de la prisión preventiva  | LP",
+    "sha256": "643966bdacda2eb1d3140842c3ef19651796f4d2f3ad16954422823985ccf680",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0168.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "274",
+        "heading": "Artículo 274. Prolongación de la prisión preventiva*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0169",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-278-del-codigo-procesal-penal-apelacion/",
+    "title": "Jurisprudencia del artículo 278 del Código Procesal Penal.- Apelación (la prisión preventiva) | LP",
+    "sha256": "2da78f58698301eaea73a5c74cff5f85457c6ae46bcd5e097bdbbd6852b0ec90",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0169.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "278",
+        "heading": "Artículo 278. Apelación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0170",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-279-del-codigo-procesal-penal-cambio-de-comparecencia-por-prision-preventiva/",
+    "title": "Jurisprudencia del artículo 279 del Código Procesal Penal.- Cambio de comparecencia por prisión preventiva | LP",
+    "sha256": "553d0d1313325e4f7afe122bd69bfe48ff2481615aa37a68ef03fa8610b97836",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0170.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "279",
+        "heading": "Artículo 279. Cambio de comparecencia por prisión preventiva"
+      }
+    ]
+  },
+  {
+    "id": "jp_0171",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-283-del-codigo-procesal-penal-cesacion-de-la-prision-preventiva/",
+    "title": "Jurisprudencia del artículo 283 del Código Procesal Penal.- Cesación de la prisión preventiva o de la comparecencia | LP",
+    "sha256": "7756992a4ff2f1faa829f4d305211805c38dc55a57e8b3077e6c092e800a7556",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0171.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "283",
+        "heading": "Artículo 283. Cesación de la prisión preventiva o de la comparecencia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0172",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-287-del-codigo-procesal-penal-comparecencia-restrictiva/",
+    "title": "Jurisprudencia del artículo 287 del Código Procesal Penal.- Comparecencia restrictiva | LP",
+    "sha256": "2bffab5b3b23861217745db52d02766cf53b210f8b68d781b178e589b2535c18",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0172.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "287",
+        "heading": "Artículo 287. Comparecencia restrictiva*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0173",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-288-del-codigo-procesal-penal-las-restricciones/",
+    "title": "Jurisprudencia del artículo 288 del Código Procesal Penal.- Las restricciones (la comparecencia) | LP",
+    "sha256": "1bf07642ed59b3c83fc56aa587db382332be66a09e5917a1e77e5dfd4130accb",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0173.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "288",
+        "heading": "Artículo 288. Las restricciones*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0174",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-289-del-codigo-procesal-penal-la-caucion/",
+    "title": "Jurisprudencia del artículo 289 del Código Procesal Penal.- La caución | LP",
+    "sha256": "2cdc45328d74a6c5b5e32591929866c90c31778f7e2511e1cf0a711d0483657b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0174.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "289",
+        "heading": "Artículo 289. La caución*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0175",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-290-del-codigo-procesal-penal-detencion-domiciliaria/",
+    "title": "Jurisprudencia del artículo 290 del Código Procesal Penal.- Detención domiciliaria | LP",
+    "sha256": "a8df7fcd4fa49365dbd3f7c28993d5bd21d9ae0cd29717171d6f2f314bf60dbe",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0175.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "290",
+        "heading": "Artículo 290. Detención domiciliaria*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0176",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-291-del-codigo-procesal-penal-comparecencia-simple/",
+    "title": "Jurisprudencia del artículo 291 del Código Procesal Penal.- Comparecencia simple | LP",
+    "sha256": "45e0db1da55a3963596082b5b236d75e754a8860694d59515202b04cedfdf725",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0176.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "291",
+        "heading": "Artículo 291. Comparecencia simple"
+      }
+    ]
+  },
+  {
+    "id": "jp_0177",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-294-del-codigo-procesal-penal-internamiento-previo-para-observacion-y-examen/",
+    "title": "Jurisprudencia del artículo 294 del Código Procesal Penal.- Internamiento previo para observación y examen (la internación preventiva) | LP",
+    "sha256": "a3b3ff404f260a1ef92cfad54b3c58ec9e72cf1766676bf676178e5df6dd0809",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0177.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "294",
+        "heading": "Artículo 294. Internamiento previo para observación y examen"
+      }
+    ]
+  },
+  {
+    "id": "jp_0178",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-295-del-codigo-procesal-penal-solicitud-del-fiscal/",
+    "title": "Jurisprudencia del artículo 295 del Código Procesal Penal.- Solicitud del Fiscal (impedimento de salida) | LP",
+    "sha256": "62b72c38bc7b0141d6f620b6487fb86eefc5f6d41a6f8b280ce9e59185f10e14",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0178.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "295",
+        "heading": "Artículo 295. Solicitud del Fiscal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0179",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-296-del-codigo-procesal-penal-resolucion-y-audiencia/",
+    "title": "Jurisprudencia del artículo 296 del Código Procesal Penal.- Resolución y audiencia (el impedimento de salida) | LP",
+    "sha256": "e9646379bf043279a5f56d6bbe87338f43eb95c2bdfbc8f5c8d16d5bd35c5a99",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0179.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "296",
+        "heading": "Artículo 296. Resolución y audiencia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0180",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-297-del-codigo-procesal-penal-requisitos/",
+    "title": "Jurisprudencia del artículo 297 del Código Procesal Penal.- Requisitos (la suspensión preventiva de derechos) | LP",
+    "sha256": "eb626bfcd8a566af9b8d6afe35dd9b4743dfcc4b1562cc8499bd3df175c0683a",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0180.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "297",
+        "heading": "Artículo 297. Requisitos"
+      }
+    ]
+  },
+  {
+    "id": "jp_0181",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-302-del-codigo-procesal-penal-indagacion-sobre-bienes-embargables/",
+    "title": "Jurisprudencia del artículo 302 del Código Procesal Penal.- Indagación sobre bienes embargables (el embargo) | LP",
+    "sha256": "cc7ef4bf2aca657f10d05d53ce598c50683b533cbc2d2be91afa654d16a43c5c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0181.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "302",
+        "heading": "Artículo 302. Indagación sobre bienes embargables"
+      }
+    ]
+  },
+  {
+    "id": "jp_0182",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-303-del-codigo-procesal-penal-embargo/",
+    "title": "Jurisprudencia del artículo 303 del Código Procesal Penal.- Embargo | LP",
+    "sha256": "6b95e8c8377af40627e694687a240ca0269544fffd358b7c3ac49257f9d7455a",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0182.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "303",
+        "heading": "Artículo 303. Embargo"
+      }
+    ]
+  },
+  {
+    "id": "jp_0183",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-310-del-codigo-procesal-penal-orden-de-inhibicion/",
+    "title": "Jurisprudencia del artículo 310 del Código Procesal Penal.- Orden de inhibición | LP",
+    "sha256": "70a2e22bbd6512aa2bef0aae31e90c1ee7db9a423569427224d48c64b192d1e8",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0183.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "310",
+        "heading": "Artículo 310. Orden de inhibición"
+      }
+    ]
+  },
+  {
+    "id": "jp_0184",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-311-del-codigo-procesal-penal-desalojo-preventivo/",
+    "title": "Jurisprudencia del artículo 311 del Código Procesal Penal.- Desalojo preventivo | LP",
+    "sha256": "d87a7146847bbef5f1aaf4a88a22ff6d0cace7f5e03ef556cf408c10490d7f2d",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0184.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "311",
+        "heading": "Artículo 311. Desalojo preventivo*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0185",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-314-del-codigo-procesal-penal-pension-anticipada-de-alimentos/",
+    "title": "Jurisprudencia del artículo 314 del Código Procesal Penal.- Pensión anticipada de alimentos | LP",
+    "sha256": "a6af64532091e79e0d4304663f4efbea483fcabd0a63b99efa6eb7cb91d87c88",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0185.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "314",
+        "heading": "Artículo 314. Pensión anticipada de alimentos"
+      }
+    ]
+  },
+  {
+    "id": "jp_0186",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-316-del-codigo-procesal-penal-objeto-de-la-incautacion/",
+    "title": "Jurisprudencia del artículo 316 del Código Procesal Penal.- Objeto de la incautación (la incautación) | LP",
+    "sha256": "526446a115c56578bee5f4e120de1cc01a14f46ef36be5cc1fdda8596cf3f0cb",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0186.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "316",
+        "heading": "Artículo 316. Objeto de la incautación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0187",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-318-del-codigo-procesal-penal-bienes-incautados/",
+    "title": "Jurisprudencia del artículo 318 del Código Procesal Penal.- Bienes incautados (la incautación) | LP",
+    "sha256": "00c8e011606c7c191363a08d15f6db8ef921831786b6f83919aee681c6c9ceda",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0187.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "318",
+        "heading": "Artículo 318. Bienes incautados*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0188",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-319-del-codigo-procesal-penal-variacion-y-reexamen-de-la-incautacion/",
+    "title": "Jurisprudencia del artículo 319 del Código Procesal Penal.- Variación y reexamen de la incautación | LP",
+    "sha256": "c8635f301dd9349f33257c7d100a1d8238bb553af220bd3e7caf8eed01a0657f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0188.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "319",
+        "heading": "Artículo 319. Variación y reexamen de la incautación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0189",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-321-del-codigo-procesal-penal/",
+    "title": "Jurisprudencia del artículo 321 del Código Procesal Penal.- Finalidad (normas generales de la investigación preparatoria) | LP",
+    "sha256": "e31b80c8a41ede22129d20f573f46015ae3e4c95811abb518f72f6b1ca4e464e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0189.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "321",
+        "heading": "Artículo 321. Finalidad*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0190",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-322-del-codigo-procesal-penal-direccion-de-la-investigacion/",
+    "title": "Jurisprudencia del artículo 322 del Código Procesal Penal.- Dirección de la investigación (normas generales de la investigación preparatoria) | LP",
+    "sha256": "beb421d8533580895730dc43f49b43a19f43317c13e89ded9f4f62aafbe8ad84",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0190.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "322",
+        "heading": "Artículo 322. Dirección de la investigación *"
+      }
+    ]
+  },
+  {
+    "id": "jp_0191",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-323-del-codigo-procesal-penal-funcion-del-juez-de-la-investigacion-preparatoria/",
+    "title": "Jurisprudencia del artículo 323 del Código Procesal Penal.- Función del Juez de la Investigación Preparatoria | LP",
+    "sha256": "10c4e7c12e8d319773d8c0d51524de260528293685f57652f1d5ed194aed2033",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0191.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "323",
+        "heading": "Artículo 323. Función del Juez de la Investigación Preparatoria"
+      }
+    ]
+  },
+  {
+    "id": "jp_0192",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-324-del-codigo-procesal-penal-reserva-y-secreto-de-la-investigacion/",
+    "title": "Jurisprudencia del artículo 324 del Código Procesal Penal.- Reserva y secreto de la investigación | LP",
+    "sha256": "5df5996255ec6be0d313839c3494b8c639239608c359cac2d2cee6d01881cf4b",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0192.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "324",
+        "heading": "Artículo 324. Reserva y secreto de la investigación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0193",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-326-del-codigo-procesal-penal-facultad-y-obligacion-de-denunciar/",
+    "title": "Jurisprudencia del artículo 326 del Código Procesal Penal.- Facultad y obligación de denunciar | LP",
+    "sha256": "c6cbf578846bb2c2be0df2f5b5bff719e5ee3696d4c1f468f5b1cacf241cc7b0",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0193.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "326",
+        "heading": "Artículo 326. Facultad y obligación de denunciar"
+      }
+    ]
+  },
+  {
+    "id": "jp_0194",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-327-del-codigo-procesal-penal-no-obligados-a-denunciar/",
+    "title": "Jurisprudencia del artículo 327 del Código Procesal Penal.- No obligados a denunciar | LP",
+    "sha256": "23218c7d103ac645d9dbb92ac6288d2fc7a87d0d4bfaa0cda954ca8554b31cd8",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0194.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "327",
+        "heading": "Artículo 327. No obligados a denunciar"
+      }
+    ]
+  },
+  {
+    "id": "jp_0195",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-329-del-codigo-procesal-penal-formas-de-iniciar-la-investigacion/",
+    "title": "Jurisprudencia del artículo 329 del Código Procesal Penal.- Formas de iniciar la investigación (la denuncia y los actos iniciales de la investigación) | LP",
+    "sha256": "67c7a567223764db55fff5fefa24f025359d228ab3114d198c0b88a17fedd3f5",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0195.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "329",
+        "heading": "Artículo 329. Formas de iniciar la investigación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0196",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-330-del-codigo-procesal-penal-diligencias-preliminares/",
+    "title": "Jurisprudencia del artículo 330 del Código Procesal Penal.- Diligencias Preliminares (la denuncia y los actos iniciales de la investigación) | LP",
+    "sha256": "1a91ee479d4fa092a2206850964db2cbc584a8946ef203d80179271398d1fc9c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0196.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "330",
+        "heading": "Artículo 330. Investigación preliminar *"
+      }
+    ]
+  },
+  {
+    "id": "jp_0197",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-331-del-codigo-procesal-penal-actuacion-policial/",
+    "title": "Jurisprudencia del artículo 331 del Código Procesal Penal.- Actuación Policial (la denuncia y los actos iniciales de la investigación) | LP",
+    "sha256": "df4628a7e74e9c21c3d4437778b0d9e828e34cb2e811014093108d3a0d80c9b9",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0197.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "331",
+        "heading": "Artículo 331. Actuación policial*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0198",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-332-del-codigo-procesal-penal-informe-policial/",
+    "title": "Jurisprudencia del artículo 332 del Código Procesal Penal.- Informe Policial | LP",
+    "sha256": "ccecfb19c22512562f38277efe10fdee52ecba24f92e1aebba6851ccbaa46770",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0198.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "332",
+        "heading": "Artículo 332. Informe policial*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0199",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-333-del-codigo-procesal-penal-coordinacion-lnterinstitucional-de-la-policia-nacional-con-el-ministerio-publico/",
+    "title": "Jurisprudencia del artículo 333 del Código Procesal Penal.- Coordinación lnterinstitucional de la Policía Nacional con el Ministerio Público (la denuncia y los actos iniciales de la investigación) | LP",
+    "sha256": "9ebb8b72abe6176187ce15cf2620a30cd55f761114125fd93f51aff9d363cbcb",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0199.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "333",
+        "heading": "Artículo 333. Coordinación lnterinstitucional de la Policía Nacional con el Ministerio Público"
+      }
+    ]
+  },
+  {
+    "id": "jp_0200",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-334-del-codigo-procesal-penal-calificacion/",
+    "title": "Jurisprudencia del artículo 334 del Código Procesal Penal.- Calificación (la investigación preparatoria) | LP",
+    "sha256": "1fef62125e66dc929e996a061a72500fa01f3108db07cd8fe4f4f80cf6c66dd0",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0200.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "334",
+        "heading": "Artículo 334. Calificación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0201",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-335-del-codigo-procesal-penal-prohibicion-de-nueva-denuncia/",
+    "title": "Jurisprudencia del artículo 335 del Código Procesal Penal.- Prohibición de nueva denuncia | LP",
+    "sha256": "bc865592ff5add6e61a8708b430b94f19650b427cbb4748448e1de9164ae8873",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0201.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "335",
+        "heading": "Artículo 335. Prohibición de nueva denuncia"
+      }
+    ]
+  },
+  {
+    "id": "jp_0202",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-336-del-codigo-procesal-penal-formalizacion-y-continuacion-de-la-investigacion-preparatoria/",
+    "title": "Jurisprudencia del artículo 336 del Código Procesal Penal.- Formalización y continuación de la Investigación Preparatoria | LP",
+    "sha256": "917bada4405ceae36a6306d98c142e5e6fd9f9fa5bfe0a1a1bda1c1bca953930",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0202.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "336",
+        "heading": "Artículo 336. Formalización y continuación de la Investigación Preparatoria"
+      }
+    ]
+  },
+  {
+    "id": "jp_0203",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-337-del-codigo-procesal-penal-diligencias-de-la-investigacion-preparatoria/",
+    "title": "Jurisprudencia del artículo 337 del Código Procesal Penal.- Diligencias de la Investigación Preparatoria | LP",
+    "sha256": "37a799e49dd0c64d7ba6e6d24a879759102362753042543844d9c7f2f7a7d3e1",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0203.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "337",
+        "heading": "Artículo 337. Diligencias de la Investigación Preparatoria*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0204",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-338-del-codigo-procesal-penal-condiciones-de-las-actuaciones-de-investigacion/",
+    "title": "Jurisprudencia del artículo 338 del Código Procesal Penal.- Condiciones de las actuaciones de investigación | LP",
+    "sha256": "6f7dfb08e41379c2901c7f6fc859895cd72b45b97ea507e13f2a604a113007f9",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0204.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "338",
+        "heading": "Artículo 338. Condiciones de las actuaciones de investigación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0205",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-339-del-codigo-procesal-penal-efectos-de-la-formalizacion-de-la-investigacion/",
+    "title": "Jurisprudencia del artículo 339 del Código Procesal Penal.- Efectos de la formalización de la investigación | LP",
+    "sha256": "03b6e5a1563038c0147dccadbe617c45866c64d2fe6af5429af185afbd39a993",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0205.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "339",
+        "heading": "Artículo 339. Efectos de la formalización de la investigación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0206",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-340-del-codigo-procesal-penal-circulacion-y-entrega-vigilada-de-bienes-delictivos/",
+    "title": "Jurisprudencia del artículo 340 del Código Procesal Penal.- Circulación y entrega vigilada de bienes delictivos | LP",
+    "sha256": "5ce1b7879a17a720500bb5ffb31b3c472671045cf0ee3e8e54bdae904d660663",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0206.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "340",
+        "heading": "Artículo 340. Circulación y entrega vigilada de bienes delictivos*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0207",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-341-del-codigo-procesal-penal-agente-encubierto-y-agente-especial/",
+    "title": "Jurisprudencia del artículo 341 del Código Procesal Penal.- Agente Encubierto, Agente Especial, Agente Revelador, Agente Virtual e informante o confidente | LP",
+    "sha256": "9eef89e4991f1e6f633321e74320254d4b11eb6c3f6ce9992f25173a08bbb024",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0207.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "341",
+        "heading": "Artículo 341. Agente Encubierto, Agente Especial, Agente Revelador, Agente Virtual e informante o confidente*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0208",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-341-a-del-codigo-procesal-penal-operaciones-encubiertas/",
+    "title": "Jurisprudencia del artículo 341-A del Código Procesal Penal.- Operaciones encubiertas (los actos especiales de investigación) | LP",
+    "sha256": "7f7a7d94205a5ae091bb6a014567b7b0984e86a7105251406fdcfc41f5b9bde6",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0208.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "341-A",
+        "heading": "Artículo 341-A. Operaciones encubiertas*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0209",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-342-del-codigo-procesal-penal-plazo/",
+    "title": "Jurisprudencia del artículo 342 del Código Procesal Penal.- Plazo (investigación preparatoria) | LP",
+    "sha256": "dbe93458c027c2bc6881f717be9587b49dd5960c1f59d465d8a9c6c14e0a5578",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0209.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "342",
+        "heading": "Artículo 342. Plazo*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0210",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-343-del-codigo-procesal-penal-control-del-plazo/",
+    "title": "Jurisprudencia del artículo 343 del Código Procesal Penal.- Control del Plazo (conclusión de la investigación preparatoria) | LP",
+    "sha256": "d2f2a2f7acba03906743ae1a77db04159dcbd7003700b0941d2cfb4d91b74cdd",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0210.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "343",
+        "heading": "Artículo 343. Control del Plazo"
+      }
+    ]
+  },
+  {
+    "id": "jp_0211",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-344-del-codigo-procesal-penal-decision-del-ministerio-publico/",
+    "title": "Jurisprudencia del artículo 344 del Código Procesal Penal.- Decisión del Ministerio Público (el sobreseimiento) | LP",
+    "sha256": "3e27ea244cf60c720fcb9b69258379f8f4560acaf9bb2e63d720671eb76e30ca",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0211.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "344",
+        "heading": "Artículo 344. Decisión del Ministerio Público*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0212",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-345-del-codigo-procesal-penal-control-del-requerimiento-de-sobreseimiento-y-audiencia-de-control-del-sobreseimiento/",
+    "title": "Jurisprudencia del artículo 345 del Código Procesal Penal.- Control del requerimiento de sobreseimiento y Audiencia de control del sobreseimiento | LP",
+    "sha256": "8b200d871191199c2dfe0e82ec7ea92c260aaa9a0d4c61e1d5da996c65e13e88",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0212.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "345",
+        "heading": "Artículo 345. Control del requerimiento de sobreseimiento y Audiencia de control del sobreseimiento*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0213",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-346-del-codigo-procesal-penal-pronunciamiento-del-juez-de-la-investigacion-preparatoria/",
+    "title": "Jurisprudencia del artículo 346 del Código Procesal Penal.- Pronunciamiento del Juez de la Investigación Preparatoria | LP",
+    "sha256": "acb66af8b7dccbdc1ba2a83d6dae5056dcff13623715985bf449975e9757bf68",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0213.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "346",
+        "heading": "Artículo 346. Pronunciamiento del Juez de la Investigación Preparatoria*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0214",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-347-del-codigo-procesal-penal-auto-de-sobreseimiento/",
+    "title": "Jurisprudencia del artículo 347 del Código Procesal Penal.- Auto de sobreseimiento (el sobreseimiento) | LP",
+    "sha256": "ca99a835b447a81d7e8c094401c30551dbe410f8b560ccd7b71be3a9994a2a21",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0214.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "347",
+        "heading": "Artículo 347. Auto de sobreseimiento"
+      }
+    ]
+  },
+  {
+    "id": "jp_0215",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-348-del-codigo-procesal-penal-sobreseimiento-total-y-parcial/",
+    "title": "Jurisprudencia del artículo 348 del Código Procesal Penal.- Sobreseimiento total y parcial | LP",
+    "sha256": "bf0be2e70686e94b1bad77e3af358c0ee203a845ca4e433df3afc34128be53d5",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0215.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "348",
+        "heading": "Artículo 348. Sobreseimiento total y parcial"
+      }
+    ]
+  },
+  {
+    "id": "jp_0216",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-349-del-codigo-procesal-penal-contenido/",
+    "title": "Jurisprudencia del artículo 349 del Código Procesal Penal.- Contenido (la acusación) | LP",
+    "sha256": "e891ea4cc21737fa1c1b3359ca9439424f7c7d3a3a5f86a522638a30cbbadc8f",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0216.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "349",
+        "heading": "Artículo 349. Contenido*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0217",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-350-del-codigo-procesal-penal-notificacion-de-la-acusacion-y-objecion-de-los-demas-sujetos-procesales/",
+    "title": "Jurisprudencia del artículo 350 del Código Procesal Penal.- Notificación de la acusación y objeción de los demás sujetos procesales | LP",
+    "sha256": "899ae3b27804a8e91fa30df81935dee3a096a8515d43e339c444cc8d262bcafb",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0217.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "350",
+        "heading": "Artículo 350. Notificación de la acusación y objeción de los demás sujetos procesales*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0218",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-351-del-codigo-procesal-penal-audiencia-preliminar/",
+    "title": "Jurisprudencia del artículo 351 del Código Procesal Penal.- Audiencia Preliminar (la acusación) | LP",
+    "sha256": "a5c1800c01d0f0737856e9ec0c3c703955c749206f9379e36ed59172237e0d77",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0218.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "351",
+        "heading": "Artículo 351. Audiencia Preliminar*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0219",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-352-del-codigo-procesal-penal-decisiones-adoptadas-en-la-audiencia-preliminar/",
+    "title": "Jurisprudencia del artículo 352 del Código Procesal Penal.- Decisiones adoptadas en la audiencia preliminar (la acusación) | LP",
+    "sha256": "82109d4810ab73967a43f85dbee0d33f7af6da2bf236ea0cf39068ee6f1262c5",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0219.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "352",
+        "heading": "Artículo 352. Decisiones adoptadas en la audiencia preliminar"
+      }
+    ]
+  },
+  {
+    "id": "jp_0220",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-353-del-codigo-procesal-penal-contenido-del-auto-de-enjuiciamiento/",
+    "title": "Jurisprudencia del artículo 353 del Código Procesal Penal.- Contenido del auto de enjuiciamiento | LP",
+    "sha256": "476e5f1b35ea2b1bbf6d93b8d449950db2a3240f20c60fd96679d0693ff1c2ae",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0220.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "353",
+        "heading": "Artículo 353. Contenido del auto de enjuiciamiento*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0221",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-354-del-codigo-procesal-penal-notificacion-del-auto-de-enjuiciamiento/",
+    "title": "Jurisprudencia del artículo 354 del Código Procesal Penal.- Notificación del auto de enjuiciamiento | LP",
+    "sha256": "3dd7051062d5f808ca2267ecb3411a57a5bf1794368b9ef1ad049c9f21806d0a",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0221.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "354",
+        "heading": "Artículo 354. Notificación del auto de enjuiciamiento*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0222",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-355-del-codigo-procesal-penal-auto-de-citacion-a-juicio/",
+    "title": "Jurisprudencia del artículo 355 del Código Procesal Penal.- Auto de citación a juicio (el auto de citación a juicio) | LP",
+    "sha256": "7de534350bd79a4226a64546b41a8efb84d09ee8b8791177e032cdac9b0142d9",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0222.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "355",
+        "heading": "Artículo 355. Auto de citación a juicio*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0223",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-359-del-codigo-procesal-penal-concurrencia-del-juez-y-de-las-partes/",
+    "title": "Jurisprudencia del artículo 359 del Código Procesal Penal.- Concurrencia del Juez y de las partes (preceptos generales del juzgamiento) | LP",
+    "sha256": "e7e532a5f0c773b5c098c7792b22cd7bc0e674e74e4fa27d3a4c398aa25fbf4e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0223.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "359",
+        "heading": "Artículo 359. Concurrencia del Juez y de las partes*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0224",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-360-del-codigo-procesal-penal-continuidad-suspension-e-interrupcion-del-juicio/",
+    "title": "Jurisprudencia del artículo 360 del Código Procesal Penal.- Continuidad, suspensión e interrupción del juicio (preceptos generales del juzgamiento) | LP",
+    "sha256": "53e703c33192dd4c8f925a06217cfe9be9629801880a67d89e99d48e9643c6e5",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0224.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "360",
+        "heading": "Artículo 360. Continuidad, suspensión e interrupción del juicio*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0225",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-361-del-codigo-procesal-penal-oralidad-y-registro/",
+    "title": "Jurisprudencia del artículo 361 del Código Procesal Penal.- Oralidad y registro (preceptos generales del juzgamiento) | LP",
+    "sha256": "9bcfe8de4840bf8d8b5fe58008623436da4fe1214d16c3e3fa7035da88e94dbc",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0225.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "361",
+        "heading": "Artículo 361. Oralidad y registro"
+      }
+    ]
+  },
+  {
+    "id": "jp_0226",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-365-del-codigo-procesal-penal-delito-en-el-juicio/",
+    "title": "Jurisprudencia del artículo 365 del Código Procesal Penal.- Delito en el juicio (preceptos generales del juzgamiento) | LP",
+    "sha256": "fc9da59ad85b5c0be1ac42d5b7d546210d81ea3cc952158e49aed52e7259bd2c",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0226.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "365",
+        "heading": "Artículo 365. Delito en el juicio"
+      }
+    ]
+  },
+  {
+    "id": "jp_0227",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-366-del-codigo-procesal-penal-auxiliar-jurisdiccional/",
+    "title": "Jurisprudencia del artículo 366 del Código Procesal Penal.- Auxiliar Jurisdiccional (preceptos generales del juzgamiento) | LP",
+    "sha256": "17e6080254e0aa465b48c452d061125c49f8441a55a7a5d72c84e5be8b752537",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0227.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "366",
+        "heading": "Artículo 366. Auxiliar Jurisdiccional"
+      }
+    ]
+  },
+  {
+    "id": "jp_0228",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-367-del-codigo-procesal-penal-concurrencia-del-imputado-y-su-defensor/",
+    "title": "Jurisprudencia del artículo 367 del Código Procesal Penal.- Concurrencia del imputado y su defensor (la preparación del debate) | LP",
+    "sha256": "678bae4a99a6803d035a223f3879a6096a3f9bcb081bb5f227880025004ddd35",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0228.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "367",
+        "heading": "Artículo 367. Concurrencia del imputado y su defensor"
+      }
+    ]
+  },
+  {
+    "id": "jp_0229",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-369-del-codigo-procesal-penal-instalacion-de-la-audiencia/",
+    "title": "Jurisprudencia del artículo 369 del Código Procesal Penal.- Instalación de la audiencia | LP",
+    "sha256": "8a8e4c81af85591ae1b01697203f4d838c7d453070fbb9bf55919550a82994b9",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0229.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "369",
+        "heading": "Artículo 369. Instalación de la audiencia"
+      }
+    ]
+  },
+  {
+    "id": "jp_0230",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-371-del-codigo-procesal-penal-apertura-del-juicio-y-posicion-de-las-partes/",
+    "title": "Jurisprudencia del artículo 371 del Código Procesal Penal.- Apertura del juicio y posición de las partes | LP",
+    "sha256": "c2342e56b4c2df52dc566a8f38da7f3067dba4b3872212df0e806f76331825c6",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0230.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "371",
+        "heading": "Artículo 371. Apertura del juicio y posición de las partes"
+      }
+    ]
+  },
+  {
+    "id": "jp_0231",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-372-del-codigo-procesal-penal-posicion-del-acusado-y-conclusion-anticipada-del-juicio/",
+    "title": "Jurisprudencia del artículo 372 del Código Procesal Penal.- Posición del acusado y conclusión anticipada del juicio | LP",
+    "sha256": "2f527a9f601e8e4fc5a9c17e8dcfb0b191ab459fb8728e13d38a08e128aa42dd",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0231.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "372",
+        "heading": "Artículo 372. Posición del acusado y conclusión anticipada del juicio*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0232",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-374-del-codigo-procesal-penal-poder-del-tribunal-y-facultad-del-fiscal/",
+    "title": "Jurisprudencia del artículo 374 del Código Procesal Penal.- Poder del Tribunal y Facultad del Fiscal | LP",
+    "sha256": "caf051e3ed9ff73ba04cb352558b645ae1b25f3e0be932c0f917c6abadf6420e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0232.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "374",
+        "heading": "Artículo 374. Poder del Tribunal y Facultad del Fiscal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0233",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-375-del-codigo-procesal-penal-orden-y-modalidad-del-debate-probatorio/",
+    "title": "Jurisprudencia del artículo 375 del Código Procesal Penal.- Orden y modalidad del debate probatorio | LP",
+    "sha256": "b51a1d05c3cdf96c81d11c001cc94f91c9a1c1cdbcdd2a45e4d07dfdbb8a2f36",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0233.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "375",
+        "heading": "Artículo 375. Orden y modalidad del debate probatorio"
+      }
+    ]
+  },
+  {
+    "id": "jp_0234",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-376-del-codigo-procesal-penal-declaracion-del-acusado/",
+    "title": "Jurisprudencia del artículo 376 del Código Procesal Penal.- Declaración del acusado | LP",
+    "sha256": "c6b4f62f8276338248bec4a82f39714e3bfc6a1cde959e836890c4a26b75e709",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0234.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "376",
+        "heading": "Artículo 376. Declaración del acusado"
+      }
+    ]
+  },
+  {
+    "id": "jp_0235",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-378-del-codigo-procesal-penal-examen-de-testigos-y-peritos/",
+    "title": "Jurisprudencia del artículo 378 del Código Procesal Penal.- Examen de testigos y peritos | LP",
+    "sha256": "0f5530a5f3f4e1eba9be3b253f65668b75cf97579ea5b0bcaf073967db4b4bbe",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0235.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "378",
+        "heading": "Artículo 378. Examen de testigos y peritos"
+      }
+    ]
+  },
+  {
+    "id": "jp_0236",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-379-del-codigo-procesal-penal-inconcurrencia-del-testigo-o-perito/",
+    "title": "Jurisprudencia del artículo 379 del Código Procesal Penal.- Inconcurrencia del testigo o perito | LP",
+    "sha256": "bff498f22d9ffca90ad8f2e20a5f142f22ac40c7dd41f4c8cd7b51aa192ee329",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0236.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "379",
+        "heading": "Artículo 379. Inconcurrencia del testigo o perito"
+      }
+    ]
+  },
+  {
+    "id": "jp_0237",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-380-del-codigo-procesal-penal-examen-especial-del-testigo-o-perito/",
+    "title": "Jurisprudencia del artículo 380 del Código Procesal Penal.- Examen especial del testigo o perito (el desarrollo del juicio) | LP",
+    "sha256": "eb43e91d8a69223c9260809782ff8a6b4f86ea4317638bdf7069cfb8dbfc9bf9",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0237.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "380",
+        "heading": "Artículo 380. Examen especial del testigo o perito"
+      }
+    ]
+  },
+  {
+    "id": "jp_0238",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-383-del-codigo-procesal-penal-lectura-de-la-prueba-documental/",
+    "title": "Jurisprudencia del artículo 383 del Código Procesal Penal.- Lectura de la prueba documental | LP",
+    "sha256": "ec5763fd5d63df0147fd26507d3c9444af6d410e6eb50e83f645736168372618",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0238.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "383",
+        "heading": "Artículo 383. Lectura de la prueba documental"
+      }
+    ]
+  },
+  {
+    "id": "jp_0239",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-384-del-codigo-procesal-penal-tramite-de-la-oralizacion/",
+    "title": "Jurisprudencia del artículo 384 del Código Procesal Penal.- Trámite de la oralización | LP",
+    "sha256": "a141a86018219aa42aeb77a7fb80f7bc7f264aac4c1333662404621e47b0ca98",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0239.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "384",
+        "heading": "Artículo 384. Trámite de la oralización"
+      }
+    ]
+  },
+  {
+    "id": "jp_0240",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-385-del-codigo-procesal-penal-otros-medios-de-prueba-y-prueba-de-oficio/",
+    "title": "Jurisprudencia del artículo 385 del Código Procesal Penal.- Otros medios de prueba y prueba de oficio (la actuación probatoria) | LP",
+    "sha256": "81138ba76e40daae9e6fe5ebdbd934c99e1d31db8b3469be3888032a22f3e412",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0240.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "385",
+        "heading": "Artículo 385. Otros medios de prueba y prueba de oficio"
+      }
+    ]
+  },
+  {
+    "id": "jp_0241",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-387-del-codigo-procesal-penal-alegato-oral-del-fiscal/",
+    "title": "Jurisprudencia del artículo 387 del Código Procesal Penal.- Alegato oral del Fiscal | LP",
+    "sha256": "4d0a537dfa5bccab428e997e198830e0fc86b2392a14c5eeeaedfc9a78a0af0a",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0241.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "387",
+        "heading": "Artículo 387. Alegato oral del Fiscal"
+      }
+    ]
+  },
+  {
+    "id": "jp_0242",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-397-del-codigo-procesal-penal-correlacion-entre-acusacion-y-sentencia/",
+    "title": "Jurisprudencia del artículo 397 del Código Procesal Penal.- Correlación entre acusación y sentencia | LP",
+    "sha256": "4d94aff7e835952a3a1fd61b6d31d2bc061a147d5883585282500cdf6535707a",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0242.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "397",
+        "heading": "Artículo 397. Correlación entre acusación y sentencia"
+      }
+    ]
+  },
+  {
+    "id": "jp_0243",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-398-del-codigo-procesal-penal-sentencia-absolutoria/",
+    "title": "Jurisprudencia del artículo 398 del Código Procesal Penal.- Sentencia absolutoria (la deliberación y la sentencia) | LP",
+    "sha256": "602721a05b22c174f466ddb331da48c05f7e9ab2bc0f1ab53660f70b47c3a348",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0243.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "398",
+        "heading": "Artículo 398. Sentencia absolutoria"
+      }
+    ]
+  },
+  {
+    "id": "jp_0244",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-400-del-codigo-procesal-penal-responsabilidad-de-persona-no-comprendida-en-el-proceso-o-comision-de-otro-delito/",
+    "title": "Jurisprudencia del artículo 400 del Código Procesal Penal.- Responsabilidad de persona no comprendida en el proceso o comisión de otro delito (la deliberación y la sentencia) | LP",
+    "sha256": "133a6cc06c0650b490ec924d1e61430b037303bcf2071bba07b218ac5ba6eb57",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0244.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "400",
+        "heading": "Artículo 400. Responsabilidad de persona no comprendida en el proceso o comisión de otro delito"
+      }
+    ]
+  },
+  {
+    "id": "jp_0245",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-405-del-codigo-procesal-penal-formalidades-del-recurso/",
+    "title": "Jurisprudencia del artículo 405 del Código Procesal Penal.- Formalidades del recurso (preceptos generales de la impugnación) | LP",
+    "sha256": "9a143dc67368dd56ec8c5820ffbf28b16c097f7cb11488d2c2da920175d2ab02",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0245.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "405",
+        "heading": "Artículo 405. Formalidades del recurso"
+      }
+    ]
+  },
+  {
+    "id": "jp_0246",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-407-del-codigo-procesal-penal-ambito-del-recurso/",
+    "title": "Jurisprudencia del artículo 407 del Código Procesal Penal.- Ámbito del recurso (preceptos generales de la impugnación) | LP",
+    "sha256": "58d5b098f1587db349d92d2e615b70cd70398b71732a33022ae05e7edad79f93",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0246.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "407",
+        "heading": "Artículo 407. Ámbito del recurso"
+      }
+    ]
+  },
+  {
+    "id": "jp_0247",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-409-del-codigo-procesal-penal-competencia-del-tribunal-revisor/",
+    "title": "Jurisprudencia del artículo 409 del Código Procesal Penal.- Competencia del Tribunal Revisor (preceptos generales de la impugnación) | LP",
+    "sha256": "bb7216fe16c5ffb18b3ec804658b0e783c983acb82740648c0de699947bc6991",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0247.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "409",
+        "heading": "Artículo 409. Competencia del Tribunal Revisor"
+      }
+    ]
+  },
+  {
+    "id": "jp_0248",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-411-del-codigo-procesal-penal-libertad-de-los-imputados/",
+    "title": "Jurisprudencia del artículo 411 del Código Procesal Penal.- Libertad de los imputados | LP",
+    "sha256": "d0f2b5399efae33b7337c4b229f5df22e6bb6b6c17f637a1772ed65ee3b8a1f7",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0248.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "411",
+        "heading": "Artículo 411. Libertad de los imputados"
+      }
+    ]
+  },
+  {
+    "id": "jp_0249",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-420-del-codigo-procesal-penal-tramite/",
+    "title": "Jurisprudencia del artículo 420 del Código Procesal Penal.- Trámite (la apelación de autos) | LP",
+    "sha256": "0f15e4a1c586eba8bb7bf493e191dcc499637d398bc6265606f9a7db04fca630",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0249.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "420",
+        "heading": "Artículo 420. Trámite"
+      }
+    ]
+  },
+  {
+    "id": "jp_0250",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-422-del-codigo-procesal-penal-pruebas-en-segunda-instancia/",
+    "title": "Jurisprudencia del artículo 422 del Código Procesal Penal.- Pruebas en Segunda Instancia (la apelación de sentencias) | LP",
+    "sha256": "251cd80874ec3ddfe1a65d8e379014d235ffec7375610f8a416235bd081ad6f6",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0250.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "422",
+        "heading": "Artículo 422. Pruebas en Segunda Instancia"
+      }
+    ]
+  },
+  {
+    "id": "jp_0251",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-423-del-codigo-procesal-penal-emplazamiento-para-la-audiencia-de-apelacion/",
+    "title": "Jurisprudencia del artículo 423 del Código Procesal Penal.- Emplazamiento para la audiencia de apelación (la apelación de sentencias) | LP",
+    "sha256": "677140a7b4c6f3c85c1546b3e0d138173a6a709f00bcfb206e435495d29b09db",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0251.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "423",
+        "heading": "Artículo 423. Emplazamiento para la audiencia de apelación*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0252",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-424-del-codigo-procesal-penal-audiencia-de-apelacion/",
+    "title": "Jurisprudencia del artículo 424 del Código Procesal Penal.- Audiencia de apelación (la apelación de sentencias) | LP",
+    "sha256": "803aeca636f79d677cc0e21476e58bd87ff337f26f7f2502ca6a3aee945392fd",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0252.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "424",
+        "heading": "Artículo 424. Audiencia de apelación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0253",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-425-del-codigo-procesal-penal-sentencia-de-segunda-instancia/",
+    "title": "Jurisprudencia del artículo 425 del Código Procesal Penal.- Sentencia de Segunda Instancia (la apelación de sentencias) | LP",
+    "sha256": "86c7fa6cea08fd6e1e47fc0c5c79a02a910b52ebca845557901fa6f1099a552e",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0253.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "425",
+        "heading": "Artículo 425. Sentencia de segunda instancia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0254",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-427-del-codigo-procesal-penal-procedencia/",
+    "title": "Jurisprudencia del artículo 427 del Código Procesal Penal.- Procedencia (el recurso de casación) | LP",
+    "sha256": "23cad142e162fa0930aa9de0defb78d9f34e819755c2bda6cab6192aeae4271a",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0254.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "427",
+        "heading": "Artículo 427. Procedencia*"
+      }
+    ]
+  },
+  {
+    "id": "jp_0255",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-431-del-codigo-procesal-penal-preparacion-y-audiencia/",
+    "title": "Jurisprudencia del artículo 431 del Código Procesal Penal.- Preparación y Audiencia | LP",
+    "sha256": "03faa29da651615c509b84396d412ad2e621a0b5a5b6ac3ad48d8cc373003da1",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0255.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "431",
+        "heading": "Artículo 431. Preparación y Audiencia"
+      }
+    ]
+  },
+  {
+    "id": "jp_0256",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-438-del-codigo-procesal-penal-tramite/",
+    "title": "Jurisprudencia del artículo 438 del Código Procesal Penal.- Trámite (el recurso de casación) | LP",
+    "sha256": "481d2710db9fb934860b33d70f0b23dc90f90f8dca86b0c61260a83378c168d5",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0256.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "438",
+        "heading": "Artículo 438. Trámite"
+      }
+    ]
+  },
+  {
+    "id": "jp_0257",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-440-del-codigo-procesal-penal-legitimacion/",
+    "title": "Jurisprudencia del artículo 440 del Código Procesal Penal.- Legitimación (la acción de revisión) | LP",
+    "sha256": "21aef72026d6328c3d61804f0236b042759fec83f39e4b9626b42303aa4eaae2",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0257.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "440",
+        "heading": "Artículo 440. Legitimación"
+      }
+    ]
+  },
+  {
+    "id": "jp_0258",
+    "jurisprudence_url": "https://lpderecho.pe/articulo-443-del-codigo-procesal-penal-tramite/",
+    "title": "Jurisprudencia del artículo 443 del Código Procesal Penal.- Trámite (la acción de revisión) | LP",
+    "sha256": "49ef8959ebb394fc704098975c401e91b0f45093a0c6c4ed65655c6763d279bb",
+    "raw_html_path": "recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html/jp_0258.html",
+    "linked_articles": [
+      {
+        "source_dataset": "recoleccion/data_types/tipo_03_codigo_procesal_penal/data/processed/candidate_articles.json",
+        "article_id": "443",
+        "heading": "Artículo 443. Trámite"
+      }
+    ]
+  }
+]
