@@ -1,0 +1,192 @@
+[
+  {
+    "index_page_id": "jp_0001",
+    "index_page_url": "https://lpderecho.pe/articulo-20-del-codigo-penal-inimputabilidad/",
+    "article_id": "20",
+    "article_heading": "Artículo 20.- Inimputabilidad*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0001.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "20",
+        "heading": "Artículo 20.- Inimputabilidad*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 20 del Código Penal.- Inimputabilidad | LP",
+    "source_sha256": "291c59e0f5b9dbeed57a66a16900a42c7ff2edb7828245dce32ef175434b09fe"
+  },
+  {
+    "index_page_id": "jp_0002",
+    "index_page_url": "https://lpderecho.pe/articulo-22-codigo-penal-responsabilidad-restringida-edad/",
+    "article_id": "22",
+    "article_heading": "Artículo 22.- Responsabilidad restringida por la edad*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0002.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "22",
+        "heading": "Artículo 22.- Responsabilidad restringida por la edad*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 22 del Código Penal.- Responsabilidad restringida por la edad | LP",
+    "source_sha256": "0f735e3b95ffcb8fb40a79b10d8f393ac428e8a9d71257d617c183d99b5396c2"
+  },
+  {
+    "index_page_id": "jp_0003",
+    "index_page_url": "https://lpderecho.pe/articulo-29-a-del-codigo-penal-cumplimiento-de-la-pena-de-vigilancia-electronica-personal/",
+    "article_id": "29-A",
+    "article_heading": "Artículo 29-A.- Cumplimiento de la pena de vigilancia electrónica personal*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0003.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "29-A",
+        "heading": "Artículo 29-A.- Cumplimiento de la pena de vigilancia electrónica personal*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 29-A del Código Penal.- Cumplimiento de la pena de vigilancia electrónica personal | LP",
+    "source_sha256": "982aee2b92bfb8a577b9fc22403a4f03c8a00f4144783b4c20898358469210c1"
+  },
+  {
+    "index_page_id": "jp_0004",
+    "index_page_url": "https://lpderecho.pe/articulo-36-del-codigo-penal-inhabilitacion/",
+    "article_id": "36",
+    "article_heading": "Artículo 36. Inhabilitación*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0004.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "36",
+        "heading": "Artículo 36. Inhabilitación*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 36 del Código Penal.- Inhabilitación | LP",
+    "source_sha256": "4f77ac3ea0446edfb57715537621e9f5ba42a2a5b2a55014285cb7268f57b956"
+  },
+  {
+    "index_page_id": "jp_0005",
+    "index_page_url": "https://lpderecho.pe/articulo-46-e-del-codigo-penal-circunstancia-agravante-cualificada-por-abuso-de-parentesco/",
+    "article_id": "46-E",
+    "article_heading": "Artículo 46-E.- Circunstancia agravante cualificada por abuso de parentesco*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0005.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "46-E",
+        "heading": "Artículo 46-E.- Circunstancia agravante cualificada por abuso de parentesco*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 46-E del Código Penal.- Circunstancia agravante cualificada por abuso de parentesco | LP",
+    "source_sha256": "f5e41331f2da6a33e58fb49606bec7f32cf2d7f446c23b58bf47d328803d52b5"
+  },
+  {
+    "index_page_id": "jp_0006",
+    "index_page_url": "https://lpderecho.pe/articulo-57-codigo-penal-requisitos/",
+    "article_id": "57",
+    "article_heading": "Artículo 57.- Requisitos para la suspensión de la ejecución de la pena*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0006.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "57",
+        "heading": "Artículo 57.- Requisitos para la suspensión de la ejecución de la pena*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 57 del Código Penal.- Requisitos (suspensión de la ejecución de la pena) | LP",
+    "source_sha256": "a0f843c448277d1d7a667f6e35e42e105148a41bfdd25454c7e8556ea9527f70"
+  },
+  {
+    "index_page_id": "jp_0007",
+    "index_page_url": "https://lpderecho.pe/articulo-108-b-del-codigo-penal-feminicidio/",
+    "article_id": "108-B",
+    "article_heading": "Artículo 108-B.- Feminicidio*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0007.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "108-B",
+        "heading": "Artículo 108-B.- Feminicidio*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 108-B del Código Penal.- Feminicidio | LP",
+    "source_sha256": "b3656fb622d72b1949b5ebd69c34533e20aeb6f4568655ef66449b179009a0fc"
+  },
+  {
+    "index_page_id": "jp_0008",
+    "index_page_url": "https://lpderecho.pe/articulo-121-del-codigo-penal-lesiones-graves/",
+    "article_id": "121",
+    "article_heading": "Artículo 121.- Lesiones graves*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0008.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "121",
+        "heading": "Artículo 121.- Lesiones graves*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 121 del Código Penal.- Lesiones graves | LP",
+    "source_sha256": "beb6dc5f0ea5b15098c5a681efe3431dda016e9bb8c813de89fcc1e70e43c7dc"
+  },
+  {
+    "index_page_id": "jp_0009",
+    "index_page_url": "https://lpderecho.pe/articulo-121-b-codigo-penal-lesiones-graves-violencia-mujeres-integrantes-grupo-familiar/",
+    "article_id": "121-B",
+    "article_heading": "Artículo 121-B.- Lesiones graves por violencia contra las mujeres e integrantes del grupo familiar*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0009.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "121-B",
+        "heading": "Artículo 121-B.- Lesiones graves por violencia contra las mujeres e integrantes del grupo familiar*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 121-B del Código Penal.- Lesiones graves por violencia contra las mujeres e integrantes del grupo familiar | LP",
+    "source_sha256": "a9b8d9e3ca1b6b4e40620100989c2b69bedd07b4f371cf7405f51b87b7b2cd73"
+  },
+  {
+    "index_page_id": "jp_0010",
+    "index_page_url": "https://lpderecho.pe/articulo-122-codigo-penal-lesiones-leves/",
+    "article_id": "122",
+    "article_heading": "Artículo 122. Lesiones leves*",
+    "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+    "anchor_code": null,
+    "selection_reason": "sample_batch_10",
+    "raw_html_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/html_sample_10/jp_0010.html",
+    "linked_articles": [
+      {
+        "source_dataset": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_02_codigo_penal/data/processed/candidate_articles.json",
+        "article_id": "122",
+        "heading": "Artículo 122. Lesiones leves*"
+      }
+    ],
+    "source_title": "Jurisprudencia del artículo 122 del Código Penal.- Lesiones leves | LP",
+    "source_sha256": "f5c7bde19e6cba609d8ac2ad0c8222b65517e2f67fad543ef860838c497da439"
+  }
+]

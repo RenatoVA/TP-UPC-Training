@@ -1,62 +1,254 @@
 from __future__ import annotations
 
 import re
+from dataclasses import dataclass
 from bs4 import BeautifulSoup
 
 from legal_data.law_model import Article, LawDocument
 
 
-ARTICLE_RE = re.compile(r"^art[ií]culo\s+(\d+[A-Za-z-]*)", re.IGNORECASE)
+ARTICLE_RE = re.compile(
+    r'^\s*["“”]?\s*art[ií]culo\s+(\d+[A-Za-z]?(?:-[A-Za-z])?)\.?\s*(.*)$',
+    re.IGNORECASE,
+)
+
+MODIFICATION_NOTE_RE = re.compile(
+    r"^\(?\*+\)?\s*"
+    r"(art[ií]culo|p[aá]rrafo|literal|extremo|disposici[oó]n)"
+    r"\s+(modificado|incorporado|sustituido|derogado)",
+    re.IGNORECASE,
+)
+
+REPLACEMENT_INTRO_RE = re.compile(
+    r"cuyo texto es el siguiente",
+    re.IGNORECASE,
+)
+
+EDITORIAL_RE = re.compile(
+    r"^\(?\*+\)?\s*|"
+    r"^CONCORDANCIAS:|"
+    r"^OTRAS CONCORDANCIAS|"
+    r"^VER TEXTO ÚNICO ORDENADO|"
+    r"^De conformidad con",
+    re.IGNORECASE,
+)
+
+STRUCTURAL_RE = re.compile(
+    r"^(T[IÍ]TULO|CAP[IÍ]TULO|SUBCAP[IÍ]TULO)\b",
+    re.IGNORECASE,
+)
+
+
+def normalize_text(text: str) -> str:
+    text = text.replace("\xa0", " ")
+    text = text.replace("“", '"').replace("”", '"')
+    text = text.replace("‘", "'").replace("’", "'")
+    text = re.sub(r"\s+", " ", text).strip()
+
+    # El SPIJ suele envolver textos modificados en comillas.
+    text = re.sub(r'^["\']\s*', "", text)
+    text = re.sub(r'\s*["\']$', "", text)
+
+    return text.strip()
 
 
 def html_to_text_blocks(html: str) -> list[str]:
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html or "", "lxml")
+
+    # Eliminar scripts/styles si existieran.
+    for tag in soup(["script", "style"]):
+        tag.decompose()
+
     blocks: list[str] = []
+
     for node in soup.find_all(["p", "h1", "h2", "h3", "li"]):
         text = node.get_text(" ", strip=True)
+        text = normalize_text(text)
         if text:
-            blocks.append(re.sub(r"\s+", " ", text).strip())
+            blocks.append(text)
+
     return blocks
+
+
+def is_article_heading(block: str) -> re.Match | None:
+    return ARTICLE_RE.match(normalize_text(block))
+
+
+def is_editorial_note(block: str) -> bool:
+    block = normalize_text(block)
+
+    if EDITORIAL_RE.search(block):
+        return True
+
+    if MODIFICATION_NOTE_RE.search(block):
+        return True
+
+    if REPLACEMENT_INTRO_RE.search(block) and MODIFICATION_NOTE_RE.search(block):
+        return True
+
+    return False
+
+
+def strip_obsolete_marker(text: str) -> str:
+    """
+    Quita marcadores editoriales tipo (*), (**), pero no borra el contenido normativo.
+    """
+    text = normalize_text(text)
+    text = re.sub(r"\s*\(\*+\)\s*$", "", text)
+    text = re.sub(r"\s*\(\*+\)\s*", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def line_has_obsolete_marker(text: str) -> bool:
+    return bool(re.search(r"\(\*+\)\s*$", normalize_text(text)))
+
+MODIFIED_NOTE_RE = re.compile(
+    r"^\(?\*+\)?\s*"
+    r"(art[ií]culo|p[aá]rrafo|literal|extremo|numeral|disposici[oó]n)"
+    r"\s+modificado\b",
+    re.IGNORECASE,
+)
+
+INCORPORATED_NOTE_RE = re.compile(
+    r"^\(?\*+\)?\s*"
+    r"(art[ií]culo|p[aá]rrafo|literal|extremo|numeral|disposici[oó]n)"
+    r"\s+incorporado\b",
+    re.IGNORECASE,
+)
+def clean_article_lines(lines: list[str]) -> list[str]:
+    """
+    Limpieza intra-artículo:
+    - elimina notas editoriales;
+    - elimina texto antiguo solo cuando la nota posterior dice 'modificado';
+    - conserva texto vigente cuando la nota posterior dice 'incorporado'.
+    """
+    cleaned: list[str] = []
+    pending_marked_idx: int | None = None
+
+    for raw in lines:
+        line = normalize_text(raw)
+
+        if not line:
+            continue
+
+        if line.upper().startswith("CONCORDANCIAS"):
+            continue
+
+        is_modified_note = bool(MODIFIED_NOTE_RE.search(line))
+        is_incorporated_note = bool(INCORPORATED_NOTE_RE.search(line))
+        is_any_editorial = is_editorial_note(line)
+
+        if is_any_editorial:
+            # Solo borrar la línea anterior si la nota dice MODIFICADO.
+            # Si dice INCORPORADO, la línea anterior es justamente el texto nuevo.
+            if is_modified_note and pending_marked_idx is not None:
+                if 0 <= pending_marked_idx < len(cleaned):
+                    cleaned.pop(pending_marked_idx)
+
+            pending_marked_idx = None
+            continue
+
+        marked = line_has_obsolete_marker(line)
+        line = strip_obsolete_marker(line)
+
+        if not line:
+            continue
+
+        cleaned.append(line)
+
+        if marked:
+            pending_marked_idx = len(cleaned) - 1
+        else:
+            pending_marked_idx = None
+
+    return cleaned
+
+
+def article_sort_key(article_id: str) -> tuple[int, str]:
+    """
+    Ordena 1, 2, 8, 15-B, 16-D, etc.
+    """
+    m = re.match(r"^(\d+)(.*)$", article_id)
+    if not m:
+        return (10**9, article_id)
+    return (int(m.group(1)), m.group(2) or "")
 
 
 def parse_spij_detail_to_law(detail: dict) -> LawDocument:
     html = detail.get("textoCompleto") or ""
     blocks = html_to_text_blocks(html)
 
-    title = ""
-    articles: list[Article] = []
+    articles_by_id: dict[str, Article] = {}
+
     current_article_id: str | None = None
     current_heading: str | None = None
     current_lines: list[str] = []
 
-    for block in blocks:
-        if not title and detail.get("codigoNorma") and detail.get("codigoNorma") in block:
-            title = detail.get("sumilla", "")
+    def flush_current_article() -> None:
+        nonlocal current_article_id, current_heading, current_lines
 
-        match = ARTICLE_RE.match(block)
+        if current_article_id is None:
+            return
+
+        cleaned_lines = clean_article_lines(current_lines)
+
+        if not cleaned_lines:
+            return
+
+        # Recalcular heading desde la primera línea limpia si es artículo.
+        first = cleaned_lines[0]
+        m = is_article_heading(first)
+
+        heading = first if m else current_heading
+        text = "\n".join(cleaned_lines).strip()
+
+        # Regla central:
+        # si un mismo artículo aparece de nuevo más adelante,
+        # asumimos que la versión posterior del SPIJ es la más vigente.
+        articles_by_id[current_article_id] = Article(
+            article_id=current_article_id,
+            heading=heading,
+            text=text,
+        )
+
+    for block in blocks:
+        block = normalize_text(block)
+
+        # Saltar encabezados estructurales. Si quieres conservarlos, podrías guardarlos como metadata.
+        if STRUCTURAL_RE.match(block):
+            continue
+
+        match = is_article_heading(block)
+
         if match:
-            if current_article_id is not None:
-                articles.append(
-                    Article(
-                        article_id=current_article_id,
-                        heading=current_heading,
-                        text="\n".join(current_lines).strip(),
-                    )
-                )
-            current_article_id = match.group(1)
+            found_article_id = match.group(1)
+
+            # Si aparece un artículo distinto, cerramos el anterior.
+            if current_article_id is not None and found_article_id != current_article_id:
+                flush_current_article()
+                current_lines = []
+
+            # Si aparece el mismo artículo de nuevo, es probablemente versión modificada.
+            # Cerramos/sobrescribimos la anterior y empezamos nueva versión.
+            elif current_article_id is not None and found_article_id == current_article_id:
+                flush_current_article()
+                current_lines = []
+
+            current_article_id = found_article_id
             current_heading = block
             current_lines = [block]
-        elif current_article_id is not None:
+            continue
+
+        if current_article_id is not None:
             current_lines.append(block)
 
-    if current_article_id is not None:
-        articles.append(
-            Article(
-                article_id=current_article_id,
-                heading=current_heading,
-                text="\n".join(current_lines).strip(),
-            )
-        )
+    flush_current_article()
+
+    articles = [
+        articles_by_id[k]
+        for k in sorted(articles_by_id.keys(), key=article_sort_key)
+    ]
 
     return LawDocument(
         norm_id=detail.get("id", "H1141065"),
@@ -70,5 +262,6 @@ def parse_spij_detail_to_law(detail: dict) -> LawDocument:
             "fechaPublicacion": detail.get("fechaPublicacion"),
             "sector": detail.get("sector"),
             "dispositivoLegal": detail.get("dispositivoLegal"),
+            "parser_strategy": "spij_latest_article_version_with_partial_mod_cleanup",
         },
     )

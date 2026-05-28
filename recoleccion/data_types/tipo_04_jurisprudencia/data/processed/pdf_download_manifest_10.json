@@ -1,0 +1,314 @@
+[
+  {
+    "entry_id": "jp_0001_e0009",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2026/02/Recurso-de-Nulidad-519-2025-Lima-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0009.pdf",
+    "sha256": "4fa6a72b39593fe5bec85fcf5234132fdd52d660012277ccfa76b61ebe0bf0ba",
+    "bytes": 469670
+  },
+  {
+    "entry_id": "jp_0001_e0010",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2025/02/Casacion-76-2023-Apurimac-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0010.pdf",
+    "sha256": "6b501eaa24cd1bc6af91eb08abf02be1d80277b020257f6b33737e6d5c922954",
+    "bytes": 320496
+  },
+  {
+    "entry_id": "jp_0001_e0011",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2025/02/Casacion-76-2023-Apurimac-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0011.pdf",
+    "sha256": "6b501eaa24cd1bc6af91eb08abf02be1d80277b020257f6b33737e6d5c922954",
+    "bytes": 320496
+  },
+  {
+    "entry_id": "jp_0001_e0012",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2025/02/Casacion-1115-2022-Cusco-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0012.pdf",
+    "sha256": "71d4b4a87fb023c0e6d52fca86e034872ff6d12ae90aa8f41698a78db00a1edd",
+    "bytes": 274701
+  },
+  {
+    "entry_id": "jp_0001_e0013",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2024/11/Apelacion-343-2023-Apurimac-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0013.pdf",
+    "sha256": "4e5471d00a7a796e8cdfef0303e68d1bb46fd15c89e7013db22c6be368468eb1",
+    "bytes": 208012
+  },
+  {
+    "entry_id": "jp_0001_e0014",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2024/10/Revision-de-Sentencia-496-2021-Lima-Este-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0014.pdf",
+    "sha256": "89db68a62d07144ecef13db85c09abc61822e15a73ccb97b1fa9c0064e2f6326",
+    "bytes": 177334
+  },
+  {
+    "entry_id": "jp_0001_e0015",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2024/10/Revision-de-Sentencia-496-2021-Lima-Este-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0015.pdf",
+    "sha256": "89db68a62d07144ecef13db85c09abc61822e15a73ccb97b1fa9c0064e2f6326",
+    "bytes": 177334
+  },
+  {
+    "entry_id": "jp_0001_e0017",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2024/06/Casacion-1164-2021-Puno-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0017.pdf",
+    "sha256": "18271ae18726c258ec126407aa19c03fd21ce29e7f41b59d0d4cb68ad03cc74a",
+    "bytes": 249903
+  },
+  {
+    "entry_id": "jp_0001_e0018",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2020/12/Casacion-460-2019-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0018.pdf",
+    "sha256": "70c0b8e542745ea2fd411d503d15068720549c5f017c6aac033f8fb4d5183079",
+    "bytes": 585596
+  },
+  {
+    "entry_id": "jp_0001_e0019",
+    "pdf_url": "https://static.legis.pe/wp-content/uploads/2019/12/Casaci%C3%B3n-1131-2018-Puno-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0019.pdf",
+    "sha256": "33146fd49d808372880f887560766b197c82a8db702934a66fa90b25f1dcf955",
+    "bytes": 343045
+  },
+  {
+    "entry_id": "jp_0001_e0020",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2021/03/Casacion-66-2017-Junin-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0020.pdf",
+    "sha256": "9f80501c1249b202608693f141c456b210e692edb68d796a033cbcbbe14223c3",
+    "bytes": 1367104
+  },
+  {
+    "entry_id": "jp_0001_e0021",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2020/11/Casacion-1331-2017-Cusco-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0021.pdf",
+    "sha256": "1783f7fdacd4c00395a889678f51e1b4cbdc7a4369f9a24722ac3e67c4594abd",
+    "bytes": 289541
+  },
+  {
+    "entry_id": "jp_0001_e0022",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/03/Casacion-668-2016-Ica-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0022.pdf",
+    "sha256": "796d30e92462994a601b1d3b2811170c6e68686dccae1192766c7e83839cc733",
+    "bytes": 171465
+  },
+  {
+    "entry_id": "jp_0001_e0023",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2024/06/Recurso-de-Nulidad-894-2023-Lima-Sur-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0023.pdf",
+    "sha256": "534a663ff3f0f2b8e77cefe5a95bfd3031171ed84af759c6894d23c7d2695003",
+    "bytes": 164271
+  },
+  {
+    "entry_id": "jp_0001_e0024",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2022/04/Recurso-nulidad-12-2021-Lima-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0024.pdf",
+    "sha256": "ff5e15cf52a817ac39e112fcfe2b0f998d1b5c4bac115bea0f3f32d200c1885c",
+    "bytes": 254788
+  },
+  {
+    "entry_id": "jp_0001_e0025",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2022/08/Recurso-nulidad-667-2021-Lima-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0025.pdf",
+    "sha256": "db2ff4f4c9e112b3ef28b6cedb8ecbb384182874034fd258318b18bb4333968b",
+    "bytes": 223058
+  },
+  {
+    "entry_id": "jp_0001_e0026",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2020/11/Recurso-de-Nulidad-1740-2019-Lima-Este-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0026.pdf",
+    "sha256": "34de3927d3c242e71cc67f8657852bfb40b7a6ca4af9642cb3132372645ac8ad",
+    "bytes": 346486
+  },
+  {
+    "entry_id": "jp_0001_e0027",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/03/RN-214-2019-Lima-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0027.pdf",
+    "sha256": "7359a9297d50a751be4a1c489dfc3d657eb8c59c70a2ab6b0d82bf28efb7662e",
+    "bytes": 99065
+  },
+  {
+    "entry_id": "jp_0001_e0028",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2021/07/Recurso-de-nulidad-443-2019-Lima-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0028.pdf",
+    "sha256": "c92ef16618cfb1b850102dbb4f0f2b83ffcdb6e48f5d5d8ae491ed56f4786a89",
+    "bytes": 452295
+  },
+  {
+    "entry_id": "jp_0001_e0029",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2020/12/RN-910-2018-Lima-Este-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0029.pdf",
+    "sha256": "4f9ca746a1770312bd6423fd07da3cd4f564dcc947782cd4c36975bfbf126e9a",
+    "bytes": 307253
+  },
+  {
+    "entry_id": "jp_0001_e0030",
+    "pdf_url": "https://static.legis.pe/wp-content/uploads/2019/04/R.N.-1053-2018-Huancavelica-Legis.pe_.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0030.pdf",
+    "sha256": "ab17f34faa725e8299b8b2a71b5bd1f77f576b06b840a2f092d8969663644f01",
+    "bytes": 168875
+  },
+  {
+    "entry_id": "jp_0001_e0031",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2021/06/Recurso-de-Nulidad-1645-2018-Santa-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0031.pdf",
+    "sha256": "fb751032577744029c9c5cf9a0326e1656190e181a075e3dacd6bec6e440317a",
+    "bytes": 254479
+  },
+  {
+    "entry_id": "jp_0001_e0032",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/03/RN-1096-2017-Callao-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0032.pdf",
+    "sha256": "69e8cb47b4104c05c0610672bcb0d6ddd0ec9be71037003e61ec23dadda263ad",
+    "bytes": 142610
+  },
+  {
+    "entry_id": "jp_0001_e0033",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2022/07/RN-526-2017-Junin-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0033.pdf",
+    "sha256": "f6f74ee6bee5f141f6a476c6f68bc22052b4fbc761f56d272b2f21394db8aafd",
+    "bytes": 78190
+  },
+  {
+    "entry_id": "jp_0001_e0034",
+    "pdf_url": "https://static.legis.pe/wp-content/uploads/2019/01/R.N.-1778-2016-Hu%C3%A1nuco-Legis.pe_.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0034.pdf",
+    "sha256": "f4a43b7afd1b49215ba215e605163451a1448923ec10aa3d0b9e9429ea79e285",
+    "bytes": 629650
+  },
+  {
+    "entry_id": "jp_0001_e0035",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/04/RN-3096-2015-Puno-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0035.pdf",
+    "sha256": "8c086bf7e0eedf6aaa9f12c59c65d8b3615ef8879edf9499d167483c9f0b5b87",
+    "bytes": 348572
+  },
+  {
+    "entry_id": "jp_0001_e0036",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2017/07/R.N.-2233-2014-Junin-Legitima-defensa-con-cuchillo-Legis.pe_.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0036.pdf",
+    "sha256": "a9bde1c4d5fd4d60d36889a5bc0c90a95b8c302cb9924fcfe61d3f431afef17c",
+    "bytes": 1746155
+  },
+  {
+    "entry_id": "jp_0001_e0037",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2021/02/Recurso-de-Nulidad-1377-2014-Lima-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0037.pdf",
+    "sha256": "83f67da133438fc52d3a8bf23a4ad983f4b52f340a16a9d3a677c91f44f060a9",
+    "bytes": 646757
+  },
+  {
+    "entry_id": "jp_0001_e0038",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2021/02/Recurso-de-Nulidad-1377-2014-Lima-LP.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0038.pdf",
+    "sha256": "83f67da133438fc52d3a8bf23a4ad983f4b52f340a16a9d3a677c91f44f060a9",
+    "bytes": 646757
+  },
+  {
+    "entry_id": "jp_0001_e0039",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2022/12/Recurso-de-Nulidad-1228-2014-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0039.pdf",
+    "sha256": "44d046d38952c72ddebcbfee2dd52782b3700deea16daa2812caa9356874193a",
+    "bytes": 3659037
+  },
+  {
+    "entry_id": "jp_0001_e0040",
+    "pdf_url": "https://static.legis.pe/wp-content/uploads/2019/01/R.N.-2649-2012-Lima-Legis.pe_.pdf?fbclid=IwAR3pJHnatEupcPVaTnQSR0fS1AvLFYhy6nYD8my9ArTXfFVhYDx82X6MjgQ",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0040.pdf",
+    "sha256": "5ce742c89183deab4c854b9e9790590f7c2d099793d82ae90eff887a8523e15d",
+    "bytes": 1284621
+  },
+  {
+    "entry_id": "jp_0001_e0041",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/03/RN-2658-2012-Lambayeque-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0041.pdf",
+    "sha256": "cfbb2ebc9e462464858c55456b2805a0b4b87593cd4dea5b2bdb911a2b289318",
+    "bytes": 1367946
+  },
+  {
+    "entry_id": "jp_0001_e0042",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2022/07/RN.-4009-2011-Junin-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0042.pdf",
+    "sha256": "a4e5d9d1c07d476a8b1dcc47a3326d9a97215a43c5f802a4b2f55b97d974260a",
+    "bytes": 939681
+  },
+  {
+    "entry_id": "jp_0001_e0045",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/01/Recurso-de-Nulidad-3912-2009-Lima-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0045.pdf",
+    "sha256": "94f879096725913ec37e3ffb6f03f7decca6cb2fd2774ffe8432e10af61521f1",
+    "bytes": 21924
+  },
+  {
+    "entry_id": "jp_0001_e0047",
+    "pdf_url": "https://static.legis.pe/wp-content/uploads/2019/03/R.N.-1598-2007-Lima-Legis.pe_.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0047.pdf",
+    "sha256": "7468e4661db4f27e2044aabcee12820fd7d131080f3bf2b877cad399d56b0d4a",
+    "bytes": 555440
+  },
+  {
+    "entry_id": "jp_0001_e0048",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/12/Apelacion-122-2023-Cusco-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0048.pdf",
+    "sha256": "ee5a116d6ffccdcc06ae232ee39f941d481110813678fc597da567e94b718b41",
+    "bytes": 361591
+  },
+  {
+    "entry_id": "jp_0001_e0049",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2025/07/Expediente-01962-2025-LPDerecho-1.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0049.pdf",
+    "sha256": "e75e62998a35cf2056952b9862fde3b28998e756c11ef5d5fb343b95ea688817",
+    "bytes": 1510443
+  },
+  {
+    "entry_id": "jp_0001_e0051",
+    "pdf_url": "https://static.legis.pe/wp-content/uploads/2019/01/Exp.-3802-2004-AA-TC-Legis.pe_.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0051.pdf",
+    "sha256": "4bc26c2481776cd0f5a0656bcbf805396849bd9c5274a939c60f73696cbf5a41",
+    "bytes": 1105055
+  },
+  {
+    "entry_id": "jp_0001_e0052",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/03/STS-3644-2022-Espana-LPDerecho.pdf",
+    "download_status": "success",
+    "local_pdf_path": "/home/renato/.openclaw/workspace/projects/peru-legal-rag-data/recoleccion/data_types/tipo_04_jurisprudencia/data/raw/pdfs_sample_10/jp_0001_e0052.pdf",
+    "sha256": "c87ed820d6f915d10961665c37fcdb894f998b31654a2827ae7e3c6800dcfc0b",
+    "bytes": 165684
+  }
+]

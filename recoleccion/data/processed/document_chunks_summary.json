@@ -1,10 +1,10 @@
 {
-  "chunks_total": 1230,
+  "chunks_total": 664,
   "per_type": {
-    "tipo_01_ley_30364": 54,
-    "tipo_02_codigo_penal": 656,
-    "tipo_03_codigo_procesal_penal": 467,
-    "tipo_04_jurisprudencia": 49,
+    "tipo_01_ley_30364": 73,
+    "tipo_02_codigo_penal": 56,
+    "tipo_03_codigo_procesal_penal": 283,
+    "tipo_04_jurisprudencia": 248,
     "tipo_05_documentos_institucionales": 4
   },
   "missing_or_empty": [],

@@ -17,6 +17,23 @@ CATEGORY_NAMES = {
     "Corte Interamericana de Derechos Humanos",
 }
 
+
+def split_compound_entry_text(text: str) -> list[str]:
+    text = normalize_text(text)
+    if not text:
+        return []
+    text = re.sub(r"\bNUEVO:\s+NUEVO:\s+", "NUEVO: ", text)
+    parts = re.split(r"(?=(?:NUEVO:\s+)?[^\[]{12,}?\[[^\]]+\]\s*\.\s*Link:)", text)
+    cleaned = []
+    for part in parts:
+        part = normalize_text(part)
+        if not part:
+            continue
+        if part in CATEGORY_NAMES or part == "NUEVO:" or len(part) < 12:
+            continue
+        cleaned.append(part)
+    return cleaned or ([text] if text not in CATEGORY_NAMES and text != "NUEVO:" else [])
+
 RESOLUTION_PATTERNS = [
     r"(Casación\s+[^\]]+)",
     r"(Apelación\s+[^\]]+)",
@@ -123,82 +140,81 @@ def parse_index_entries(parsed_pages: list[dict[str, Any]]) -> list[dict[str, An
                 if parsed:
                     concordances = parsed
 
-        category_headers = []
-        for tag in content.find_all(["h3", "li"]):
+        nodes = [tag for tag in content.find_all(["h3", "li"]) if normalize_text(tag.get_text(" ", strip=True))]
+        current_category = None
+        seen_entry_texts = set()
+        for tag in nodes:
             text = normalize_text(tag.get_text(" ", strip=True))
             if text in CATEGORY_NAMES:
-                category_headers.append(tag)
-
-        seen_links = set()
-        for cat in category_headers:
-            category = normalize_text(cat.get_text(" ", strip=True))
-            for sib in cat.find_next_siblings():
-                if isinstance(sib, Tag):
-                    sib_text = normalize_text(sib.get_text(" ", strip=True))
-                    if sib.name in {"h3", "li"} and sib_text in CATEGORY_NAMES:
-                        break
-                    if sib.name != "li":
-                        continue
-                    if not sib_text or sib_text in CATEGORY_NAMES:
-                        continue
-                    links = sib.find_all("a", href=True)
-                    lp_links = [a["href"] for a in links if "lpderecho.pe" in a["href"]]
-                    if not lp_links:
-                        continue
-                    entry_link = lp_links[0]
-                    if entry_link in seen_links:
-                        continue
-                    seen_links.add(entry_link)
-                    short_link = lp_links[-1] if lp_links else None
-                    entry_counter += 1
-                    flags = []
-                    if sib_text.startswith("NUEVO") or sib_text.startswith("NUEVO:"):
-                        flags.append("NUEVO")
-                    reference = extract_resolution_reference(sib_text)
-                    metadata = parse_resolution_metadata(reference)
-                    entry_type = detect_entry_type(category, sib_text, reference)
-                    entry_id = f"{page['id']}_e{entry_counter:04d}"
-                    related_norms = []
-                    if page.get("linked_articles"):
-                        anchor_article = page["linked_articles"][0]
+                current_category = text
+                continue
+            if tag.name != "li" or not current_category:
+                continue
+            if text in CATEGORY_NAMES:
+                continue
+            parts = split_compound_entry_text(text)
+            links = [a["href"] for a in tag.find_all("a", href=True) if "lpderecho.pe" in a["href"]]
+            for idx, part in enumerate(parts):
+                if part in CATEGORY_NAMES:
+                    continue
+                flags = []
+                if part.startswith("NUEVO") or part.startswith("NUEVO:"):
+                    flags.append("NUEVO")
+                    part = re.sub(r"^NUEVO:\s*", "", part).strip()
+                if not part or part == "NUEVO:" or len(part) < 12:
+                    continue
+                entry_link = links[min(idx, len(links)-1)] if links else None
+                dedupe_key = entry_link or part
+                if dedupe_key in seen_entry_texts:
+                    continue
+                seen_entry_texts.add(dedupe_key)
+                short_link = links[-1] if links else None
+                entry_counter += 1
+                reference = extract_resolution_reference(part)
+                metadata = parse_resolution_metadata(reference)
+                entry_type = detect_entry_type(current_category, part, reference)
+                entry_id = f"{page['id']}_e{entry_counter:04d}"
+                related_norms = []
+                if page.get("linked_articles"):
+                    anchor_article = page["linked_articles"][0]
+                    related_norms.append(
+                        {
+                            "code": anchor_article.get("source_dataset", ""),
+                            "article_id": anchor_article.get("article_id"),
+                            "relation_type": "page_anchor",
+                            "confidence": "high",
+                        }
+                    )
+                for c in concordances:
+                    for article in c.get("articles", []):
                         related_norms.append(
                             {
-                                "code": anchor_article.get("source_dataset", ""),
-                                "article_id": anchor_article.get("article_id"),
-                                "relation_type": "page_anchor",
+                                "code": c.get("code"),
+                                "article_id": article,
+                                "relation_type": "page_concordance",
                                 "confidence": "high",
                             }
                         )
-                    for c in concordances:
-                        for article in c.get("articles", []):
-                            related_norms.append(
-                                {
-                                    "code": c.get("code"),
-                                    "article_id": article,
-                                    "relation_type": "page_concordance",
-                                    "confidence": "high",
-                                }
-                            )
-                    results.append(
-                        {
-                            "entry_id": entry_id,
-                            "page_id": page["id"],
-                            "page_source_url": page["jurisprudence_url"],
-                            "entry_category": category,
-                            "entry_type": entry_type,
-                            "entry_prefix_flags": flags,
-                            "entry_text": sib_text,
-                            "entry_title_candidate": sib_text.split("[")[0].replace("Link:", "").strip(),
-                            "resolution_reference_raw": reference,
-                            "lp_entry_url": entry_link,
-                            "short_link_url": short_link,
-                            "page_anchor_code": None,
-                            "page_anchor_article_id": page.get("linked_articles", [{}])[0].get("article_id"),
-                            "page_anchor_article_heading": page.get("linked_articles", [{}])[0].get("heading"),
-                            "page_concordances": concordances,
-                            "related_norms": related_norms,
-                            "domain_relevance_candidate": None,
-                            **metadata,
-                        }
-                    )
+                results.append(
+                    {
+                        "entry_id": entry_id,
+                        "page_id": page["id"],
+                        "page_source_url": page["jurisprudence_url"],
+                        "entry_category": current_category,
+                        "entry_type": entry_type,
+                        "entry_prefix_flags": flags,
+                        "entry_text": part,
+                        "entry_title_candidate": part.split("[")[0].replace("Link:", "").strip(),
+                        "resolution_reference_raw": reference,
+                        "lp_entry_url": entry_link,
+                        "short_link_url": short_link,
+                        "page_anchor_code": None,
+                        "page_anchor_article_id": page.get("linked_articles", [{}])[0].get("article_id"),
+                        "page_anchor_article_heading": page.get("linked_articles", [{}])[0].get("heading"),
+                        "page_concordances": concordances,
+                        "related_norms": related_norms,
+                        "domain_relevance_candidate": None,
+                        **metadata,
+                    }
+                )
     return results

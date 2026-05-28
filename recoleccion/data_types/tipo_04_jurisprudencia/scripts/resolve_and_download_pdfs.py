@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 from legal_data.paths import PROCESSED_DIR, RAW_DIR
 from legal_data.storage import write_json
 
-FILTERED_INPUT = PROCESSED_DIR / "jurisprudence_entries_filtered_10.json"
+FILTERED_INPUT = PROCESSED_DIR / "jurisprudence_entry_detail_classification_10.json"
 PDF_CANDIDATES_OUTPUT = PROCESSED_DIR / "jurisprudence_pdf_candidates_10.json"
 PDF_MANIFEST_OUTPUT = PROCESSED_DIR / "pdf_download_manifest_10.json"
 PDF_DIR = RAW_DIR / "pdfs_sample_10"
@@ -58,8 +58,11 @@ def _download_pdf(pdf_url: str, output_path: Path) -> dict[str, Any]:
 
 
 def main() -> None:
-    entries = json.loads(FILTERED_INPUT.read_text(encoding="utf-8"))
-    targets = [x for x in entries if x["relevance_status"] in {"accepted", "conditional"} and x.get("entry_url")]
+    items = json.loads(FILTERED_INPUT.read_text(encoding="utf-8"))
+    targets = [
+        x for x in items
+        if (x.get("detail_llm") or {}).get("relevance_status") in {"accepted", "conditional"} and x.get("entry_url")
+    ]
 
     pdf_candidates = []
     manifest = []
@@ -67,12 +70,16 @@ def main() -> None:
     for item in targets:
         entry_id = item["entry_id"]
         entry_url = item["entry_url"]
+        detail_llm = item.get("detail_llm") or {}
         try:
-            pdf_url, detail_page_title = _resolve_pdf_url(entry_url)
+            pdf_url = detail_llm.get("pdf_url")
+            detail_page_title = item.get("detail_page_title")
+            if not pdf_url:
+                pdf_url, detail_page_title = _resolve_pdf_url(entry_url)
             candidate = {
                 "entry_id": entry_id,
                 "entry_url": entry_url,
-                "relevance_status": item["relevance_status"],
+                "relevance_status": detail_llm.get("relevance_status"),
                 "pdf_url": pdf_url,
                 "pdf_found": bool(pdf_url),
                 "pdf_resolution_status": "success" if pdf_url else "not_found",
@@ -81,7 +88,7 @@ def main() -> None:
             }
             pdf_candidates.append(candidate)
 
-            if pdf_url and item["relevance_status"] == "accepted":
+            if pdf_url and detail_llm.get("relevance_status") == "accepted":
                 output_path = PDF_DIR / f"{entry_id}.pdf"
                 downloaded = _download_pdf(pdf_url, output_path)
                 manifest.append(
@@ -96,11 +103,11 @@ def main() -> None:
                 {
                     "entry_id": entry_id,
                     "entry_url": entry_url,
-                    "relevance_status": item["relevance_status"],
+                    "relevance_status": detail_llm.get("relevance_status"),
                     "pdf_url": None,
                     "pdf_found": False,
                     "pdf_resolution_status": f"error: {exc}",
-                    "detail_page_title": None,
+                    "detail_page_title": item.get("detail_page_title"),
                     "resolution_reference_raw": item.get("resolution_reference_raw"),
                 }
             )

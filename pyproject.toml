@@ -11,5 +11,6 @@ dependencies = [
     "pip>=26.0.1",
     "pypdf>=6.9.2",
     "python-dotenv>=1.2.2",
+    "rank-bm25>=0.2.2",
     "requests>=2.33.1",
 ]

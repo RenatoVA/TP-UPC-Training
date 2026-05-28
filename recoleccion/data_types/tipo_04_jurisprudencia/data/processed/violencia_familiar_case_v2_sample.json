@@ -1,0 +1,95 @@
+{
+  "unit_id": "case_ctx_vf_000001",
+  "source_type": "jurisprudencia",
+  "source_trace": {
+    "index_page_id": null,
+    "index_page_url": null,
+    "entry_category": null,
+    "entry_title_raw": "Delitos de violencia contra la mujer y los integrantes del grupo familiar. Ámbito procesal: Ley 30364 [Acuerdo Plenario 5-2016/CIJ-116]",
+    "entry_url": "https://lpderecho.pe/acuerdo-plenario-5-2016-cij-116-delitos-violencia-mujer-integrantes-grupo-familiar-ambito-procesal-ley-30364/",
+    "pdf_url": "https://img.lpderecho.pe/wp-content/uploads/2023/03/AP-5-2016-CJ-116-LPDerecho.pdf",
+    "resolution_reference_raw": "Acuerdo Plenario 5-2016/CIJ-116"
+  },
+  "case_record": {
+    "title": "Delitos de violencia contra la mujer y los integrantes del grupo familiar. Ámbito procesal: Ley 30364",
+    "resolution_reference": "Acuerdo Plenario N.° 5-2016/CIJ-116",
+    "resolution_type": "Acuerdo Plenario",
+    "court": "Corte Suprema de Justicia de la República",
+    "chamber": "X Pleno Jurisdiccional de las Salas Penales Permanente y Transitorias",
+    "date_text": "Lima, doce de junio de dos mil diecisiete",
+    "judge_rapporteur": "Barrios Alvarado (coordinadora), San Martín Castro y Salas Arenas",
+    "topic_label": "Delitos de Violencia contra la mujer y los integrantes del grupo familiar. Ámbito procesal: Ley N.° 30364",
+    "sumilla": null,
+    "highlighted_holding": null,
+    "facts_background": null,
+    "legal_issue": "Delitos de violencia contra la mujer y los integrantes del grupo familiar en ámbito procesal regulado por Ley 30364, incluyendo subtemas como feminicidio, lesiones psicológicas y aspectos procesales",
+    "reasoning_summary": null,
+    "decision_summary": null,
+    "participants": {
+      "victim_or_claimant": null,
+      "accused_or_investigated": null,
+      "third_parties": []
+    }
+  },
+  "legal_context": {
+    "anchor_norm": {
+      "code": "Ley30364",
+      "article_id": null,
+      "heading": null,
+      "relation_type": "anchor",
+      "confidence": "medium"
+    },
+    "explicit_concordances": [],
+    "explicit_norms_mentioned_in_case": [
+      {
+        "norm_code": "Ley30364",
+        "article_id": null,
+        "context": "Ámbito procesal de delitos de violencia contra la mujer y los integrantes del grupo familiar"
+      },
+      {
+        "norm_code": "TUOLOPJ",
+        "article_id": "116",
+        "context": "Base legal para el acuerdo plenario y pleno jurisdiccional"
+      }
+    ],
+    "inferred_related_norms": [
+      {
+        "norm_code": "Ley30364",
+        "article_id": null,
+        "rationale": "Norma principal sobre prevención, sanción y erradicación de violencia contra mujeres e integrantes del grupo familiar, explícitamente vinculada al ámbito procesal de los delitos analizados"
+      }
+    ],
+    "institutional_context": [
+      "Centro de Investigaciones Judiciales",
+      "Resolución Administrativa 179-2016-P-PJ"
+    ]
+  },
+  "domain_mapping": {
+    "relevance_label": "direct",
+    "relevance_score": "high",
+    "relevance_rationale": "Jurisprudencia de Corte Suprema directamente sobre delitos de violencia contra la mujer y grupo familiar, ámbito procesal de Ley 30364, incluyendo subtemas como feminicidio y lesiones psicológicas",
+    "violence_family_link_type": "direct_doctrinal",
+    "can_generate_domain_case": true,
+    "domain_case_generation_mode": "procedural",
+    "forbidden_generation_reason": null
+  },
+  "dataset_generation": {
+    "query_generation_ready": true,
+    "query_generation_source": "topic_label_and_asunto",
+    "positive_context_ready": true,
+    "positive_context_strategy": "jurisprudential_doctrine",
+    "hard_negative_group_keys": [],
+    "synthetic_case_allowed": true,
+    "synthetic_case_constraints": [
+      "Limitar a ámbito procesal peruano de Ley 30364",
+      "Enfocar en violencia familiar contra mujer o integrantes grupo familiar",
+      "No inventar hechos no sustentados en doctrina expuesta"
+    ],
+    "synthetic_case_outline": {
+      "user_situation": "Víctima de violencia familiar busca medidas procesales rápidas bajo Ley 30364",
+      "legal_need": "Aplicación de ámbito procesal especializado para delitos de violencia contra mujer/grupo familiar",
+      "why_this_case_is_relevant": "Acuerdo Plenario unifica jurisprudencia sobre procedimientos en casos de violencia familiar bajo Ley 30364"
+    },
+    "needs_human_review": false
+  }
+}
