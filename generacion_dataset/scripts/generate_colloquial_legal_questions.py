@@ -27,7 +27,7 @@ DEFAULT_CASES_DIR = PROJECT_ROOT / "data" / "intermediate" / "resumeai_batch" / 
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "data" / "output" / "legal_questions_dataset"
 DEFAULT_BM25_PATH = PROJECT_ROOT / "data" / "intermediate" / "bm25_document_chunks.pkl"
 
-MODEL_NAME = "x-ai/grok-4.1-fast"
+MODEL_NAME = "x-ai/grok-4.3"
 
 
 # ============================================================
@@ -69,6 +69,8 @@ QuestionTopic = Literal[
     "procedimiento_penal",
     "desconfianza_en_justicia",
     "reparacion_civil",
+    "sancion_penal_al_agresor",
+    "doctrina_jurisprudencial",
     "otro",
 ]
 
@@ -145,6 +147,16 @@ class CaseQuestionBatch(BaseModel):
     case_id: str = Field(description="Identificador del caso, normalmente derivado del PDF o archivo JSON.")
     case_summary_for_traceability: str = Field(
         description="Resumen breve y no sensacionalista del caso usado como base."
+    )
+    jurisprudencia_chunk_text: str = Field(
+        description=(
+            "Síntesis en 3-5 oraciones del criterio jurídico principal que establece esta resolución. "
+            "NO menciones nombres propios, fechas específicas, ni hechos particulares del caso. "
+            "Expresa el principio o estándar jurídico general que se establece, la decisión adoptada "
+            "y su relevancia para casos de violencia familiar en Perú. "
+            "Usa lenguaje jurídico conciso, no coloquial. "
+            "Este texto reemplazará al chunk en la base vectorial RAG."
+        )
     )
     questions: list[GeneratedQuestion] = Field(
         min_length=1,
@@ -295,8 +307,12 @@ TYPE_TO_SOURCE_TYPE = {
     "cp": "tipo_02_codigo_penal",
     "cpp": "tipo_03_codigo_procesal_penal",
     "jurisprudence": "tipo_04_jurisprudencia",
-    "institutional_protocol": "tipo_05_institutional_protocol",
+    "institutional_protocol": "tipo_05_documentos_institucionales",
 }
+
+# Chunk designado como positivo principal para preguntas de canales_denuncia.
+# El LLM referencia institutional_protocol con articles=[] y este chunk es el que se devuelve.
+CANALES_ATENCION_CHUNK_ID = "chunk_tipo05_canales_atencion_vf_peru_01"
 
 
 def normalize_article_id(article_id: str | None) -> str:
@@ -351,6 +367,7 @@ def build_lookup_indexes(chunks: list[dict[str, Any]]) -> dict[str, Any]:
     by_source_article: dict[tuple[str, str], list[dict[str, Any]]] = defaultdict(list)
     by_resolution_reference: dict[str, list[dict[str, Any]]] = defaultdict(list)
     by_chunk_id: dict[str, dict[str, Any]] = {}
+    by_source_type: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
     for chunk in chunks:
         chunk_id = chunk.get("chunk_id")
@@ -359,6 +376,9 @@ def build_lookup_indexes(chunks: list[dict[str, Any]]) -> dict[str, Any]:
 
         if chunk_id:
             by_chunk_id[chunk_id] = chunk
+
+        if source_type:
+            by_source_type[source_type].append(chunk)
 
         article_id = normalize_article_id(metadata.get("article_id"))
         if source_type and article_id:
@@ -374,20 +394,38 @@ def build_lookup_indexes(chunks: list[dict[str, Any]]) -> dict[str, Any]:
         "by_source_article": by_source_article,
         "by_resolution_reference": by_resolution_reference,
         "by_chunk_id": by_chunk_id,
+        "by_source_type": by_source_type,
     }
 
 def resolve_normative_refs(
     refs: list[PositiveContextRef],
     lookup: dict[str, Any],
+    jurisprudence_chunks: list[dict[str, Any]] | None = None,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
 
     matched_chunks = []
     unresolved_refs = []
 
     by_source_article = lookup["by_source_article"]
+    by_source_type = lookup["by_source_type"]
 
     for ref in refs:
-        if ref.type in {"jurisprudence", "unknown"}:
+        if ref.type == "unknown":
+            continue
+
+        # jurisprudence: usar los chunks pre-resueltos del caso (solo si el LLM lo pide explícitamente)
+        if ref.type == "jurisprudence":
+            if jurisprudence_chunks:
+                matched_chunks.extend(jurisprudence_chunks)
+            else:
+                unresolved_refs.append(
+                    {
+                        "type": "jurisprudence",
+                        "articles": [],
+                        "reason": ref.reason,
+                        "error": "Jurisprudencia no encontrada para este caso.",
+                    }
+                )
             continue
 
         source_type = TYPE_TO_SOURCE_TYPE.get(ref.type)
@@ -403,16 +441,38 @@ def resolve_normative_refs(
             )
             continue
 
+        # institutional_protocol con artículos vacíos: devolver el chunk de canales designado
         if not ref.articles:
-            unresolved_refs.append(
-                {
-                    "type": ref.type,
-                    "source_type": source_type,
-                    "articles": [],
-                    "reason": ref.reason,
-                    "error": "Referencia sin artículos.",
-                }
-            )
+            if ref.type == "institutional_protocol":
+                by_chunk_id = lookup["by_chunk_id"]
+                canales_chunk = by_chunk_id.get(CANALES_ATENCION_CHUNK_ID)
+                if canales_chunk:
+                    matched_chunks.append(canales_chunk)
+                else:
+                    # Fallback: todos los chunks del tipo si el designado no existe
+                    chunks_for_type = by_source_type.get(source_type, [])
+                    if chunks_for_type:
+                        matched_chunks.extend(chunks_for_type)
+                    else:
+                        unresolved_refs.append(
+                            {
+                                "type": ref.type,
+                                "source_type": source_type,
+                                "articles": [],
+                                "reason": ref.reason,
+                                "error": "No se encontraron chunks institucionales.",
+                            }
+                        )
+            else:
+                unresolved_refs.append(
+                    {
+                        "type": ref.type,
+                        "source_type": source_type,
+                        "articles": [],
+                        "reason": ref.reason,
+                        "error": "Referencia sin artículos.",
+                    }
+                )
             continue
 
         for raw_article in ref.articles:
@@ -649,8 +709,10 @@ def build_system_prompt() -> str:
     return f"""
 Eres un especialista en construcción de datasets para retrieval jurídico en Perú.
 
-Tu tarea es generar preguntas coloquiales que podría hacer una víctima de violencia familiar
-antes de decidir si denuncia o continúa un proceso legal.
+Tu tarea es:
+A) Generar preguntas coloquiales que podría hacer una víctima de violencia familiar
+   antes de decidir si denuncia o continúa un proceso legal.
+B) Generar una síntesis jurídica abstracta del criterio de la resolución (campo jurisprudencia_chunk_text).
 
 El público objetivo son víctimas que dudan por:
 - vergüenza,
@@ -661,7 +723,9 @@ El público objetivo son víctimas que dudan por:
 - preocupación por sus hijos,
 - desconfianza en el sistema judicial.
 
-Reglas:
+═══════════════════════════════════════════════════
+PARTE A: REGLAS PARA LAS PREGUNTAS
+═══════════════════════════════════════════════════
 
 1. Genera preguntas ciudadanas, coloquiales y naturales.
    No uses lenguaje jurídico como pregunta principal.
@@ -678,8 +742,8 @@ Reglas:
    - type
    - articles
    - reason
-   - el objetivo de este campo es que mapees todos los articulos de la ley 30364, codigo penal y procesal penal que ayudan a responder la pregunta generada de manera eficaz
-   - sigue estrictamente la nomenclatura
+   Mapea todos los artículos de ley_30364, cp y cpp que responden la pregunta de manera eficaz.
+   Sigue estrictamente la nomenclatura.
 
 6. Los valores permitidos de type son:
    - ley_30364
@@ -695,34 +759,89 @@ Reglas:
    - cpp → tipo_03_codigo_procesal_penal
 
 8. Para articles usa solo IDs limpios:
-   - "1"
-   - "5"
-   - "8"
-   - "121-B"
-   - "122-A"
-   - "93"
+   - "1", "5", "8", "121-B", "122-A", "93", etc.
 
-9. No incluyas jurisprudencia en positive_context_refs.
-   La jurisprudencia será agregada automáticamente usando resolution_reference del caso.
+9. Puedes referenciar la jurisprudencia del caso explícitamente usando:
+   type = "jurisprudence", articles = []
+   El pipeline resolverá el chunk automáticamente. Úsalo SOLO cuando la respuesta a la
+   pregunta proviene directamente de la doctrina de esta resolución (categoría doctrina_jurisprudencial).
 
 10. Si no tienes suficiente base para inferir un artículo, usa:
-   type = "unknown"
-   articles = []
+    type = "unknown"
+    articles = []
 
-11. Prioriza preguntas sobre:
-   - si lo ocurrido es delito,
-   - dónde denunciar,
-   - qué pruebas sirven,
-   - medidas de protección,
-   - reparación civil o indemnización,
-   - hijos, tenencia o protección familiar,
-   - lesiones o secuelas,
-   - violencia psicológica,
-   - miedo o desconfianza en la justicia.
+11. DISTRIBUCIÓN OBLIGATORIA DE PREGUNTAS
 
-Responde estrictamente con este JSON Schema:
+    Debes generar AL MENOS 1 pregunta de cada una de estas categorías obligatorias:
 
-Ten mucho cuidado con los campos literal debes respetarlos al 100%
+    ① identificacion_delito
+       ¿Lo que me hicieron cuenta como violencia familiar? ¿Es delito aunque seamos pareja?
+       → refs: artículos de ley_30364 (definición, tipos de violencia) y cp si aplica.
+
+    ② canales_denuncia
+       ¿Dónde puedo denunciar? ¿Cómo pido ayuda? ¿Hay un número al que llamar?
+       → SIEMPRE incluye: {{"type": "institutional_protocol", "articles": [], "reason": "..."}}
+         El sistema RAG tiene un chunk institucional con información sobre:
+         Línea 100 (gratuita 24/7), Chat 100, Centros de Emergencia Mujer (CEM),
+         comisarías PNP, Fiscalía de Familia, Juzgados de Familia.
+         Puedes combinar con artículos de ley_30364 si corresponde (ej. art. 8).
+
+    ③ medidas_proteccion
+       ¿Pueden obligarle a salir de casa? ¿Qué medidas de protección puedo pedir?
+       → refs: artículos de ley_30364 sobre medidas de protección.
+
+    ④ sancion_penal_al_agresor
+       ¿Qué le va a pasar a él si lo denuncio? ¿Va a ir preso? ¿Cuántos años de cárcel?
+       → refs: artículos de cp (121-B, 122-B, 108-B, etc.) según el caso.
+
+    ⑤ doctrina_jurisprudencial (OBLIGATORIA)
+       Una pregunta coloquial cuya respuesta directa ES el principio jurídico que establece
+       esta resolución. La pregunta debe sonar natural, como si la víctima hubiera vivido una
+       situación similar y quisiera saber si el sistema la ampara.
+       Inspírate en el Criterio principal y la Decisión o resultado del resumen del caso.
+       Ejemplo: "¿Es verdad que si no me avisaron que cerraron la investigación, todavía puedo
+       pedir ser parte del juicio?"
+       → DEBES incluir: {{"type": "jurisprudence", "articles": [], "reason": "..."}}
+       → NO uses esta categoría si la doctrina del caso es meramente procesal sin aplicación
+         directa para una víctima de violencia familiar.
+
+    Categorías contextuales (genera si el caso las justifica):
+    ⑥ procedimiento_penal    — pasos y plazos del proceso judicial
+    ⑦ pruebas_y_certificados — qué evidencia necesito presentar
+    ⑧ hijos_y_tenencia       — si hay menores involucrados en el caso
+    ⑨ reparacion_civil       — indemnización o reparación económica
+    ⑩ violencia_psicologica  — si el caso incluye daño psicológico
+    ⑪ desconfianza_en_justicia — miedos y dudas sobre el sistema
+
+    Total esperado: entre 6 y 10 preguntas (el usuario puede indicar otro máximo en el prompt).
+
+═══════════════════════════════════════════════════
+PARTE B: REGLAS PARA jurisprudencia_chunk_text
+═══════════════════════════════════════════════════
+
+El campo jurisprudencia_chunk_text debe contener una síntesis de 3-5 oraciones con:
+- El criterio o principio jurídico general que establece esta resolución.
+- La decisión adoptada y su fundamento legal.
+- Su relevancia o aplicación en contextos de violencia familiar.
+
+PROHIBIDO en este campo:
+- Nombres propios de personas (ni anonimizados).
+- Fechas específicas del caso.
+- Hechos particulares del expediente.
+
+El texto debe ser abstracto, aplicable a casos similares futuros, en lenguaje jurídico conciso.
+
+Ejemplo del nivel de abstracción esperado:
+"La notificación de la disposición de conclusión de la investigación preparatoria es el hito
+procesal que activa el plazo para que el agraviado solicite su constitución en actor civil.
+Una solicitud presentada el mismo día de la notificación es oportuna y no puede declararse
+extemporánea. Este criterio protege el derecho de defensa y el acceso a la justicia de las
+víctimas de violencia familiar, garantizando que los plazos procesales no operen en su perjuicio."
+
+═══════════════════════════════════════════════════
+
+Responde estrictamente con este JSON Schema.
+Ten mucho cuidado con los campos literal: debes respetarlos al 100%.
 
 {schema}
 """.strip()
@@ -779,7 +898,12 @@ def build_dataset_records_for_case(
     llm_output: CaseQuestionBatch,
     lookup: dict[str, Any],
     bm25_index: dict[str, Any],
-) -> list[dict[str, Any]]:
+) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    """
+    Retorna (records, chunk_update) donde chunk_update contiene la síntesis
+    jurídica generada por el LLM para actualizar el text del chunk de jurisprudencia.
+    """
+    import datetime
 
     case_id = get_case_id(case_path, case_data)
 
@@ -788,17 +912,38 @@ def build_dataset_records_for_case(
         lookup=lookup,
     )
 
+    # Construir el chunk_update si el LLM generó síntesis y hay chunk matcheado
+    chunk_update: dict[str, Any] = {}
+    synthesis_text = (llm_output.jurisprudencia_chunk_text or "").strip()
+    matched_jp_ids = jurisprudence_match_info.get("matched_chunk_ids", [])
+    if synthesis_text and matched_jp_ids:
+        for chunk_id in matched_jp_ids:
+            chunk_update[chunk_id] = {
+                "chunk_id": chunk_id,
+                "new_text": synthesis_text,
+                "case_id": case_id,
+                "generated_at": datetime.datetime.utcnow().isoformat(),
+            }
+
     records = []
+    skipped_empty = 0
 
     for i, question in enumerate(llm_output.questions, start=1):
         normative_chunks, unresolved_refs = resolve_normative_refs(
             refs=question.positive_context_refs,
             lookup=lookup,
+            jurisprudence_chunks=jurisprudence_chunks,
         )
 
-        positive_chunks = deduplicate_chunks(
-            normative_chunks + jurisprudence_chunks
-        )
+        positive_chunks = deduplicate_chunks(normative_chunks)
+
+        if not positive_chunks:
+            skipped_empty += 1
+            print(
+                f"  [SKIP] {case_id}_q{i:03d} (topic={question.topic}): "
+                "sin positivos resueltos — refs no encontradas en chunks."
+            )
+            continue
 
         positive_chunk_ids = {
             chunk["chunk_id"]
@@ -813,6 +958,16 @@ def build_dataset_records_for_case(
             top_k_search=40,
             max_hard_negatives=10,
         )
+
+        # Campos EDA pre-calculados
+        pos_source_types = list(dict.fromkeys(
+            c.get("source_type", "") for c in positive_chunks if c.get("source_type")
+        ))
+        pos_articles = [
+            (c.get("metadata") or {}).get("article_id")
+            for c in positive_chunks
+            if (c.get("metadata") or {}).get("article_id")
+        ]
 
         record = {
             "dataset_id": f"{case_id}_q{i:03d}",
@@ -861,55 +1016,72 @@ def build_dataset_records_for_case(
             "jurisprudence_match_info": jurisprudence_match_info,
 
             "source_trace": case_data.get("source_trace", {}),
+
+            # ── Campos EDA (pre-calculados para análisis directo con pandas/Counter) ──
+            "query_length": len(question.query),
+            "negative_count": len(hard_negative_candidates),
+            "unresolved_count": len(unresolved_refs),
+            "positive_source_types": pos_source_types,
+            "positive_articles": pos_articles,
+            "has_jurisprudence_positive": any(
+                c.get("source_type") == "tipo_04_jurisprudencia" for c in positive_chunks
+            ),
+            "has_institutional_positive": any(
+                c.get("source_type") == "tipo_05_documentos_institucionales" for c in positive_chunks
+            ),
+            "jurisprudence_matched": jurisprudence_match_info.get("status") == "matched",
+            "neg_bm25_scores": [c.get("bm25_score", 0.0) for c in hard_negative_candidates],
+            "negative_source_types": [c.get("source_type", "") for c in hard_negative_candidates],
         }
 
         records.append(record)
 
-    return records
-def explode_to_training_triples(
-    grouped_records: list[dict[str, Any]],
-    max_negatives_per_positive: int = 3,
+    if skipped_empty:
+        print(f"  [INFO] Registros saltados por positivos vacíos: {skipped_empty}")
+
+    return records, chunk_update
+FINETUNING_PROMPT = "Represent this sentence for searching relevant passages: "
+
+
+def build_training_records(
+    records: list[dict[str, Any]],
+    max_negatives: int = 10,
 ) -> list[dict[str, Any]]:
+    """
+    Genera el dataset de entrenamiento en el formato esperado por los frameworks
+    de fine-tuning de embeddings (sentence-transformers, GTE, etc.).
 
-    triples = []
+    Una fila por query con pos y neg como listas de texto.
+    """
+    training = []
 
-    for record in grouped_records:
-        query = record["query"]
-        normalized_query = record["normalized_query"]
-
+    for idx, record in enumerate(records):
         positives = record.get("positive_chunks", [])
         negatives = record.get("hard_negative_chunks", [])
 
         if not positives or not negatives:
             continue
 
-        for positive in positives:
-            selected_negatives = negatives[:max_negatives_per_positive]
+        training.append(
+            {
+                "id": str(idx),
+                "query": record["query"],
+                "pos": [chunk["text"] for chunk in positives if chunk.get("text")],
+                "neg": [
+                    chunk["text"]
+                    for chunk in negatives[:max_negatives]
+                    if chunk.get("text")
+                ],
+                "prompt": FINETUNING_PROMPT,
+                # Trazabilidad — ignorada por los trainers, útil para debug
+                "dataset_id": record["dataset_id"],
+                "case_id": record["case_id"],
+                "topic": record["topic"],
+                "barrier": record["barrier"],
+            }
+        )
 
-            for negative in selected_negatives:
-                triples.append(
-                    {
-                        "dataset_id": record["dataset_id"],
-                        "case_id": record["case_id"],
-                        "query": query,
-                        "normalized_query": normalized_query,
-                        "topic": record["topic"],
-                        "barrier": record["barrier"],
-
-                        "positive_chunk_id": positive["chunk_id"],
-                        "positive_source_type": positive["source_type"],
-                        "positive_title": positive["title"],
-                        "positive_text": positive["text"],
-
-                        "hard_negative_chunk_id": negative["chunk_id"],
-                        "hard_negative_source_type": negative["source_type"],
-                        "hard_negative_title": negative["title"],
-                        "hard_negative_text": negative["text"],
-                        "hard_negative_bm25_score": negative["bm25_score"],
-                    }
-                )
-
-    return triples
+    return training
 
 
 def process_cases(
@@ -951,6 +1123,7 @@ def process_cases(
         errors_jsonl.unlink()
 
     total_records = 0
+    all_chunk_updates: dict[str, Any] = {}  # chunk_id → update entry
 
     for case_path in case_paths:
         print(f"\n[INFO] Procesando: {case_path.name}")
@@ -976,16 +1149,20 @@ def process_cases(
             # Reforzamos case_id correcto aunque el modelo devuelva otro.
             llm_output.case_id = case_id
 
-            records = build_dataset_records_for_case(
-            case_path=case_path,
-            case_data=case_data,
-            llm_output=llm_output,
-            lookup=lookup,
-            bm25_index=bm25_index,
+            records, chunk_update = build_dataset_records_for_case(
+                case_path=case_path,
+                case_data=case_data,
+                llm_output=llm_output,
+                lookup=lookup,
+                bm25_index=bm25_index,
             )
 
             for record in records:
                 append_jsonl(record, output_jsonl)
+
+            all_chunk_updates.update(chunk_update)
+            if chunk_update:
+                print(f"[OK] Síntesis de chunk generada para: {list(chunk_update.keys())}")
 
             total_records += len(records)
             print(f"[OK] Preguntas generadas: {len(records)}")
@@ -999,11 +1176,32 @@ def process_cases(
             append_jsonl(error_record, errors_jsonl)
             print(f"[ERROR] Falló {case_path.name}: {exc}")
 
+    # Escribir archivo de actualizaciones de chunks de jurisprudencia
+    updates_jsonl = PROJECT_ROOT / "data" / "intermediate" / "jurisprudencia_chunk_updates.jsonl"
+    if all_chunk_updates:
+        write_jsonl(list(all_chunk_updates.values()), updates_jsonl)
+        print(f"\n[INFO] Síntesis de chunks escritas: {len(all_chunk_updates)} → {updates_jsonl}")
+    else:
+        print("\n[WARN] No se generaron síntesis de chunks (posiblemente ningún caso matcheó jurisprudencia).")
+
+    # Generar archivo final de triples de entrenamiento (query / positive_text / negative_text)
+    triples_jsonl = output_dir / "training_triples.jsonl"
+    if output_jsonl.exists():
+        with output_jsonl.open(encoding="utf-8") as f:
+            all_records = [json.loads(line) for line in f if line.strip()]
+        triples = build_training_records(all_records, max_negatives=10)
+        write_jsonl(triples, triples_jsonl)
+        print(f"[INFO] Triples de entrenamiento: {len(triples)} → {triples_jsonl}")
+    else:
+        print("[WARN] No se generaron triples: el dataset principal está vacío.")
+
     print("\n============================================================")
     print("[RESUMEN]")
     print(f"Total de preguntas generadas: {total_records}")
     print(f"Dataset: {output_jsonl}")
+    print(f"Triples entrenamiento: {triples_jsonl}")
     print(f"Errores: {errors_jsonl}")
+    print(f"Chunk updates: {updates_jsonl} ({len(all_chunk_updates)} entradas)")
     print("============================================================")
 
 
