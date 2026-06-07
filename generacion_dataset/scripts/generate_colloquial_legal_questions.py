@@ -917,12 +917,16 @@ def build_dataset_records_for_case(
     synthesis_text = (llm_output.jurisprudencia_chunk_text or "").strip()
     matched_jp_ids = jurisprudence_match_info.get("matched_chunk_ids", [])
     if synthesis_text and matched_jp_ids:
+        matched_jp_set = set(matched_jp_ids)
+        for chunk in jurisprudence_chunks:
+            if chunk.get("chunk_id") in matched_jp_set:
+                chunk["text"] = synthesis_text
         for chunk_id in matched_jp_ids:
             chunk_update[chunk_id] = {
                 "chunk_id": chunk_id,
                 "new_text": synthesis_text,
                 "case_id": case_id,
-                "generated_at": datetime.datetime.utcnow().isoformat(),
+                "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
             }
 
     records = []
