@@ -1,4 +1,4 @@
-# Peru Legal RAG Data
+# Ampara Legal RAG
 
 This repository contains the data pipelines used to build a contrastive-learning
 dataset for legal embedding models in the Peruvian domain of violence against
